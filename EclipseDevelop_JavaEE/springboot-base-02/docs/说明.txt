@@ -1,0 +1,16 @@
+
+《============================================================================》
+freemarker的思想是：
+	数据+html模板=网页
+《============================================================================》
+	@RequestMapping 配置url 映射
+	
+	@Controller 处理http 请求
+	
+	@RestController 处理ajax 请求
+		/springboot-base-02/src/main/java/com/baihoo/springboot/controller/HelloWordAjaxController.java
+	@PathVariable 获取url 参数
+		·/springboot-base-02/src/main/java/com/baihoo/springboot/controller/RESTfulBlogController.java
+	@RequestParam 获取请求参数
+		同springmvc不用多讲
+《============================================================================》

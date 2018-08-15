@@ -1,0 +1,16 @@
+异常解析：
+<!-- ====================================================================== -->	
+Struts Problem Report 页面抛出异常
+1、hibernate延迟加载，执行代码 com.baihoo.action.BookAction.findByIdLazy() 抛出页面异常
+	org.hibernate.LazyInitializationException: could not initialize proxy - no Session
+		解决方案:
+		  web.xml ------ 配置OpenSessionInViewFilter过滤标签体
+		  <filter>
+		  		<filter-name>openSessionInViewFilter</filter-name>
+		  		<filter-class>org.springframework.orm.hibernate4.support.OpenSessionInViewFilter</filter-class>
+		  </filter>
+		  <filter-mapping>
+		  	<filter-name>openSessionInViewFilter</filter-name>
+		  	<url-pattern>/*</url-pattern>
+		  </filter-mapping>
+		

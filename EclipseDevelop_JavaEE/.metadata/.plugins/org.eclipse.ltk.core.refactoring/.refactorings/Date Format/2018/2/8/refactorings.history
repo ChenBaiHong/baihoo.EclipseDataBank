@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Date Format/explain/说明&apos; to &apos;说明.txt&apos;" description="Rename resource &apos;说明&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="explain/说明" name="说明.txt" stamp="1519284960866" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;Date Format/explain/说明.txt&apos; to &apos;说明.docx&apos;" description="Rename resource &apos;说明.txt&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="explain/说明.txt" name="说明.docx" stamp="1519285034991" updateReferences="true"/>
+</session>

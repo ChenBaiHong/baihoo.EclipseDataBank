@@ -1,0 +1,602 @@
+2018-02-13 15:41:01,987 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-02-13 15:41:02,155 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2018-02-22 15:10:19,142 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-02-22 15:12:09,762 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-container:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\pom.xml.
+2018-02-22 15:12:17,344 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/3.2.16.RELEASE/spring-framework-bom-3.2.16.RELEASE.pom
+2018-02-22 15:12:17,978 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-parent:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\pom.xml.
+2018-02-22 15:12:19,178 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:hessian-lite:3.2.1-fixed-2 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\hessian-lite\pom.xml.
+2018-02-22 15:12:19,283 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-common:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-common\pom.xml.
+2018-02-22 15:12:19,291 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.pom
+2018-02-22 15:12:19,325 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.pom
+2018-02-22 15:12:19,332 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.pom
+2018-02-22 15:12:19,354 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.pom
+2018-02-22 15:12:19,365 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jvnet/sorcerer/sorcerer-javac/0.8/sorcerer-javac-0.8.pom
+2018-02-22 15:12:19,375 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/cglib/cglib-nodep/2.2/cglib-nodep-2.2.pom
+2018-02-22 15:12:19,501 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-container:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\pom.xml.
+2018-02-22 15:12:19,663 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-api\pom.xml.
+2018-02-22 15:12:19,684 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.pom
+2018-02-22 15:12:19,847 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-spring:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-spring\pom.xml.
+2018-02-22 15:12:19,859 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.pom
+2018-02-22 15:12:20,003 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-jetty:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-jetty\pom.xml.
+2018-02-22 15:12:20,025 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/log4j/log4j/1.2.16/log4j-1.2.16.jar
+2018-02-22 15:12:20,026 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.20.0-GA/javassist-3.20.0-GA.jar
+2018-02-22 15:12:20,028 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar
+2018-02-22 15:12:20,029 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty/6.1.26/jetty-6.1.26.jar
+2018-02-22 15:12:20,166 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-log4j:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-log4j\pom.xml.
+2018-02-22 15:12:20,319 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-logback:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-logback\pom.xml.
+2018-02-22 15:12:20,326 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ch/qos/logback/logback-classic/1.2.2/logback-classic-1.2.2.pom
+2018-02-22 15:12:20,412 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\pom.xml.
+2018-02-22 15:12:20,519 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-api\pom.xml.
+2018-02-22 15:12:20,636 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-netty:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-netty\pom.xml.
+2018-02-22 15:12:20,651 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.pom
+2018-02-22 15:12:20,814 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-mina:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-mina\pom.xml.
+2018-02-22 15:12:20,825 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/1.1.7/mina-core-1.1.7.pom
+2018-02-22 15:12:21,011 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-grizzly:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-grizzly\pom.xml.
+2018-02-22 15:12:21,024 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/grizzly/grizzly-core/2.1.4/grizzly-core-2.1.4.pom
+2018-02-22 15:12:21,179 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-p2p:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-p2p\pom.xml.
+2018-02-22 15:12:21,300 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-http:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-http\pom.xml.
+2018-02-22 15:12:21,407 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-zookeeper:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-zookeeper\pom.xml.
+2018-02-22 15:12:21,414 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.pom
+2018-02-22 15:12:21,421 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.2/zkclient-0.2.pom
+2018-02-22 15:12:21,428 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.pom
+2018-02-22 15:12:21,540 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-remoting-netty4:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-netty4\pom.xml.
+2018-02-22 15:12:21,552 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.35.Final/netty-all-4.0.35.Final.pom
+2018-02-22 15:12:21,674 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\pom.xml.
+2018-02-22 15:12:21,857 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-api\pom.xml.
+2018-02-22 15:12:22,033 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-default:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-default\pom.xml.
+2018-02-22 15:12:22,082 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/netty/netty/3.2.5.Final/netty-3.2.5.Final.jar
+2018-02-22 15:12:22,083 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar
+2018-02-22 15:12:22,085 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/mina/mina-core/1.1.7/mina-core-1.1.7.jar
+2018-02-22 15:12:22,312 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-injvm:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-injvm\pom.xml.
+2018-02-22 15:12:22,480 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-rmi:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-rmi\pom.xml.
+2018-02-22 15:12:22,499 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar
+2018-02-22 15:12:22,679 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-hessian:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-hessian\pom.xml.
+2018-02-22 15:12:22,701 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/caucho/hessian/4.0.38/hessian-4.0.38.pom
+2018-02-22 15:12:22,723 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.pom
+2018-02-22 15:12:22,957 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-http:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-http\pom.xml.
+2018-02-22 15:12:22,971 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.pom
+2018-02-22 15:12:23,145 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-webservice:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-webservice\pom.xml.
+2018-02-22 15:12:23,157 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-frontend-simple/3.0.14/cxf-rt-frontend-simple-3.0.14.pom
+2018-02-22 15:12:23,171 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/cxf/cxf-rt-transports-http/3.0.14/cxf-rt-transports-http-3.0.14.pom
+2018-02-22 15:12:23,375 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-thrift:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-thrift\pom.xml.
+2018-02-22 15:12:23,392 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.8.0/libthrift-0.8.0.pom
+2018-02-22 15:12:23,430 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.pom
+2018-02-22 15:12:23,618 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-memcached:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-memcached\pom.xml.
+2018-02-22 15:12:23,628 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/googlecode/xmemcached/xmemcached/1.3.6/xmemcached-1.3.6.pom
+2018-02-22 15:12:23,727 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-redis:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-redis\pom.xml.
+2018-02-22 15:12:23,736 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.9.0/jedis-2.9.0.pom
+2018-02-22 15:12:23,823 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-filter:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-filter\pom.xml.
+2018-02-22 15:12:23,894 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-filter-cache:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-filter\dubbo-filter-cache\pom.xml.
+2018-02-22 15:12:23,902 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/cache/cache-api/1.0.0/cache-api-1.0.0.pom
+2018-02-22 15:12:24,009 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-filter-validation:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-filter\dubbo-filter-validation\pom.xml.
+2018-02-22 15:12:24,016 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.pom
+2018-02-22 15:12:24,104 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-cluster:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-cluster\pom.xml.
+2018-02-22 15:12:24,112 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/bsf/bsf-api/3.1/bsf-api-3.1.pom
+2018-02-22 15:12:24,158 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-registry:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\pom.xml.
+2018-02-22 15:12:24,229 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-api\pom.xml.
+2018-02-22 15:12:24,325 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-default:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-default\pom.xml.
+2018-02-22 15:12:24,467 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-multicast:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-multicast\pom.xml.
+2018-02-22 15:12:24,590 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-zookeeper:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-zookeeper\pom.xml.
+2018-02-22 15:12:24,800 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-redis:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-redis\pom.xml.
+2018-02-22 15:12:24,813 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/redis/clients/jedis/2.9.0/jedis-2.9.0.jar
+2018-02-22 15:12:24,870 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-monitor:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\pom.xml.
+2018-02-22 15:12:24,960 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-monitor-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\dubbo-monitor-api\pom.xml.
+2018-02-22 15:12:25,090 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-monitor-default:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\dubbo-monitor-default\pom.xml.
+2018-02-22 15:12:25,136 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-config:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\pom.xml.
+2018-02-22 15:12:25,225 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-config-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\dubbo-config-api\pom.xml.
+2018-02-22 15:12:25,254 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final.pom
+2018-02-22 15:12:25,263 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b08/javax.el-3.0.1-b08.pom
+2018-02-22 15:12:25,510 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-config-spring:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\dubbo-config-spring\pom.xml.
+2018-02-22 15:12:25,520 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-tx/4.3.10.RELEASE/spring-tx-4.3.10.RELEASE.pom
+2018-02-22 15:12:25,528 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.pom
+2018-02-22 15:12:25,848 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo\pom.xml.
+2018-02-22 15:12:26,260 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-simple:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-simple\pom.xml.
+2018-02-22 15:12:26,314 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.jar
+2018-02-22 15:12:26,324 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2-beta-5/maven-assembly-plugin-2.2-beta-5.jar
+2018-02-22 15:12:26,342 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-simple:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-simple\dubbo-registry-simple\pom.xml.
+2018-02-22 15:12:26,376 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar
+2018-02-22 15:12:26,378 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/netty/netty-all/4.0.35.Final/netty-all-4.0.35.Final.jar
+2018-02-22 15:12:26,379 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar
+2018-02-22 15:12:26,533 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-monitor-simple:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-simple\dubbo-monitor-simple\pom.xml.
+2018-02-22 15:12:26,549 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/jfree/jfreechart/1.0.13/jfreechart-1.0.13.pom
+2018-02-22 15:12:26,566 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/thoughtworks/xstream/xstream/1.4.1/xstream-1.4.1.pom
+2018-02-22 15:12:26,578 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/servlet-api/2.5/servlet-api-2.5.pom
+2018-02-22 15:12:26,951 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: com.alibaba:dubbo-admin:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-admin\pom.xml.
+2018-02-22 15:12:26,969 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/alibaba/citrus/citrus-webx-all/3.1.6/citrus-webx-all-3.1.6.pom
+2018-02-22 15:12:26,980 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-log4j12/1.7.25/slf4j-log4j12-1.7.25.pom
+2018-02-22 15:12:26,990 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/velocity/velocity/1.7/velocity-1.7.pom
+2018-02-22 15:12:27,261 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-demo:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\pom.xml.
+2018-02-22 15:12:27,328 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-demo-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-api\pom.xml.
+2018-02-22 15:12:27,392 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-demo-provider:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-provider\pom.xml.
+2018-02-22 15:12:27,413 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.pom
+2018-02-22 15:12:27,623 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-demo-consumer:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-consumer\pom.xml.
+2018-02-22 15:12:27,647 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/101tec/zkclient/0.2/zkclient-0.2.jar
+2018-02-22 15:12:27,648 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/curator/curator-framework/2.12.0/curator-framework-2.12.0.jar
+2018-02-22 15:12:27,649 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-lang3/3.4/commons-lang3-3.4.jar
+2018-02-22 15:12:27,721 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-plugin:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-plugin\pom.xml.
+2018-02-22 15:12:27,826 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-qos:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-plugin\dubbo-qos\pom.xml.
+2018-02-22 15:12:27,927 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-test:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\pom.xml.
+2018-02-22 15:12:27,991 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2.1/maven-assembly-plugin-2.2.1.jar
+2018-02-22 15:12:28,009 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-benchmark:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-benchmark\pom.xml.
+2018-02-22 15:12:28,124 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-test-compatibility:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-compatibility\pom.xml.
+2018-02-22 15:12:28,323 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-spring3:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-compatibility\dubbo-test-spring3\pom.xml.
+2018-02-22 15:12:28,354 [Worker-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-context/3.2.18.RELEASE/spring-context-3.2.18.RELEASE.pom
+2018-02-22 15:12:28,799 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-integration:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\pom.xml.
+2018-02-22 15:12:29,295 [Worker-2] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-examples:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-examples\pom.xml.
+2018-02-22 15:12:40,380 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hessian-lite/src/main/java
+2018-02-22 15:12:40,382 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /hessian-lite/src/test/java
+2018-02-22 15:12:40,622 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-common/src/main/java
+2018-02-22 15:12:40,623 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-common/src/main/resources
+2018-02-22 15:12:40,629 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-common/src/test/java
+2018-02-22 15:12:40,630 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-common/src/test/resources
+2018-02-22 15:12:40,878 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-api/src/main/java
+2018-02-22 15:12:40,879 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-api/src/main/resources
+2018-02-22 15:12:40,881 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-api/src/test/java
+2018-02-22 15:12:40,882 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-api/src/test/resources
+2018-02-22 15:12:41,029 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-mina/src/main/java
+2018-02-22 15:12:41,030 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-mina/src/main/resources
+2018-02-22 15:12:41,031 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-mina/src/test/java
+2018-02-22 15:12:41,245 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-api/src/main/java
+2018-02-22 15:12:41,245 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-api/src/main/resources
+2018-02-22 15:12:41,248 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-api/src/test/java
+2018-02-22 15:12:41,248 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-api/src/test/resources
+2018-02-22 15:12:41,408 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-cluster/src/main/java
+2018-02-22 15:12:41,408 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-cluster/src/main/resources
+2018-02-22 15:12:41,411 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-cluster/src/test/java
+2018-02-22 15:12:41,411 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-cluster/src/test/resources
+2018-02-22 15:12:41,593 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-api/src/main/java
+2018-02-22 15:12:41,593 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-container-api/src/main/resources
+2018-02-22 15:12:41,594 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-api/src/test/java
+2018-02-22 15:12:41,763 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-api/src/main/java
+2018-02-22 15:12:41,764 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-api/src/main/resources
+2018-02-22 15:12:41,765 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-api/src/test/java
+2018-02-22 15:12:41,765 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-api/src/test/resources
+2018-02-22 15:12:41,922 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-monitor-api/src/main/java
+2018-02-22 15:12:41,923 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-monitor-api/src/main/resources
+2018-02-22 15:12:41,924 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-monitor-api/src/test/java
+2018-02-22 15:12:42,061 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-filter-validation/src/main/java
+2018-02-22 15:12:42,061 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-filter-validation/src/main/resources
+2018-02-22 15:12:42,062 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-filter-validation/src/test/java
+2018-02-22 15:12:42,203 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-filter-cache/src/main/java
+2018-02-22 15:12:42,204 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-filter-cache/src/main/resources
+2018-02-22 15:12:42,204 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-filter-cache/src/test/java
+2018-02-22 15:12:42,338 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-netty/src/main/java
+2018-02-22 15:12:42,339 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-netty/src/main/resources
+2018-02-22 15:12:42,340 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-netty/src/test/java
+2018-02-22 15:12:42,341 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-netty/src/test/resources
+2018-02-22 15:12:42,472 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-default/src/main/java
+2018-02-22 15:12:42,473 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-default/src/main/resources
+2018-02-22 15:12:42,475 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-default/src/test/java
+2018-02-22 15:12:42,475 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-default/src/test/resources
+2018-02-22 15:12:42,607 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-injvm/src/main/java
+2018-02-22 15:12:42,608 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-injvm/src/main/resources
+2018-02-22 15:12:42,609 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-injvm/src/test/java
+2018-02-22 15:12:42,726 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-default/src/main/java
+2018-02-22 15:12:42,727 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-default/src/main/resources
+2018-02-22 15:12:42,728 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-default/src/test/java
+2018-02-22 15:12:42,728 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-default/src/test/resources
+2018-02-22 15:12:42,848 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-monitor-default/src/main/java
+2018-02-22 15:12:42,848 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-monitor-default/src/main/resources
+2018-02-22 15:12:42,850 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-monitor-default/src/test/java
+2018-02-22 15:12:42,963 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-rmi/src/main/java
+2018-02-22 15:12:42,964 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-rmi/src/main/resources
+2018-02-22 15:12:42,965 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-rmi/src/test/java
+2018-02-22 15:12:43,058 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-multicast/src/main/java
+2018-02-22 15:12:43,058 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-multicast/src/main/resources
+2018-02-22 15:12:43,059 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-multicast/src/test/java
+2018-02-22 15:12:43,188 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-config-api/src/main/java
+2018-02-22 15:12:43,190 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-config-api/src/test/java
+2018-02-22 15:12:43,191 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-config-api/src/test/resources
+2018-02-22 15:12:43,343 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-config-spring/src/main/java
+2018-02-22 15:12:43,344 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-config-spring/src/main/resources
+2018-02-22 15:12:43,346 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-config-spring/src/test/java
+2018-02-22 15:12:43,346 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-config-spring/src/test/resources
+2018-02-22 15:12:43,455 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-netty4/src/main/java
+2018-02-22 15:12:43,456 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-netty4/src/main/resources
+2018-02-22 15:12:43,456 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-netty4/src/test/java
+2018-02-22 15:12:43,544 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-grizzly/src/main/java
+2018-02-22 15:12:43,545 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-grizzly/src/main/resources
+2018-02-22 15:12:43,545 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-grizzly/src/test/java
+2018-02-22 15:12:43,636 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-p2p/src/main/java
+2018-02-22 15:12:43,637 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-p2p/src/main/resources
+2018-02-22 15:12:43,638 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-p2p/src/test/java
+2018-02-22 15:12:43,743 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-http/src/main/java
+2018-02-22 15:12:43,743 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-http/src/main/resources
+2018-02-22 15:12:43,744 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-http/src/test/java
+2018-02-22 15:12:43,837 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-hessian/src/main/java
+2018-02-22 15:12:43,837 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-hessian/src/main/resources
+2018-02-22 15:12:43,838 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-hessian/src/test/java
+2018-02-22 15:12:43,948 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-http/src/main/java
+2018-02-22 15:12:43,949 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-http/src/main/resources
+2018-02-22 15:12:43,949 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-http/src/test/java
+2018-02-22 15:12:44,050 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-webservice/src/main/java
+2018-02-22 15:12:44,051 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-webservice/src/main/resources
+2018-02-22 15:12:44,051 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-webservice/src/test/java
+2018-02-22 15:12:44,147 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-thrift/src/main/java
+2018-02-22 15:12:44,147 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-thrift/src/main/resources
+2018-02-22 15:12:44,148 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-thrift/src/test/java
+2018-02-22 15:12:44,149 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-thrift/src/test/resources
+2018-02-22 15:12:44,255 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-memcached/src/main/java
+2018-02-22 15:12:44,256 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-memcached/src/main/resources
+2018-02-22 15:12:44,256 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-memcached/src/test/java
+2018-02-22 15:12:44,344 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-redis/src/main/java
+2018-02-22 15:12:44,344 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-rpc-redis/src/main/resources
+2018-02-22 15:12:44,345 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-rpc-redis/src/test/java
+2018-02-22 15:12:44,435 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-zookeeper/src/main/java
+2018-02-22 15:12:44,436 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-remoting-zookeeper/src/main/resources
+2018-02-22 15:12:44,436 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-remoting-zookeeper/src/test/java
+2018-02-22 15:12:44,523 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-zookeeper/src/main/java
+2018-02-22 15:12:44,523 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-zookeeper/src/main/resources
+2018-02-22 15:12:44,524 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-zookeeper/src/test/java
+2018-02-22 15:12:44,614 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-redis/src/main/java
+2018-02-22 15:12:44,614 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-redis/src/main/resources
+2018-02-22 15:12:44,615 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-redis/src/test/java
+2018-02-22 15:12:44,705 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-spring/src/main/java
+2018-02-22 15:12:44,705 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-container-spring/src/main/resources
+2018-02-22 15:12:44,706 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-spring/src/test/java
+2018-02-22 15:12:44,706 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-container-spring/src/test/resources
+2018-02-22 15:12:44,805 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-jetty/src/main/java
+2018-02-22 15:12:44,805 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-container-jetty/src/main/resources
+2018-02-22 15:12:44,806 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-jetty/src/test/java
+2018-02-22 15:12:44,898 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-log4j/src/main/java
+2018-02-22 15:12:44,898 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-container-log4j/src/main/resources
+2018-02-22 15:12:44,899 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-log4j/src/test/java
+2018-02-22 15:12:44,996 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-logback/src/main/java
+2018-02-22 15:12:44,996 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-container-logback/src/main/resources
+2018-02-22 15:12:44,997 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-container-logback/src/test/java
+2018-02-22 15:12:45,084 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-qos/src/main/java
+2018-02-22 15:12:45,084 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-qos/src/main/resources
+2018-02-22 15:12:45,085 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-qos/src/test/java
+2018-02-22 15:12:45,171 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo/src/main/java
+2018-02-22 15:12:45,171 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo/src/test/java
+2018-02-22 15:12:45,324 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-demo-api/src/main/java
+2018-02-22 15:12:45,325 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-demo-api/src/test/java
+2018-02-22 15:12:45,375 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-spring3/src/main/java
+2018-02-22 15:12:45,375 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-test-spring3/src/main/resources
+2018-02-22 15:12:45,375 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-spring3/src/test/java
+2018-02-22 15:12:45,463 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-demo-provider/src/main/java
+2018-02-22 15:12:45,463 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-demo-provider/src/main/resources
+2018-02-22 15:12:45,464 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-demo-provider/src/test/java
+2018-02-22 15:12:45,548 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-benchmark/src/main/java
+2018-02-22 15:12:45,549 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-test-benchmark/src/main/resources
+2018-02-22 15:12:45,549 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-benchmark/src/test/java
+2018-02-22 15:12:45,549 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-test-benchmark/src/test/resources
+2018-02-22 15:12:45,603 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-monitor-simple/src/main/java
+2018-02-22 15:12:45,603 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-monitor-simple/src/main/resources
+2018-02-22 15:12:45,604 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-monitor-simple/src/test/java
+2018-02-22 15:12:45,604 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-monitor-simple/src/test/resources
+2018-02-22 15:12:45,719 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-examples/src/main/java
+2018-02-22 15:12:45,720 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /dubbo-test-examples/src/main/java overlaps with sources folder /dubbo-test-examples/src/main/java
+2018-02-22 15:12:45,721 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-test-examples/src/main/resources
+2018-02-22 15:12:45,722 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-examples/src/test/java
+2018-02-22 15:12:45,822 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-simple/src/main/java
+2018-02-22 15:12:45,823 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-simple/src/main/resources
+2018-02-22 15:12:45,823 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-registry-simple/src/test/java
+2018-02-22 15:12:45,823 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-registry-simple/src/test/resources
+2018-02-22 15:12:45,877 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-demo-consumer/src/main/java
+2018-02-22 15:12:45,878 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /dubbo-demo-consumer/src/main/resources
+2018-02-22 15:12:45,878 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-demo-consumer/src/test/java
+2018-02-22 15:12:45,931 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-integration/src/main/java
+2018-02-22 15:12:45,931 [Worker-2] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /dubbo-test-integration/src/test/java
+2018-02-22 15:12:46,005 [Worker-2] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 62 project(s) in 47 sec
+2018-02-22 15:12:50,540 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: com.alibaba:dubbo-container:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\pom.xml.
+2018-02-22 15:12:51,459 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-spring:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-spring\pom.xml.
+2018-02-22 15:12:51,662 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-api\pom.xml.
+2018-02-22 15:12:51,807 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-log4j:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-log4j\pom.xml.
+2018-02-22 15:12:51,884 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:51,885 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo\src\main\resources
+2018-02-22 15:12:51,889 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:51,889 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo\src\test\resources
+2018-02-22 15:12:51,961 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-logback:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-logback\pom.xml.
+2018-02-22 15:12:52,100 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-container-jetty:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-jetty\pom.xml.
+2018-02-22 15:12:52,265 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-config-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\dubbo-config-api\pom.xml.
+2018-02-22 15:12:52,700 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using null lifecycle mapping for MavenProject: com.alibaba:dubbo-admin:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-admin\pom.xml.
+2018-02-22 15:12:52,845 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:52,863 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-02-22 15:12:52,878 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:52,880 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-02-22 15:12:53,036 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:53,037 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-02-22 15:12:53,041 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:53,043 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2018-02-22 15:12:53,338 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:53,339 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\dubbo-config-api\src\main\resources
+2018-02-22 15:12:53,341 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:53,342 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-22 15:12:53,460 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-config-spring:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\dubbo-config-spring\pom.xml.
+2018-02-22 15:12:53,552 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:53,553 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-02-22 15:12:53,557 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:53,559 [Worker-13] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 42 resources
+2018-02-22 15:12:53,919 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-demo-consumer:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-consumer\pom.xml.
+2018-02-22 15:12:54,297 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,298 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 7 resources
+2018-02-22 15:12:54,302 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,302 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-api\src\test\resources
+2018-02-22 15:12:54,319 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-thrift:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-thrift\pom.xml.
+2018-02-22 15:12:54,453 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,454 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:54,457 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,458 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-logback\src\test\resources
+2018-02-22 15:12:54,594 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,595 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:54,601 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,602 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:12:54,796 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,796 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-api\src\main\resources
+2018-02-22 15:12:54,799 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:54,799 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-api\src\test\resources
+2018-02-22 15:12:55,090 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,091 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-22 15:12:55,094 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,095 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-provider\src\test\resources
+2018-02-22 15:12:55,278 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,279 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:12:55,283 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,283 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-filter\dubbo-filter-cache\src\test\resources
+2018-02-22 15:12:55,384 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,385 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:12:55,388 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,388 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-filter\dubbo-filter-validation\src\test\resources
+2018-02-22 15:12:55,763 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,764 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-22 15:12:55,767 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:55,767 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:12:55,804 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.8.0/libthrift-0.8.0.jar
+2018-02-22 15:12:56,748 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+2018-02-22 15:12:56,995 [Worker-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-dependency-plugin/2.8/maven-dependency-plugin-2.8.pom
+2018-02-22 15:12:57,186 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,187 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,189 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,189 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-plugin\dubbo-qos\src\test\resources
+2018-02-22 15:12:57,378 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,378 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,381 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,381 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,514 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,515 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,519 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,520 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-zookeeper\src\test\resources
+2018-02-22 15:12:57,750 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,751 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,754 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,755 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-grizzly\src\test\resources
+2018-02-22 15:12:57,848 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,848 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,850 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,850 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-mina\src\test\resources
+2018-02-22 15:12:57,925 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,925 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:57,927 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:57,927 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,002 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,003 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,004 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,004 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-netty4\src\test\resources
+2018-02-22 15:12:58,090 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,091 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,093 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,094 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-zookeeper\src\test\resources
+2018-02-22 15:12:58,218 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,219 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,220 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,221 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-hessian\src\test\resources
+2018-02-22 15:12:58,330 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,331 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,332 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,332 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-http\src\test\resources
+2018-02-22 15:12:58,419 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,419 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,421 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,421 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-memcached\src\test\resources
+2018-02-22 15:12:58,637 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,637 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:58,640 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:58,640 [Worker-1] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-redis\src\test\resources
+2018-02-22 15:12:59,399 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/thrift/libthrift/0.8.0/libthrift-0.8.0.jar
+2018-02-22 15:12:59,475 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:59,476 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-22 15:12:59,479 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:59,480 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:12:59,626 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:59,627 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:12:59,629 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:12:59,629 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-webservice\src\test\resources
+2018-02-22 15:12:59,650 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-default:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-default\pom.xml.
+2018-02-22 15:12:59,812 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-redis:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-redis\pom.xml.
+2018-02-22 15:13:00,000 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-simple:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-simple\dubbo-registry-simple\pom.xml.
+2018-02-22 15:13:00,116 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:00,122 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 23 resources
+2018-02-22 15:13:00,128 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:00,131 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:00,131 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-examples\src\test\resources
+2018-02-22 15:13:00,235 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-rpc-default:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-default\pom.xml.
+2018-02-22 15:13:00,504 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-zookeeper:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-zookeeper\pom.xml.
+2018-02-22 15:13:00,522 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:00,522 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\src\main\java
+2018-02-22 15:13:00,523 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\src\main\resources
+2018-02-22 15:13:00,524 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:00,525 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\src\test\resources
+2018-02-22 15:13:00,680 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-integration:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\pom.xml.
+2018-02-22 15:13:01,121 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-api:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-api\pom.xml.
+2018-02-22 15:13:01,228 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,230 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:13:01,232 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,232 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-compatibility\dubbo-test-spring3\src\test\resources
+2018-02-22 15:13:01,299 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-registry-multicast:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-multicast\pom.xml.
+2018-02-22 15:13:01,341 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,342 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\hessian-lite\src\main\resources
+2018-02-22 15:13:01,343 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,344 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\hessian-lite\src\test\resources
+2018-02-22 15:13:01,539 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-demo-provider:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-provider\pom.xml.
+2018-02-22 15:13:01,580 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,581 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-02-22 15:13:01,584 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,585 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:01,718 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,719 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:01,721 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,721 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-http\src\test\resources
+2018-02-22 15:13:01,831 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,831 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:01,833 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,834 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-remoting\dubbo-remoting-p2p\src\test\resources
+2018-02-22 15:13:01,880 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-examples:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-examples\pom.xml.
+2018-02-22 15:13:01,947 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,947 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 4 resources
+2018-02-22 15:13:01,950 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:01,951 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:02,128 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:02,128 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:02,130 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:02,131 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\dubbo-monitor-api\src\test\resources
+2018-02-22 15:13:02,361 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo\pom.xml.
+2018-02-22 15:13:02,601 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-qos:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-plugin\dubbo-qos\pom.xml.
+2018-02-22 15:13:02,743 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:02,744 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-22 15:13:02,747 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:02,747 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:03,117 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-benchmark:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-benchmark\pom.xml.
+2018-02-22 15:13:03,244 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,245 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:03,247 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,247 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-multicast\src\test\resources
+2018-02-22 15:13:03,313 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-monitor-simple:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-simple\dubbo-monitor-simple\pom.xml.
+2018-02-22 15:13:03,363 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,364 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:03,366 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,367 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-redis\src\test\resources
+2018-02-22 15:13:03,493 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,494 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 6 resources
+2018-02-22 15:13:03,497 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,498 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:03,631 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,632 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:03,634 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,635 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\dubbo-monitor-default\src\test\resources
+2018-02-22 15:13:03,761 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,762 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:13:03,764 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:13:03,764 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-injvm\src\test\resources
+2018-02-22 15:13:03,853 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-test-spring3:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-compatibility\dubbo-test-spring3\pom.xml.
+2018-02-22 15:13:04,078 [Worker-3] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.alibaba:dubbo-monitor-default:2.5.8 @ E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\dubbo-monitor-default\pom.xml.
+2018-02-22 15:13:04,478 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+2018-02-22 15:13:05,566 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar
+2018-02-22 15:13:05,801 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final.jar
+2018-02-22 15:13:29,322 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/hibernate/hibernate-validator/5.4.1.Final/hibernate-validator-5.4.1.Final.jar
+2018-02-22 15:13:29,558 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b08/javax.el-3.0.1-b08.jar
+2018-02-22 15:13:35,284 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/glassfish/javax.el/3.0.1-b08/javax.el-3.0.1-b08.jar
+2018-02-22 15:13:36,482 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar
+2018-02-22 15:14:00,107 [Worker-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/zookeeper/zookeeper/3.4.9/zookeeper-3.4.9.jar
+2018-02-22 15:16:38,246 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,247 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo\src\main\resources
+2018-02-22 15:16:38,249 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,249 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo\src\test\resources
+2018-02-22 15:16:38,644 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,644 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-config\dubbo-config-api\src\main\resources
+2018-02-22 15:16:38,645 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,650 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:38,771 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,772 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:38,773 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,773 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:38,853 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,854 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:38,855 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,855 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-api\src\test\resources
+2018-02-22 15:16:38,930 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,931 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:38,932 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:38,932 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-logback\src\test\resources
+2018-02-22 15:16:39,005 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,005 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,006 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,006 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,227 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,228 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,230 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,230 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-provider\src\test\resources
+2018-02-22 15:16:39,496 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,496 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,498 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,499 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,644 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,644 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,645 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,645 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-plugin\dubbo-qos\src\test\resources
+2018-02-22 15:16:39,951 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,951 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:39,953 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:39,953 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:40,090 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,091 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:40,092 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,093 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-zookeeper\src\test\resources
+2018-02-22 15:16:40,282 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,282 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:40,285 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,285 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:40,561 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,561 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:40,562 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:40,563 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,564 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-examples\src\test\resources
+2018-02-22 15:16:40,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\src\main\java
+2018-02-22 15:16:40,790 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\src\main\resources
+2018-02-22 15:16:40,792 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:40,792 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-integration\src\test\resources
+2018-02-22 15:16:41,031 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,031 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,032 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,033 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-test\dubbo-test-compatibility\dubbo-test-spring3\src\test\resources
+2018-02-22 15:16:41,155 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,155 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,157 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,157 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,232 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,233 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,234 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,234 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-multicast\src\test\resources
+2018-02-22 15:16:41,323 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,323 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,325 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,325 [Worker-7] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-registry\dubbo-registry-redis\src\test\resources
+2018-02-22 15:16:41,563 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,563 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,564 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,564 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,744 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,745 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-02-22 15:16:41,746 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,746 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-monitor\dubbo-monitor-default\src\test\resources
+2018-02-22 15:16:41,857 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,858 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:16:41,859 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:41,860 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-rpc\dubbo-rpc-rmi\src\test\resources
+2018-02-22 15:16:42,321 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:42,322 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:16:42,324 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:42,324 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-log4j\src\test\resources
+2018-02-22 15:16:42,411 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:42,412 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:16:42,413 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:42,413 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-container\dubbo-container-jetty\src\test\resources
+2018-02-22 15:16:42,600 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:42,601 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-02-22 15:16:42,603 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:42,604 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 5 resources
+2018-02-22 15:16:43,807 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2.1/maven-assembly-plugin-2.2.1.pom
+2018-02-22 15:16:44,274 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-assembly-plugin/2.2.1/maven-assembly-plugin-2.2.1.pom
+2018-02-22 15:16:44,799 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/19/maven-plugins-19.pom
+2018-02-22 15:16:45,038 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-plugins/19/maven-plugins-19.pom
+2018-02-22 15:16:45,276 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/19/maven-parent-19.pom
+2018-02-22 15:16:46,625 [Worker-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/maven-parent/19/maven-parent-19.pom
+2018-02-22 15:16:47,302 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:47,303 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-02-22 15:16:47,304 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:47,305 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2018-02-22 15:16:47,527 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:47,528 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2018-02-22 15:16:47,529 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-02-22 15:16:47,530 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\EclipseDataBank\EclipseDevelop_JavaEE5\dubbo-master\dubbo-demo\dubbo-demo-consumer\src\test\resources

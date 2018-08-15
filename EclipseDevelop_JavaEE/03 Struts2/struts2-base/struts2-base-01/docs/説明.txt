@@ -1,0 +1,147 @@
+struts2框架
+	1.
+		介绍struts2   
+		关于struts2配置(关于Action配置)---重点
+		关于struts2结果类型
+	2.
+		struts2处理请求参数---重点
+		struts2的类型转换
+		struts2的校验
+	3.
+		struts2国际化
+		struts2拦截器----重点
+		struts2文件上传与下载
+		struts2中ognl与valuestack----重点
+	4.
+		ognl与valuestatck-----重点
+		struts2中的防止表单重复提交
+		struts2中ajax插件.
+	5.练习
+	
+========================================================================
+1.介绍struts2框架
+		
+		问题:什么是框架，框架有什么用?
+			框架 是 实现部分功能的代码 （半成品），使用框架简化企业级软件开发 ,提高开发效率。
+			学习框架 ，清楚的知道框架能做什么？ 还有哪些工作需要自己编码实现 ？ 
+			
+		问题:什么是struts2框架，它有什么用?
+			Struts 2是Struts的下一代产品，是在 struts 1和WebWork的技术基础上进行了合并的全新的Struts 2框架。
+			其全新的Struts 2的体系结构与Struts 1的体系结构差别巨大。Struts 2以WebWork为核心
+			struts2=struts1+webwork;			
+			struts2框架是apache产品。			
+			struts2是一个标准的mvc框架。  javaweb中的model2模式就是一个mvc模式。  model2=servlet+jsp+javaBean			
+			struts2框架是在javaweb开发中使用的。			
+			使用struts2框架，可以简化我们的web开发，并且降低程序的耦合度。
+			
+		类似于struts2框架的产品 :
+			struts1  webwork  jsf  springmvc
+			
+			ssh---struts2 spring hibernate
+			ssi---springmvc spring ibatis
+			
+		XWork---它是webwork核心
+		Xwork提供了很多核心功能：前端拦截机（interceptor），运行时表单属性验证，类型转换，
+		强大的表达式语言（OGNL – the Object Graph Navigation Language），
+		IoC（Inversion of Control反转控制）容器等	
+	-----------------------------------------------------------------------------------
+	struts2快速入门:
+		index.jsp------>HelloServlet-------->hello.jsp  web开发流程.
+		index.jsp------>HelloAction--------->hello.jsp  struts2流程
+		
+		1.导入jar包
+			下载struts2的jar包  struts-2.3.15.1-all 版本.
+			
+			struts2的目录结构:
+				apps: 例子程序
+				docs:文档
+				lib:struts2框架所应用的jar以及插件包				
+				src:源代码  
+					core  它是struts2的源代码
+					xwork-core struts2底层使用了xwork,xwork的源代码
+					
+			注意:在struts2开发，一般情况下最少导入的jar包，去apps下的struts2-blank示例程序中copy
+		
+		2.创建index.jsp页面
+		  创建hello.jsp页面
+
+		3.对struts2框架进行配置
+			1.web.xml文件中配置前端控制器(核心控制器)-----就是一个Filter
+				目的:是为了让struts2框架可以运行。
+					<display-name>Archetype Created Web Application</display-name>
+					<!-- 对struts2框架进行配置 该web.xml文件中配置前端控制器(核心控制器)就是一个Filter 目的:是为了让struts2框架可以运行 -->
+					<filter>
+						<filter-name>struts2</filter-name>
+						<!-- 
+						Struts2 2.5.0 之前版本的核心过滤器全类名会有个ng  ,struts2.5核心过滤器没有这个
+						org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter 
+						-->
+						<filter-class>org.apache.struts2.dispatcher.filter.StrutsPrepareAndExecuteFilter</filter-class>
+					</filter>
+					<filter-mapping>
+						<filter-name>struts2</filter-name>
+						<url-pattern>/*</url-pattern>
+					</filter-mapping>
+				
+			2.创建一个struts.xml配置文件 ,这个是struts2框架配置文件。
+				目的:是为了struts2框架流程可以执行。
+				
+				名称:struts.xml
+				位置:src下(classes下)
+				
+		4.创建一个HelloAction类
+			要求，在HelloAction类中创建一个返回值是String类型的方法，注意，无参数。
+			public String say()｛
+				return "good";
+			｝
+			
+		5.在struts.xml文件中配置HelloAction
+			
+			<package name="default" namespace="/" extends="struts-default">
+				<!-- 全局允許的方法匹配規則 -->
+				<global-allowed-methods>regex:.*</global-allowed-methods>  
+				<action name="hello" class="com.baihoo.struts2.HelloAction"
+					method="say">
+					<result name="good">/hello.jsp</result>
+				</action>
+			</package>
+			
+		6.在index.jsp中添加连接，测试
+	--------------------------------------------------------------------------
+========================================================================================
+struts2的流程分析以及工具配置
+	
+	1.流程分析
+		请求 ---- StrutsPrepareAndExecuteFilter 核心控制器 ----- Interceptors 拦截器（实现代码功能 ） ----- Action 的execute --- 结果页面 Result 
+		* 拦截器 在 struts-default.xml定义
+		* 执行拦截器 是 defaultStack 中引用拦截器 
+
+		---- 通过源代码级别断点调试，证明拦截器是执行 
+
+				
+	2.关于手动配置struts.xml文件中提示操作
+		
+		 如果安装Aptana编辑器 ，请不要用Aptana自带xml编辑器 编写struts2配置文件 
+		<!DOCTYPE struts PUBLIC
+			"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+			"http://struts.apache.org/dtds/struts-2.5.dtd">
+		<!-- 	
+		Struts2.5版本struts.xm和web.xml配置更改
+		对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+		 -->
+			如果可以上网，自动缓存dtd，提供提示功能
+			如果不能上网，也可以配置本地DTD提示 
+
+		*** 导入DTD时，应该和配置DTD版本一致 
+		
+	3.关联struts2源文件
+		如果是com.opensymphony.xxx   在xwork-core下
+		如果是org.apache.struts2     在core下
+		
+		
+	4.使用插件  struts2-config-browser-plugin
+		提供在浏览器中查看 struts2 配置加载情况 
+
+		访问 http://localhost:8080/struts2-base-01/config-browser/index.action 查看 struts2配置加载情况
+		访问 http://localhost:8080/struts2-base-01/config-browser/actionNames.action 查看 struts2配置加载情况
+	--------------------------------------------------------------------------

@@ -1,0 +1,10 @@
+
+<===============================================================================================================>
+
+非注解方式開發springmvc
+1、springmvc.xml
+		在springmvc.xml中配置springmvc架构三大组件（处理器映射器、适配器、视图解析器）
+
+		非注解方式springmvc開發controller
+			/springmvc-base-01/src/main/java/com/baihoo/springmvc/demo1/controller/BhProductController.java
+			/springmvc-base-01/src/main/java/com/baihoo/springmvc/demo2/controller/BhProductController.java

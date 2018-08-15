@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	id="WebApp_ID" version="2.5">
+	<!-- ================================== 配置spring监听器 ================================== -->
+	<listener>
+		<!-- 监听器默认加载的是WEB-INF/applicationContext.xml -->
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+	<!-- 指定spring框架的配置文件所在位置 -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:spring/applicationContext.xml</param-value>
+	</context-param>
+	<!-- 配置spring监听器 -->
+	<!-- ==================================  配置springmvc前端控制器 ================================== -->
+	<servlet>
+		<servlet-name>springmvc</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<!-- 加載springmvc配置文件信息 -->
+		<init-param>
+			<!-- 配置文件的地址 如果不配置contextConfigLocation， 默認查找的配置文件名稱classpath下的：servlet名稱+"-servlet.xml"即：springmvc-servlet.xml -->
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring/springmvc.xml</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springmvc</servlet-name>
+		<!-- 
+			可以配置/ ， 此工程所有全部由springmvc解析，此種方式可以实现RESTful方式，需要特殊处理对静态文件的解析不能由springmvc解析
+			可以配置*.do 或 *.cation , 所有請求的url擴展名為.do或.action有springmvc解析，此種方式常用 
+			不可以配置/* ， 如果配置/*,返回jsp也會由springmvc解析，這是不對的。 
+		-->
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+	<!-- springmvc前端控制器 RESTful攔截的方式 -->
+	<servlet>
+		<servlet-name>springmvc_RESTful</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<!-- 加載springmvc配置文件信息 -->
+		<init-param>
+			<!-- 配置文件的地址 如果不配置contextConfigLocation， 默認查找的配置文件名稱classpath下的：servlet名稱+"-servlet.xml"即：springmvc-servlet.xml -->
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring/springmvc.xml</param-value>
+		</init-param>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>springmvc_RESTful</servlet-name>
+		<!-- 
+			可以配置/ ， 此工程所有全部由springmvc解析，此種方式可以实现RESTful方式，需要特殊处理对静态文件的解析不能由springmvc解析
+			可以配置*.do 或 *.cation , 所有請求的url擴展名為.do或.action有springmvc解析，此種方式常用 
+			不可以配置/* ， 如果配置/*,返回jsp也會由springmvc解析，這是不對的。 
+		-->
+		<!-- RESTful方式配置为/ -->
+		<url-pattern>/rest/*</url-pattern>
+	</servlet-mapping>
+	<!-- ==================================  配置springmvc乱码过滤器 ================================== -->
+	<!-- post提交方式乱码处理（在web.xml中设置编码过滤器） -->
+	<filter>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+		<init-param>
+			<param-name>encoding</param-name>
+			<param-value>UTF-8</param-value>
+		</init-param>
+		<init-param>
+			<param-name>forceEncoding</param-name>
+			<param-value>true</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>CharacterEncodingFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
+	<!-- ==================================  Estore-console-web 下servlet配置 ================================== -->
+	<servlet>
+		<description></description>
+		<display-name>ApplicationServlet</display-name>
+		<servlet-name>ApplicationServlet</servlet-name>
+		<servlet-class>com.baihoo.estore.console.servlet.ApplicationServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ApplicationServlet</servlet-name>
+		<url-pattern>*.servlet</url-pattern>
+	</servlet-mapping>
+	
+	<!-- ==================================  Jeecg 的配置 ================================== -->
+		<!-- 验证码 -->
+    <servlet>
+        <servlet-name>RandCodeImage</servlet-name>
+        <servlet-class>org.jeecgframework.web.system.servlet.RandCodeImageServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RandCodeImage</servlet-name>
+        <url-pattern>/randCodeImage</url-pattern>
+    </servlet-mapping>
+</web-app>

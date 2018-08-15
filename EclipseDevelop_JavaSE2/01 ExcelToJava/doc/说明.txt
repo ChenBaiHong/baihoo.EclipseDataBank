@@ -1,0 +1,6 @@
+该程序操作指南
+	该程序测试 jdk环境 1.8
+	1， 修改配置文件/01 ExcelToJava/src/config/db.properties 的数据库连接
+	2，/01 ExcelToJava/src/org/estore/common/excel/ExcelBsiToOracle.java ，操作 CTRL+F 找到 SimcStoreIn，全部替换为 FdmpStoreIn 
+	3， /01 ExcelToJava/src/org/estore/main/InvokeMain.java 中 main 方法导入数据库库房台账Excel启动入口
+	

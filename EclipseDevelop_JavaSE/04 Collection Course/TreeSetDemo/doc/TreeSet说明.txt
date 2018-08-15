@@ -1,0 +1,9 @@
+Java中TreeSet的用法:
+		Java中 TreeMap和TreeSet算是java集合类里面比较有难度的数据结构。
+	和普通的HashMap不一样，普通的HashMap元素存取的时间复杂度一般
+	是O(1)的范围，而TreeMap内部对元素的操作复杂度为O(logn)。
+
+		虽然在元素的存取方面TreeMap并不占优，但是它内部的元素都是排序的，
+	当需要查找某些元素以及顺序输出元素的时候它能够带来比较理想的结果。可以
+	说，TreeMap是一个内部元素排序版的HashMap。同样，TreeSet是一个封
+	装了一个HashSet的成员变量来实现的，底层运用了红黑树的数据结构。

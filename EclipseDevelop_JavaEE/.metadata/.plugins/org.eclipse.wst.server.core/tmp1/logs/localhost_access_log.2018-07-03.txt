@@ -1,0 +1,9 @@
+127.0.0.1 - - [03/Jul/2018:10:07:46 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:10:07:46 +0800] "GET /webServlet01/ HTTP/1.1" 404 977
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:10:08:07 +0800] "GET /webServlet01/HelloServlet.servlet HTTP/1.1" 200 15
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:10:08:07 +0800] "GET /favicon.ico HTTP/1.1" 404 973
+127.0.0.1 - - [03/Jul/2018:12:17:08 +0800] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:12:17:09 +0800] "GET /webServlet01/servlet/com.baiHo.servlet2.ServletDome03 HTTP/1.1" 404 1057
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:12:17:27 +0800] "GET /webServlet01/servlet/ServletDome03.servlet HTTP/1.1" 404 1035
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:12:17:40 +0800] "GET /webServlet01/ServletDome03.servlet HTTP/1.1" 200 14
+0:0:0:0:0:0:0:1 - - [03/Jul/2018:12:17:40 +0800] "GET /favicon.ico HTTP/1.1" 404 973

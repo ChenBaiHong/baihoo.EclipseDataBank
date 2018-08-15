@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="primaryKey" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="true" key="wrap"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="primaryKey"/>
+			<item value="checkUser"/>
+			<item value="newLogin"/>
+			<item value="bigger-110"/>
+			<item value="ReturnURL"/>
+			<item value="randCodeImage"/>
+			<item value="hibernate-jpa.version"/>
+			<item value="hibernate-jpa"/>
+			<item value="hibernate-jpa-2.1-api"/>
+			<item value="org.jeecgframework.web.system.servlet.RandCodeImageServlet"/>
+			<item value="basePath"/>
+			<item value="reloadRandCodeImage"/>
+			<item value="hibernate-validator.version"/>
+			<item value="hibernate-validator"/>
+			<item value="hibernate-commons-annotations"/>
+		</list>
+		<list key="replacehistory">
+			<item value="cglib"/>
+			<item value="Integer"/>
+			<item value="Record"/>
+			<item value="ctx"/>
+			<item value=""/>
+			<item value=".js&quot;/&gt;&quot;"/>
+			<item value=".js&quot;/&gt;“"/>
+			<item value=".css&quot;/&gt;&quot;"/>
+			<item value="&lt;c:url value=&quot;"/>
+			<item value="&quot;/&gt;&quot; /&gt;"/>
+			<item value="&lt;c:url value="/>
+			<item value="\r\n&quot;);"/>
+			<item value="com.baihoo.estore"/>
+			<item value=";\r\n&quot;);"/>
+			<item value="bDto"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="300" key="DIALOG_WIDTH"/>
+		<item value="1|Microsoft YaHei UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Microsoft YaHei UI" key="DIALOG_FONT_NAME"/>
+		<item value="410" key="DIALOG_HEIGHT"/>
+		<item value="1504" key="DIALOG_X_ORIGIN"/>
+		<item value="236" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>

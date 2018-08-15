@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 
+	namespace 命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao层的方式，使用namespace有特殊的作用
+	mapper 代理开发时将namespace指定为mapper接口的全限定名
+	 -->
+<mapper namespace="com.baihoo.mybatis.demo5.mapper.SellerInfoMapper">
+	<!-- 
+	在mapper.xml 文件中配置很多的sql语句，执行每个sql语句时，封装为mappedStatement对象
+	mapper.xml以statement为单位管理sql语句
+	 -->
+	 <select id="findById" parameterType="Integer" resultType="SellerInfo">
+	 	SELECT * FROM seller_info WHERE ID  =  #{id}
+	 </select>
+	 <!-- 根据卖家的用户名称查询用户信息，注意可能返回多条数据 -->
+	 <select id="findByUsername" parameterType="String" resultType="SellerInfo">
+	 	SELECT * FROM seller_info WHERE username like '%${value}%'
+	 </select>
+	 <!-- 
+	插入sellerInfo信息
+	-->
+	 <insert id="insertSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+	 	<selectKey keyProperty="id" order="AFTER" resultType="int">
+			select LAST_INSERT_ID()
+		</selectKey>
+	 	INSERT INTO seller_info(id , username , password , openid)VALUES (#{id},#{username},#{password}, #{openid})
+	 </insert>
+	 <!-- 
+	用户通过id删除
+	要求：传入的sellerInfo对象中包括 id属性值
+	-->
+	<delete id="deleteSellerInfo" parameterType="Integer">
+		DELETE FROM seller_info WHERE ID = #{id}
+	</delete>
+	<!-- 
+	用户更新 
+	要求：传入的user对象中包括 id属性值
+	-->
+	<update id="updateSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+		UPDATE seller_info SET username = #{username} , password = #{password} , openid=#{openid} WHERE id = #{id}
+	</update>
+	
+	<!-- ============================================================================== -->
+	<!-- 
+	自定义查询条件查询用户信息
+	parameterType：制定包装类型
+	%${sellerInfoCustom.username}%：sellerInfoCustom 是sellerInfoQueryVo中的属性，通过OGNL获取属性的值
+	 -->
+	<select id="findSellerInfoList" parameterType="SellerInfoQueryVo" resultType="SellerInfo">
+		 SELECT * FROM seller_info  WHERE username like '%${sellerInfoCustom.username}%'
+	</select>
+	<!-- 
+	输出简单类型
+	功能：自定义查询条件，返回查询记录个数，通常用于实现查询分页
+	 -->
+	<select id="findSellerInfoCount" parameterType="SellerInfoQueryVo" resultType="int">
+		SELECT COUNT(*) FROM seller_info  WHERE username like '%${sellerInfoCustom.username}%'
+	</select>
+</mapper>

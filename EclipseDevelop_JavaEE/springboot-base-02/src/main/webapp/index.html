@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+	<script type="text/javascript" src="http://apps.bdimg.com/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script type="text/javascript">
+		function show(){
+			$.post("ajax/say",{} , function(result){
+				alert(result);
+			});
+		}
+	</script>
+</head>
+<body>
+<button onclick="show();">ajax点击按钮</button>
+</body>
+</html>

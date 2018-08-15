@@ -1,0 +1,7 @@
+1、 Hibernate 缓存查询
+		iterate()方法可以查询所有信息。iterate方法会发送N+1条SQL查询.但是会使用二级缓存的数据，
+	如果未使用二级缓存不建议使用，效率，只有开启二级缓存iterate方法才适用，
+		com.baihoo.hibernate4.test.HibernateTest3.demo5()
+		
+		list()方法会向二级缓存中放数据,但是不会使用二级缓存中的数据，未开启二级缓存效率高，那么就建议使用
+		com.baihoo.hibernate4.test.HibernateTest3.demo4()

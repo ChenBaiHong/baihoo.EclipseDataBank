@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 
+	namespace 命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao层的方式，使用namespace有特殊的作用
+	mapper 代理开发时将namespace指定为mapper接口的全限定名
+	 -->
+<mapper namespace="com.baihoo.mybatis.demo3.mapper.SellerInfoMapper">
+	<!-- 
+	在mapper.xml 文件中配置很多的sql语句，执行每个sql语句时，封装为mappedStatement对象
+	mapper.xml以statement为单位管理sql语句
+	 -->
+	 	<!-- 
+	 	id: 唯一标识一个statement
+	 	#{}: 表示一个占位符，如果 #{}中传入简单类型的参数，#{}中的名称随意
+	 	parameterType: 输入参数的类型，通过#{}接受parameterType输入的参数
+	 	resultType: 输出的结果类型，不管返回是多条还是单条，指定单条记录映射的pojo类型
+	 	 -->
+	 <select id="findById" parameterType="Integer" resultType="SellerInfo">
+	 	SELECT * FROM seller_info WHERE ID  =  #{id}
+	 </select>
+	 <!-- 根据卖家的用户名称查询用户信息，注意可能返回多条数据 -->
+	 <!-- 
+	 	${}: 表示sql的拼接，通过${}接受参数，将参数的内容不加任何修饰拼接在sql语句中 
+	 	
+	 -->
+	 <select id="findByUsername" parameterType="String" resultType="SellerInfo">
+	 	SELECT * FROM seller_info WHERE username like '%${value}%'
+	 </select>
+	 <!-- 
+	 添加用户
+		parameterType：输入 参数的类型，sellerInof对象 包括 id,username,password,openid 
+		#{}接收pojo数据，可以使用OGNL解析出pojo的属性值
+		#{username}表示从parameterType中获取pojo的属性值
+		selectKey：
+			用于进行主键返回，定义了获取主键值的sql
+		order：
+			设置selectKey中sql执行的顺序，相对于insert语句来说
+		keyProperty：
+			将主键值设置到哪个属性
+		resultType：
+			select LAST_INSERT_ID()的结果 类型 
+			注意：LAST_INSERT_ID 属于MySQL的执行函数
+	 -->
+	 <insert id="insertSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+	 	<selectKey keyProperty="id" order="AFTER" resultType="int">
+			select LAST_INSERT_ID()
+		</selectKey>
+	 	INSERT INTO seller_info(id , username , password , openid)VALUES (#{id},#{username},#{password}, #{openid})
+	 </insert>
+	<!-- mysql的uuid生成主键 -->
+	<!-- 
+		<insert id="insertSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+		<selectKey keyProperty="id" order="BEFORE" resultType="string">
+			select uuid()
+		</selectKey>
+			INSERT INTO seller_info(id , username , password , openid)VALUES (#{id},#{username},#{password}, #{openid})
+		</insert> 
+	-->
+	
+	<!-- 
+		oracle
+		在执行insert之前执行select 序列.nextval() from dual取出序列最大值，将值设置到user对象 的id属性
+	 -->
+	<!-- 
+		<insert id="insertSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+			<selectKey keyProperty="id" order="BEFORE" resultType="int">
+				select 序列.nextval() from dual
+			</selectKey>
+			INSERT INTO seller_info(id , username , password , openid)VALUES (#{id},#{username},#{password}, #{openid})
+		</insert> 
+	-->
+	<delete id="deleteSellerInfo" parameterType="Integer">
+		DELETE FROM seller_info WHERE ID = #{id}
+	</delete>
+	<!-- 
+	用户更新 
+	要求：传入的user对象中包括 id属性值
+	-->
+	<update id="updateSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+		UPDATE seller_info SET username = #{username} , password = #{password} , openid=#{openid} WHERE id = #{id}
+	</update>
+</mapper>

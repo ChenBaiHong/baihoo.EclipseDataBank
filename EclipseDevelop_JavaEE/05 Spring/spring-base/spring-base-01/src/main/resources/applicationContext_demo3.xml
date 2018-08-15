@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 
+	scope属性 :
+		* singleton		:单例的.(默认的值.)
+		* prototype		:多例的.
+		* request		:web开发中.创建了一个对象,将这个对象存入request范围,request.setAttribute();
+		* session		:web开发中.创建了一个对象,将这个对象存入session范围,session.setAttribute();
+		* globalSession	:一般用于Porlet应用环境.指的是分布式开发.不是porlet环境,globalSession等同于session;
+		
+		实际开发中主要使用singleton,prototype
+	 -->
+	<!-- demo3Bean的作用范围==================================== -->
+	<bean id="customer" class="com.baihoo.spring4.demo3.Customer" scope="prototype"/>
+	<!-- Bean的生命周期: -->
+	<bean id="product" class="com.baihoo.spring4.demo3.Product" init-method="setup" destroy-method="teardown">
+		<property name="name" value="天外有天，人外有人，一山还比一山高！"></property>
+	</bean>
+	<!-- demo3Bean的作用范围==================================== end-->
+</beans>

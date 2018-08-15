@@ -1,0 +1,28 @@
+
+Spring web 整合开发
+<!-- ====================================================================== -->
+
+1、正常整合Servlet和Spring没有问题的
+		但是每次执行Servlet的时候加载Spring配置,加载Spring环境.
+				* 解决办法:在Servlet的init方法中加载Spring配置文件?
+				* 当前这个Servlet可以使用,但是其他的Servlet的用不了了!!!
+				* 将加载的信息内容放到ServletContext中.ServletContext对象时全局的对象.服务器启动的时候创建的.在创建ServletContext的时候就加载Spring的环境.
+				* javax.servlet.ServletContextListener:用于监听ServletContext对象的创建和销毁的.
+				* org.springframework.web.context.ContextLoaderListener 继承包含 javax.servlet.ServletContextListener
+				导入;spring-web.jar
+<!-- ====================================================================== -->
+2、在web.xml中配置:
+		 <listener>
+		 	<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+		 </listener>
+		 
+		 <context-param>
+		 	<param-name>contextConfigLocation</param-name>
+		 	<param-value>classpath:applicationContext.xml</param-value>
+		 </context-param>
+3、修改程序的代码:
+
+	WebApplicationContext applicationContext = WebApplicationContextUtils.getWebApplicationContext(getServletContext());
+	
+	WebApplicationContext applicationContext = (WebApplicationContext) getServletContext().getAttribute(WebApplicationContext.ROOT_WEB_APPLICATION_CONTEXT_ATTRIBUTE);
+	

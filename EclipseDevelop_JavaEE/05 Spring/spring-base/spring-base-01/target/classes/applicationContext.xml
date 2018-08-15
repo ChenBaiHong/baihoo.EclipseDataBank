@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<!-- 导入多个spring资源配置 -->
+	<!-- demo1快速入门==================================== -->
+	<import resource="applicationContext_demo1.xml"/>
+	<!-- demo2Bean的实例化================================ -->
+	<import resource="applicationContext_demo2.xml"/>
+	<!-- demo3Bean的作用范围============================== -->
+	<import resource="applicationContext_demo3.xml"/>
+	<!-- demo4Bean的生命周期============================== -->
+	<import resource="applicationContext_demo4.xml"/>
+	<!-- demo5Bean的属性注入============================== -->
+	<import resource="applicationContext_demo5.xml"/>
+	<!-- demo6Bean的集合属性注入=========================== -->
+	<import resource="applicationContext_demo6.xml"/>
+</beans>

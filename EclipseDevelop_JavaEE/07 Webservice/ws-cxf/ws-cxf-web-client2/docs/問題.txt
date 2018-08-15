@@ -1,0 +1,7 @@
+
+異常1、
+	两个类具有相同的 XML 类型名称 "{http://server.cxf.web.baihoo.com/}UserServiceService"。
+	请使用 @XmlType.name 和 @XmlType.namespace 为类分配不同的名称。
+	解決方案：
+		原因是生成代码时指定的包路径和 拷贝过去的包路径不是一致的。
+		wsdl2java -d . -p com.haihoo.cxf.client.soap.userServiceWS http://localhost:8080/ws-cxf-web-server/service/userWs?wsdl ，命令重新生成再拷貝！

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 
+	配置handler
+	 -->
+	<bean id="bhProductController" name="/productList.do" class="com.baihoo.springmvc.demo1.controller.BhProductController"></bean>
+	 
+	<!-- 
+	1、配置处理映射器
+	在springmvc.xml中配置：
+		BeanNameUrlHandlerMapping： 根据请求url（XXXX.action）匹配spring容器bean的 name
+		找到对应的bean（程序编写的Handler）
+		注意： 根据bean的name进行查找Handler 将*.do或*.action的url配置在bean的name中 ,如上
+	 -->
+	 <bean class="org.springframework.web.servlet.handler.BeanNameUrlHandlerMapping"></bean>
+	 
+	 <!-- 
+		SimpleUrlHandlerMapping：集中bean的id配置對應的URL
+		找到对应的bean（程序编写的Handler）
+		注意： 根据bean的name进行查找Handler 将*.do或*.action的url配置在bean的name中 ,如上
+	 -->
+	 <bean class="org.springframework.web.servlet.handler.SimpleUrlHandlerMapping">
+	 	<property name="mappings">
+	 		<props>
+	 			<!-- key就是配置url，對應配置頁面操作bean -->
+	 			<prop key="/prodList.do">bhProductController</prop>
+	 		</props>
+	 	</property>
+	 </bean>
+	 
+	<!--  
+	2、处理器适配器
+		所有的适配器都是实现了HandlerAdapter接口
+			程序编写Handler根据适配器的要求编写
+			 ==SimpleControllerHandlerAdapter适配器要求
+				== 通过supports方法知道Handler必须要实现哪个接口
+	 -->		
+	 <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter"></bean>		
+	 
+	<!-- 
+	3、配置视图解析器
+		配置视图解析，能够解析jsp视图	
+	 -->	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"></bean>
+</beans>

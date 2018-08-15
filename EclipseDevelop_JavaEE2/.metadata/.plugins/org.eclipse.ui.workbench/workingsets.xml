@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1532740888310_1" label="01 ActivitiProject" name="01 ActivitiProject">
+<item elementID="=baiHoo.activiti" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1532740982986_3" label="02 EstoreProject" name="02 EstoreProject">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/EstoreProject" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-portal" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-console-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-portal-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-console-config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-file-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-console" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Estore-jeecg" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.jdt.ui.JavaWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1533004795028_4" label="03 OnlineEduProject" name="03 OnlineEduProject">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OnlineEdu-Common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OnlineEdu" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/OnlineEdu-Portal" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1520604103352_0" label="Window Working Set" name="Aggregate for window 1520604103351"/>
+</workingSetManager>

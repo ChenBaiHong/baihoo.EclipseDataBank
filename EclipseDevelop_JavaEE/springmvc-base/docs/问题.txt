@@ -1,0 +1,15 @@
+
+<===============================================================================================================>
+
+1、Maven构建SpringMVC环境报错“java.lang.ClassNotFoundException: org.springframework.web. servlet.DispatcherServlet
+	解決方案:
+		在项目上右键properties（应该是最后一项）
+			Add -> Java Build Path Entries -> Next -> Maven Dependencies -> Finish -> Ok
+			
+<===============================================================================================================>			
+2、eclipse Problems 抛出的问题
+	Description	Resource	Path	Location	Type
+	Cannot change version of project facet Dynamic Web Module to 2.5.	springmvc-base-anno-01		line 1	Maven Java EE Configuration Problem
+	解决方式：
+		在Navigator下打开项目.settings目录下的org.eclipse.wst.common.project.facet.core.xml 
+			    原始 <installed facet="jst.web" version="2.3"/> 修改为 <installed facet="jst.web" version="2.5"/>

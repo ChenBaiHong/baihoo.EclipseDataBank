@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/【什么是面向对象-9_Swing界面编程】/src/WindowBuider_JFrame的使用/Test_JscrollPane.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="WindowBuider_JFrame的使用.Test_JscrollPane"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="【什么是面向对象-9_Swing界面编程】"/>
+</launchConfiguration>

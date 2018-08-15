@@ -1,0 +1,29 @@
+
+========================================================================
+	对入门程序进行流程分析	
+	--------------------------------------------------------------------------
+	模仿struts2流程完成入门程序:
+		index.jsp
+		hello.jsp
+		HelloAction
+		struts.xml
+	-----------------
+	1.创建一个Filter----StrutsFilter
+	2.在web.xml文件中配置StrutsFilter
+		  	<!-- 简单模拟struts2核心过滤器，自定义的 -->
+			<filter>
+				<filter-name>struts</filter-name>
+				<filter-class>com.baihoo.struts2.filter.StrutsFilter</filter-class>
+			</filter>
+			<filter-mapping>
+				<filter-name>struts</filter-name>
+				<url-pattern>/*</url-pattern>
+			</filter-mapping>
+			
+	3.在StrutsFilter中完成拦截操作，并访问Action中的方法，跳转到hello.jsp页面操作.
+		案例：/src/main/java/com/baihoo/struts2/filter/StrutsFilter.java
+========================================================================================
+
+			
+			
+		

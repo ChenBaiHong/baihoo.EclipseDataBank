@@ -1,0 +1,48 @@
+package com.baiHoo.encodeConvertIo;
+
+import java.io.BufferedInputStream;
+import java.io.BufferedOutputStream;
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+
+/**
+ * 转换流: 字节转为字符
+ * 1、输出流 OutputStreamWriter 编码
+ * 2、输入流 InputStreamReader  解码
+ * 
+ * 确保源不能为乱码
+ * @author Administrator
+ *
+ */
+public class CharacterEncodingCopy {
+
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
+	public static void main(String[] args) throws IOException {
+		// 指定解码字符集
+		BufferedReader br = new BufferedReader(new InputStreamReader(
+				new BufferedInputStream(new FileInputStream(new File("D:/Desktop Pictures/logo2.txt"))), "UTF-8"));
+		// 写出文件 编码
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(
+				new BufferedOutputStream(new FileOutputStream(new File("D:/Desktop Pictures/encode.java")))));
+
+		String info = null;
+		while (null != (info = br.readLine())) {
+			// System.out.println(info);
+			bw.write(info);
+			bw.newLine();
+		}
+		bw.flush();
+		bw.close();
+		br.close();
+	}
+
+}

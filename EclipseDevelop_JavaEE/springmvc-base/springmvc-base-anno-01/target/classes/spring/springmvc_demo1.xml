@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	
+	<!-- 
+		注解的handler單個配置 
+			這種方式不需要配置id或name,但還是是一種繁瑣重複的代碼工作，因此可以采用注解掃描器
+	-->
+	<!-- <bean class="com.baihoo.springmvc.demo1.controller.BhProductController"></bean> -->
+	<!-- 
+	使用spring組件掃描包路徑；
+	若多個包采用英文逗號（","）隔開
+	 -->
+	<context:component-scan base-package="com.baihoo.springmvc.demo1.controller" />
+	
+	<!-- 
+	1、注解配置处理映射器和注解处理器适配器是成對的
+	在springmvc.xml中配置：
+		RequestMappingHandlerMapping：匹配spring容器使用@controller标识Bean,使用Bean中方法或類使用@requestMapping指定Handler方法所对应的url
+		找到对应的bean（程序编写的Handler）
+	 -->
+	 <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
+	 
+	<!--  
+	2、注解处理器适配器
+		所有的适配器都是实现了HandlerAdapter接口
+			不需要實現什麽接口之類的，需要在Handler 中使用@controller标识此类是一个控制器，使用@requestMapping指定Handler方法所对应的url
+	 -->		
+	 <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"></bean>		
+	 
+	<!-- 
+	3、配置视图解析器
+		配置视图解析，能够解析jsp视图	
+		要求将jstl的包加到classpath
+	 -->	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<!-- 配置轉發jsp地址的通用前綴標識和後綴標識 -->
+		<property name="prefix" value="/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+</beans>

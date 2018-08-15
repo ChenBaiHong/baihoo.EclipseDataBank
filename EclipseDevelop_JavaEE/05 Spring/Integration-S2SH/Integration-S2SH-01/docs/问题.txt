@@ -1,0 +1,9 @@
+异常解析：
+<!-- ====================================================================== -->	
+1、 org.springframework.orm.hibernate4.HibernateSystemException: getFlushMode 
+ 	is not valid without active transaction; nested exception is 
+ 	org.hibernate.HibernateException: getFlushMode is not valid without active
+ 	transaction
+ 	解决方案：
+ 		删除hibernate.cfg.xml 中
+ 		<!-- 设置本地Session --><property name="hibernate.current_session_context_class">thread</property>

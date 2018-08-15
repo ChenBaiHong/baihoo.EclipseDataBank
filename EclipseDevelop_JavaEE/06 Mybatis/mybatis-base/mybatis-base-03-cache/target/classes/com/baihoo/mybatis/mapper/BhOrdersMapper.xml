@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 
+	namespace 命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao层的方式，使用namespace有特殊的作用
+	mapper 代理开发时将namespace指定为mapper接口的全限定名
+	 -->
+<mapper namespace="com.baihoo.mybatis.mapper.BhOrdersMapper">
+	<!-- ======================================动态SQL与SQL片段的定义======================================== -->
+	
+	<!-- //======================================动态SQL与SQL片段的定义======================================== -->
+
+	<!-- ========================================resultMa定义)============================================== -->
+	<!-- 
+	建立数据表查询出的字段与pojo类之间的映射关系
+	 -->
+	<resultMap type="BhOrders" id="BhOrdersResultMap">
+		 <id column="id" property="id"/>
+		 <result column="u_id" property="uId"/>
+		 <result column="order_Time" property="orderTime"/>
+		 <result column="money" property="money"/>
+		 <result column="state" property="state"/>
+		 <result column="create_time" property="createTime"/>
+		 <result column="update_time" property="updateTime"/>
+	</resultMap>
+	<!-- 
+	建立数据表查询出的字段与dto(Data transfer Object)类之间的映射关系
+	
+		参考： <select id="findOrderItemDetail" ...>
+	 -->
+	<resultMap type="BhOrdersDto" id="BhOrdersDtoResultMap">
+		 <id column="id" property="id"/>
+		 <result column="u_id" property="uId"/>
+		 <result column="order_Time" property="orderTime"/>
+		 <result column="money" property="money"/>
+		 <result column="state" property="state"/>
+		 <result column="create_time" property="createTime"/>
+		 <result column="update_time" property="updateTime"/>
+		 <!-- 
+		 订单下含有多个订单项，一对多的关系
+		  -->
+		 <collection property="oiList" ofType="com.baihoo.mybatis.pojoDto.BhOrderItemDto">
+				<id column="oi_id" property="id" />
+				<result column="oi_buy_num" property="buyNum" />
+				<result column="oi_price" property="price" />
+				<result column="oi_subtotal" property="subtotal" />
+				<result column="oi_create_time" property="createTime" />
+				<result column="oi_update_time" property="updateTime" />
+				<!-- 下边完成关联信息的映射 == 订单项关联的产品
+				association：用于对关联信息映射到单个pojo
+				property：要将关联信息映射到BhCateDto的哪个属性中
+				javaType：关联信息映射到BhCateDto的属性的类型，是BhCateDto的类型
+				 -->
+				<association property="bhProductDto"  javaType="BhProductDto">
+					<id column="p_id" property="id" />
+					<result column="p_name" property="name" />
+					<result column="P_price" property="price" />
+					<result column="p_create_time" property="createTime" />
+					<result column="p_update_time" property="updateTime" />
+					<!-- 产品关联的分类 -->
+					<association property="bhCateDto" javaType="BhCateDto">
+						 <result column="c_id" property="id"/>
+						 <result column="c_name" property="name"/>
+						 <result column="c_layer" property="layer"/>
+						 <result column="c_create_time" property="createTime" />
+						 <result column="c_update_time" property="updateTime" />
+					</association>
+					<!-- 产品关联的品牌 -->
+					<association property="bhBrandDto" javaType="BhBrandDto">
+						 <result column="b_id" property="id"/>
+						 <result column="b_name" property="name"/>
+						 <result column="b_description" property="description"/>
+						 <result column="b_create_time" property="createTime" />
+						 <result column="b_update_time" property="updateTime" />
+					</association>
+				</association>
+		 </collection>
+	</resultMap>
+	 <!-- ============映射延迟加载ResultMap=============== -->
+	 <!--  一对一 , 一对多查询延迟加载的配置 -->
+	 <resultMap type="BhOrdersDto" id="BhProductDtoLazy">
+	 	<!-- 完成了订单信息的映射配置 -->
+		<!-- id：订单关联用户查询的唯 一 标识 -->
+		 <id column="id" property="id"/>
+		 <result column="u_id" property="uId"/>
+		 <result column="order_Time" property="orderTime"/>
+		 <result column="money" property="money"/>
+		 <result column="state" property="state"/>
+		 <result column="create_time" property="createTime"/>
+		 <result column="update_time" property="updateTime"/>
+		 <!-- 
+		 	配置用户信息的延迟加载 select：延迟加载执行的sql所在的statement的id，如果不在同一个namespace需要加namespace.statementid ,
+		 		执行sql ；根据用户id查询用户信息 
+			column：关联查询的列  , u_id  <result column="u_id" property="uId"/>
+			property:将关联查询的用户信息设置到BhOrdersDto的哪个属性 
+			
+			订单与用户之间的一对一查询
+		-->
+		 <association property="bhUserDto"  javaType="BhUserDto"
+		 						select="com.baihoo.mybatis.mapper.BhUserMapper.findById" column="u_id" />
+		 <!-- 
+		 column：对多关联查询的列 , id  <id column="id" property="id"/>
+		 property:将关联查询的用户信息设置到BhOrdersDto的哪个属性 
+		 
+		 订单与订单项之间的一对多查询		
+		  -->	
+		 <collection property="oiList" ofType="BhOrderItemDto" 
+		 				select="com.baihoo.mybatis.mapper.BhOrderItemMapper.findByOid" column="id" />
+	 </resultMap>
+	 <!-- //============映射延迟加载ResultMap=============== -->
+	<!-- //========================================resultMa定义)============================================== -->
+
+	<!-- ========================================对象包装器查询============================================== -->
+	
+	<!-- //========================================对象包装器查询============================================== -->
+
+	 <!-- =========================================SQL语句查询============================================= -->
+	 <!-- 订单下含有多个订单项，一对多的关系,查询订单明细 -->
+	 <select id="findOrdersDetail" parameterType="BhOrdersDto" resultMap="BhOrdersDtoResultMap">
+			SELECT
+				o.id,
+				o.order_Time,
+				o.money,
+				o.state,
+				o.create_time,
+				o.update_time,
+				oi.id oi_id,
+				oi.buy_num oi_buy_num,
+				oi.price oi_price,
+				oi.subtotal oi_subtotal,
+				oi.create_time oi_create_time,
+				oi.update_time oi_update_time,
+				p.id p_id,
+				p. NAME AS p_name,
+				p.price AS p_price,
+				p.create_time p_create_time,
+				p.update_time p_update_time,
+				c.id c_id,
+				c. NAME c_name,
+				c.layer c_layer,
+				c.update_time c_update_time,
+				c.create_time c_create_time,
+				b.id b_id,
+				b. NAME b_name,
+				b.description b_description,
+				b.create_time b_create_time,
+				b.update_time b_update_time
+			FROM
+				bh_orders o,
+				bh_order_item oi,
+				bh_product p,
+				bh_cate c,
+				bh_brand b
+			WHERE
+				o.id = oi.o_id
+			AND oi.p_id = p.id
+			AND p.c_id = c.id
+			AND p.b_id = b.id 
+	 </select>
+	 
+	 <!-- ============通过ResultMap映射延迟加载SQL语句查询=============== -->
+	 <!-- 懒加载查询订单用户及订单明细 -->
+	 <select id="findOrdersDetailLazyLoading" parameterType="BhOrdersDto" resultMap="BhProductDtoLazy">
+			SELECT
+				o.id,
+				o.u_id,
+				o.order_Time,
+				o.money,
+				o.state,
+				o.create_time,
+				o.update_time
+	 		FROM
+				bh_orders o
+	 </select>
+	 <!-- //============通过ResultMap映射延迟加载SQL语句查询=============== -->
+	 <!-- //=========================================SQL语句查询============================================= -->
+	 
+	 <!-- =========================================SQL语句插入============================================= -->
+	 <insert id="insertBhOrders" parameterType="BhOrders">
+	 	<!-- mySQL返回主键id -->
+	 	<selectKey keyProperty="id" order="AFTER" resultType="String">
+	 		SELECT LAST_INSERT_ID()
+	 	</selectKey>
+	 	INSERT INTO bh_orders (
+			id,
+			u_id,
+			order_Time,
+			money,
+			state
+		)
+		VALUES
+			(
+				#{id}, #{uId}, #{orderTime} , #{money} , #{state}
+			)
+	 </insert>
+	 <!-- //=========================================SQL语句插入============================================= -->
+	 
+	 <!-- =========================================SQL语句更新============================================= -->
+	 <!-- 
+	 动态更新的sql语句
+	 这里，SET元素将动态地设置SET关键字，但无法动态去除后缀逗号。
+	 因此我们可用trim标签，进行前后缀动态修剪
+	  -->
+	<update id="updateBhOrders" parameterType="BhOrders">
+		UPDATE bh_orders
+		<!-- 
+		suffixoverride：去掉最后一个逗号
+　　	suffix：后缀
+		如若orderTime和state不为null，那么打印的SQL为：
+			UPDATE bh_orders SET orderTime='xx' , state='xx'   where id='x'
+		 -->
+		<trim prefix="SET" suffixOverrides="," suffix=" where id = #{id} ">
+			<if test="uId != null and uId !='' ">
+				u_id=#{uId},
+			</if>
+			<if test="orderTime != null">
+				order_Time=#{orderTime},
+			</if>
+			<if test="money != null and money !='' ">
+				money=#{money},
+			</if>
+			<if test="state != null and state !='' ">
+				state=#{state},
+			</if>
+		</trim>
+	</update>
+	 <!-- //=========================================SQL语句更新============================================= -->
+	 
+	 <!-- =========================================SQL语句删除============================================= -->
+	<delete id="deleteBhOrders" parameterType="BhOrders">
+		DELETE FROM bh_orders
+		<!-- 
+		prefix：前缀　
+　　	prefixoverride：去掉第一个AND或者是OR
+		如若username和password不为null，那么打印的SQL为：
+			DELETE FROM bh_orders WHERE username='xx' AND password='xx' 
+		 -->
+		<trim prefix="WHERE" prefixOverrides="AND | OR">
+			<if test="uId != null and uId !='' ">
+				AND u_id=#{uId}
+			</if>
+			<if test="orderTime != null ">
+				AND order_Time=#{orderTime}
+			</if>
+			<if test="money != null and money !='' ">
+				AND money=#{money}
+			</if>
+			<if test="state != null and state !='' ">
+				AND state=#{state}
+			</if>
+			<if test="id != null and id !='' ">
+				AND id=#{id}
+			</if>
+		</trim>
+	</delete>
+	 <!-- //=========================================SQL语句删除============================================= -->	 
+
+</mapper>

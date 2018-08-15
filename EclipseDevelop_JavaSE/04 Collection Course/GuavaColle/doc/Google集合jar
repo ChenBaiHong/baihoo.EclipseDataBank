@@ -1,0 +1,12 @@
+Commons-Collections：提供一个类包来扩展和增加标准的Java Collection框架，处理数据灵活
+	MapIterator:	很好用，以后不用map.keyset.iterator 去处理map循环
+		— HashedMap
+	BidiMap:	用于通过value 查找 key
+		— TreeBidiMap
+	Bag:	用于在集合中保存一个对象的多次拷贝
+		— HashBag
+	Queue: 用于处理FIFO（先进先出）等定义好移除顺序的集合类
+	CollectionUtils : 工具类
+	Predicate：用来评估某个判别式或者条件，进行筛选，可以将其理解为对if 条件的一种封装
+	该接口的唯一方法evaluate()返回true和false
+	Transformer 用来将一个对象为参数，返回要给经过转换处理后的新的对象

@@ -1,0 +1,7 @@
+
+<===============================================================================================================>
+
+1、Maven构建SpringMVC环境报错“java.lang.ClassNotFoundException: org.springframework.web. servlet.DispatcherServlet
+	解決方案:
+		在项目上右键properties（应该是最后一项）
+			Add -> Java Build Path Entries -> Next -> Maven Dependencies -> Finish -> Ok

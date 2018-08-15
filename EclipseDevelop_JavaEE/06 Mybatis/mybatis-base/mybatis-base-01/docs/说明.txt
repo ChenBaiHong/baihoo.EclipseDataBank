@@ -1,0 +1,41 @@
+
+实例参考：org.mybatis.dao ， com.baihoo.mybatis.demo2.dao
+<!-- ========================================================================================= -->
+1、#{}
+		表示一个占位符，向占位符输入参数，mybatis自动进行java类型和jdbc类型的转换。
+		程序员不需要考虑参数的类型，比如：传入字符串，mybatis最终拼接好的sql就是参数两边加单引号。
+		#{}接收pojo数据，可以使用OGNL解析出pojo的属性值
+<!-- ========================================================================================= -->
+2、${}
+		表示sql的拼接，通过${}接收参数，将参数的内容不加任何修饰拼接在sql中。
+		${}也可以接收pojo数据，可以使用OGNL解析出pojo的属性值
+		缺点：不能防止sql注入。
+<!-- ========================================================================================= -->
+3、主键返回 （参看映射文件 --- 
+						/mybatis-base-01/src/main/resources/org/mybatis/config/sellerInfo.xml）
+		2.1、 使用mysql的机制生成主键：
+			需求：user对象插入到数据库后，新记录的主键要通过user对象返回，通过user获取主键值。
+				解决思路：
+					通过LAST_INSERT_ID()获取刚插入记录的自增主键值，在insert语句执行后，执行select LAST_INSERT_ID()就可以获取自增主键。
+				
+			使用mysql的uuid机制生成主键：使用uuid生成主键的好处是不考虑数据库移植后主键冲突问题
+				实现思路：
+					先查询uuid得到主键，将主键设置到user对象中，将user对象插入数据库。
+					
+		2.2、实现 oracle数据库主键返回，如何做？？		
+			oracle没有自增主键机制，使用序列完成主键生成。
+				实现思路：
+					先查询序列得到主键，将主键设置到user对象中，将user对象插入数据库。
+
+<!-- ========================================================================================= -->			
+5、SqlSession作用范围		
+	5.1、SqlSessionFactoryBuilder
+		SqlSessionFactoryBuilder是以工具类方式来使用，需要创建sqlSessionFactory就new一个SqlSessionFactoryBuilder。
+		
+	5.2、SqlSessionFactory
+		正常开发时，以单例方式管理sqlSessionFactory，整个系统运行过程中sqlSessionFactory只有一个实例，将来和spring整合后由spring以单例方式管理sqlSessionFactory。
+				
+	5.3、SqlSession	
+		sqlSession是一个面向用户（程序员）的接口，程序员调用sqlSession的接口方法进行操作数据库。
+		sqlSession能否以单例 方式使用？？
+			由于sqlSession是线程不安全，所以sqlSession最佳应用范围在方法体内，在方法体内定义局部变量使用sqlSession。

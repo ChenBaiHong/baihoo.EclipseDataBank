@@ -1,0 +1,23 @@
+
+《============================================================================》
+	jpa 数据库模板引擎
+		----------------crud操作
+		
+《============================================================================》
+	1、声明式事务
+		1.1、xml配置声明式事务管理
+			spring/applicationContext-transaction.xml 
+			
+		1.2、Java配置声明式事务管理
+			/com/baihoo/springboot/configuration/ApplicationContextTransactional.java
+			
+《============================================================================》
+	2、springboot自定義轉換器，日期轉換器
+		com/baihoo/springboot/convertor/CustomDateConverter.java
+		
+《============================================================================》
+	3、jpa自定義@Query("")查詢
+	
+《============================================================================》
+	4、動態查詢Specification使用
+		com.baihoo.springboot.service.impl.BhBookServiceImpl.findByConditionIsSpecification(BhBook)

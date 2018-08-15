@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;SelfHashMap/doc&apos; to &apos;docs&apos;" description="Rename resource &apos;doc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="doc" name="docs" stamp="1529404348329" updateReferences="true"/>
+</session>

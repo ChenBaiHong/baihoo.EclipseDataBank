@@ -1,0 +1,45 @@
+1532254628004	Rename package 'com.baihoo.springmvc.demo1'
+1532254796991	Rename package 'com.baihoo.ssm.demo1'
+1532255588804	Delete element
+1532273321156	Delete element
+1532273340088	Rename resource 'data_schema.sql'
+1532277561561	Copy file
+1532277574729	Copy file
+1532277589269	Copy file
+1532277601686	Copy file
+1532277619296	Copy file
+1532279919725	Copy compilation unit
+1532279931138	Copy compilation unit
+1532279943234	Copy compilation unit
+1532279958551	Copy compilation unit
+1532279985808	Copy compilation unit
+1532280234335	Delete element
+1532282613492	Rename resource 'mybatis'
+1532282661745	Rename resource 'mybaits'
+1532312530204	Copy compilation units
+1532312610803	Rename type 'BhCateDto'
+1532312615842	Rename type 'BhOrderItemDto'
+1532312621846	Rename type 'BhOrdersDto'
+1532312628993	Rename type 'BhProductDto'
+1532312635207	Rename type 'BhUserDto'
+1532312775136	Rename type 'BhBrandDto'
+1532312781409	Rename type 'BhCateDto'
+1532312790289	Rename type 'BhOrderItemDto'
+1532312796377	Rename type 'BhOrdersDto'
+1532312801885	Rename type 'BhProductDto'
+1532312807424	Rename type 'BhUserDto'
+1532312814904	Rename package 'com.baihoo.ssm.pojoDto'
+1532316772915	Delete element
+1532316789981	Delete element
+1532325052303	Move files
+1532325070546	Move elements
+1532325371495	Delete elements
+1532327712975	Delete element
+1532327734391	Delete elements
+1532327741163	Delete element
+1532330826001	Delete element
+1532340829228	Rename type 'BrandCateServiceImpl'
+1532340986014	Rename type 'BhBrandCateServiceImpl'
+1532395713071	Copy elements
+1532395759533	Copy folders
+1532395835649	Copy elements

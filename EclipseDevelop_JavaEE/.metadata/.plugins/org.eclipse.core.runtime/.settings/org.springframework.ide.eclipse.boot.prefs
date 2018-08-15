@@ -1,0 +1,17 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.data-jpa=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.freemarker=3
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.mysql=2
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.web=4
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.artifactId=springboot-base-04-transaction
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.bootVersion=2.0.3.RELEASE
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.description=\u5F00\u59CBspringboot\u5165\u95E8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.groupId=com.baihoo.springboot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.javaVersion=1.8
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.language=java
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.name=springboot-base-04-transaction
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packageName=com.baihoo.springboot
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.packaging=war
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.type=MAVEN
+org.springframework.ide.eclipse.boot.wizard.PreferredSelections.version=0.0.1-SNAPSHOT
+org.springframework.ide.eclipse.boot.wizard.initializr.url=https\://start.spring.io\n

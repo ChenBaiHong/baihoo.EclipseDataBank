@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 引入外部属性文件. -->
+	<context:property-placeholder location="classpath:jdbc.properties"/>
+	<!-- 配置c3p0连接池 -->
+	<bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+		<property name="driverClass" value="${jdbc.driver}"/>
+		<property name="jdbcUrl" value="${jdbc.url}"/>
+		<property name="user" value="${jdbc.user}"/>
+		<property name="password" value="${jdbc.password}"/>
+	</bean>
+	<!-- 配置事务管理器 -->
+	<bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 需要注入连接池,通过连接池获得连接 -->
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<!-- 持久层类 -->
+	<bean id="accountDao" class="com.baihoo.spring4.demo3.dao.impl.AccountDaoImpl">
+		<!-- 注入连接池的对象,通过连接池对象创建模板. -->
+		<property name="dataSource" ref="dataSource"></property>
+	</bean>
+	<!-- 业务层类 -->
+	<bean id="accountService" class="com.baihoo.spring4.demo3.service.impl.AccountServiceImpl">
+		<!-- 在业务层注入Dao -->
+		<property name="accountDao" ref="accountDao"></property>
+	</bean>
+	<!-- 定义一个增强通知 -->
+	<tx:advice id="txAdvice" transaction-manager="dataSourceTransactionManager">
+		<!-- 增强(事务)的属性的配置 -->
+		<tx:attributes>
+			<!-- 
+				isolation:DEFAULT	:事务的隔离级别.
+				propagation			:事务的传播行为.
+				read-only			:false.不是只读
+				timeout				:-1
+				no-rollback-for		:发生哪些异常不回滚
+				rollback-for		:发生哪些异常回滚事务
+			 -->
+			 <!-- 注意：方法名称来自类匹配的到方法 
+			 	com.baihoo.spring4.demo3.service.AccountService.transfer(..)
+			 -->
+			<tx:method name="transfer" />
+		</tx:attributes>
+	</tx:advice>
+	<!-- aop配置定义切面和切点的信息 -->
+	<aop:config>
+		<!-- 定义切点:哪些类的哪些方法应用增强 
+			匹配AccountService类及其子类中所有方法
+		-->
+		<aop:pointcut expression="execution(*  com.baihoo.spring4.demo3.service.AccountService+.*(..))" id="myPointcut"/>
+		<!-- 定义切面: -->
+		<aop:advisor advice-ref="txAdvice" pointcut-ref="myPointcut"/>
+	</aop:config>
+</beans>

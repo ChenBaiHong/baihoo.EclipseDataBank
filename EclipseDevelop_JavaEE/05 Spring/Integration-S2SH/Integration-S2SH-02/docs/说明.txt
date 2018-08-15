@@ -1,0 +1,34 @@
+
+Struts2+Hibernate+Spring的整合:
+	零障碍整合:(二)
+		没有Hibernate配置文件的形式(二)
+<!-- ====================================================================== -->		
+1、Struts2和Spring的整合:
+	1.1、Struts2和Spring的整合两种方式
+		Struts2自己管理Action:(方式一)：
+			<action name="book_*" class="cn.itcast.action.BookAction" method="{1}">
+				* Struts2框架自动创建Action的类.
+				
+		Action交给Spring管理:(方式二)：	
+			可以在<action>标签上通过一个伪类名方式进行配置:
+			<action name="book_*" class="bookAction" method="{1}"></action>
+			
+	1.2、在spring的配置文件中:
+			<!-- 配置Action -->
+			<bean id="bookAction" class="cn.itcast.action.BookAction"></bean>
+			
+			注意:
+				Action交给Spring管理一定要配置scope=”prototype”
+
+	1.3、推荐使用二:
+			* 在Spring中管理的类,可以对其进行AOP开发.统一的管理.
+<!-- ====================================================================== -->		
+2、实际开发中:
+	2.1、引入了struts2-spring-plugin.jar
+		* 有一个配置文件 : struts-plugin.xml
+			开启常量 :
+				<constant name="struts.objectFactory" value="spring" />
+			引发另一个常量的执行:(Spring的工厂类按照名称自动注入)
+				struts.objectFactory.spring.autoWire = name
+	
+				

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item value="480" key="width"/>
+		<item value="720" key="x"/>
+		<item value="147" key="y"/>
+		<item value="590" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE3\jeecg-project\joa-platform"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE3\jeecg-project\jeecg"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE3\baiHoo-project\baiHoo.triage-master"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE3\baiHoo-project\baiHoo.invoice-master"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\jeecg-project\joa-platform"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\joa-platform"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\jeecg-project\jeecg"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\baiHoo-project"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\jeecg-p3"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\baiHoo.invoice-master"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\baiHoo.triage-master"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE3\jeecg"/>
+			<item value="C:\Users\cbh12\Downloads\Compressed\baiHoo.invoice-master"/>
+			<item value="C:\Users\cbh12\Downloads\Compressed\baiHoo.triage-master"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.editor.dialogs.ManageDependenciesDialog">
+		<item value="687" key="width"/>
+		<item value="617" key="x"/>
+		<item value="0" key="y"/>
+		<item value="1080" key="height"/>
+	</section>
+</section>

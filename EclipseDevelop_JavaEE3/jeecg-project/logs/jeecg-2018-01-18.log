@@ -1,0 +1,404 @@
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-01-18 09:56:14] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-01-18 09:56:15] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-01-18 09:56:15] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-01-18 09:56:17] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-01-18 09:56:18] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-01-18 09:56:18] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-01-18 09:56:18] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-01-18 09:56:18] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-01-18 09:56:18] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-01-18 09:56:18] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@7444714e
+[2018-01-18 09:56:19] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-01-18 09:56:20] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-01-18 09:56:20] [INFO] [org.quartz.core.QuartzScheduler:461] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-01-18 10:00:38] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-01-18 10:00:39] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-01-18 10:00:40] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-01-18 10:00:42] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-01-18 10:00:42] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-01-18 10:00:42] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-01-18 10:00:42] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-01-18 10:00:42] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-01-18 10:00:42] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@58094f34
+[2018-01-18 10:00:42] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-01-18 10:00:44] [WARN] [org.springframework.web.context.support.XmlWebApplicationContext:489] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.jeecgframework.p3.core.util.plugin.ViewVelocity#0' defined in class path resource [config/spring-config-p3.xml]: Invocation of init method failed; nested exception is java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5110)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5633)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1700)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1690)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:81)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1613)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1550)
+	... 21 more
+Caused by: org.apache.velocity.exception.VelocityException: Failed to initialize an instance of org.apache.velocity.runtime.log.Log4JLogChute with the current runtime configuration.
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:206)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:255)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:795)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:250)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:589)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:229)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:107)
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:71)
+	... 23 more
+Caused by: java.lang.RuntimeException: Error configuring Log4JLogChute : 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.velocity.util.ExceptionUtils.createWithCause(ExceptionUtils.java:67)
+	at org.apache.velocity.util.ExceptionUtils.createRuntimeException(ExceptionUtils.java:45)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:133)
+	at org.apache.velocity.runtime.log.Log4JLogChute.init(Log4JLogChute.java:85)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:157)
+	... 30 more
+Caused by: java.io.FileNotFoundException: velocity.log (æ‹æ¯∑√Œ °£)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.<init>(FileAppender.java:110)
+	at org.apache.log4j.RollingFileAppender.<init>(RollingFileAppender.java:79)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:118)
+	... 32 more
+[2018-01-18 10:00:44] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:766] Shutting down Quartz Scheduler
+[2018-01-18 10:00:44] [INFO] [org.quartz.core.QuartzScheduler:570] Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+[2018-01-18 10:00:44] [INFO] [org.quartz.core.QuartzScheduler:496] Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+[2018-01-18 10:00:44] [INFO] [org.quartz.core.QuartzScheduler:621] Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+[2018-01-18 10:00:44] [INFO] [com.alibaba.druid.pool.DruidDataSource:982] {dataSource-1} closed
+[2018-01-18 10:00:44] [ERROR] [org.springframework.web.context.ContextLoader:331] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.jeecgframework.p3.core.util.plugin.ViewVelocity#0' defined in class path resource [config/spring-config-p3.xml]: Invocation of init method failed; nested exception is java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5110)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5633)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1700)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1690)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:81)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1613)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1550)
+	... 21 more
+Caused by: org.apache.velocity.exception.VelocityException: Failed to initialize an instance of org.apache.velocity.runtime.log.Log4JLogChute with the current runtime configuration.
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:206)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:255)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:795)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:250)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:589)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:229)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:107)
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:71)
+	... 23 more
+Caused by: java.lang.RuntimeException: Error configuring Log4JLogChute : 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.velocity.util.ExceptionUtils.createWithCause(ExceptionUtils.java:67)
+	at org.apache.velocity.util.ExceptionUtils.createRuntimeException(ExceptionUtils.java:45)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:133)
+	at org.apache.velocity.runtime.log.Log4JLogChute.init(Log4JLogChute.java:85)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:157)
+	... 30 more
+Caused by: java.io.FileNotFoundException: velocity.log (æ‹æ¯∑√Œ °£)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.<init>(FileAppender.java:110)
+	at org.apache.log4j.RollingFileAppender.<init>(RollingFileAppender.java:79)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:118)
+	... 32 more
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-01-18 11:09:07] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-01-18 11:09:07] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-01-18 11:09:09] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-01-18 11:09:10] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-01-18 11:09:10] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-01-18 11:09:10] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-01-18 11:09:10] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-01-18 11:09:10] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-01-18 11:09:10] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3c6cfbb
+[2018-01-18 11:09:11] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-01-18 11:09:12] [WARN] [org.springframework.web.context.support.XmlWebApplicationContext:489] Exception encountered during context initialization - cancelling refresh attempt
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.jeecgframework.p3.core.util.plugin.ViewVelocity#0' defined in class path resource [config/spring-config-p3.xml]: Invocation of init method failed; nested exception is java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5110)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5633)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1700)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1690)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:81)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1613)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1550)
+	... 21 more
+Caused by: org.apache.velocity.exception.VelocityException: Failed to initialize an instance of org.apache.velocity.runtime.log.Log4JLogChute with the current runtime configuration.
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:206)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:255)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:795)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:250)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:589)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:229)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:107)
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:71)
+	... 23 more
+Caused by: java.lang.RuntimeException: Error configuring Log4JLogChute : 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.velocity.util.ExceptionUtils.createWithCause(ExceptionUtils.java:67)
+	at org.apache.velocity.util.ExceptionUtils.createRuntimeException(ExceptionUtils.java:45)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:133)
+	at org.apache.velocity.runtime.log.Log4JLogChute.init(Log4JLogChute.java:85)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:157)
+	... 30 more
+Caused by: java.io.FileNotFoundException: velocity.log (æ‹æ¯∑√Œ °£)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.<init>(FileAppender.java:110)
+	at org.apache.log4j.RollingFileAppender.<init>(RollingFileAppender.java:79)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:118)
+	... 32 more
+[2018-01-18 11:09:12] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:766] Shutting down Quartz Scheduler
+[2018-01-18 11:09:12] [INFO] [org.quartz.core.QuartzScheduler:570] Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+[2018-01-18 11:09:12] [INFO] [org.quartz.core.QuartzScheduler:496] Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+[2018-01-18 11:09:12] [INFO] [org.quartz.core.QuartzScheduler:621] Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+[2018-01-18 11:09:12] [INFO] [com.alibaba.druid.pool.DruidDataSource:982] {dataSource-1} closed
+[2018-01-18 11:09:12] [ERROR] [org.springframework.web.context.ContextLoader:331] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'org.jeecgframework.p3.core.util.plugin.ViewVelocity#0' defined in class path resource [config/spring-config-p3.xml]: Invocation of init method failed; nested exception is java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1554)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:539)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:475)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:229)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:298)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:193)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:706)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:762)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:482)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:403)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:306)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:106)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:5110)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5633)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:145)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1700)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1690)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.Exception: ∆Ù∂ØVelocity ß∞‹
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:81)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1613)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1550)
+	... 21 more
+Caused by: org.apache.velocity.exception.VelocityException: Failed to initialize an instance of org.apache.velocity.runtime.log.Log4JLogChute with the current runtime configuration.
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:206)
+	at org.apache.velocity.runtime.log.LogManager.updateLog(LogManager.java:255)
+	at org.apache.velocity.runtime.RuntimeInstance.initializeLog(RuntimeInstance.java:795)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:250)
+	at org.apache.velocity.runtime.RuntimeInstance.init(RuntimeInstance.java:589)
+	at org.apache.velocity.runtime.RuntimeSingleton.init(RuntimeSingleton.java:229)
+	at org.apache.velocity.app.Velocity.init(Velocity.java:107)
+	at org.jeecgframework.p3.core.util.plugin.ViewVelocity.afterPropertiesSet(ViewVelocity.java:71)
+	... 23 more
+Caused by: java.lang.RuntimeException: Error configuring Log4JLogChute : 
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.apache.velocity.util.ExceptionUtils.createWithCause(ExceptionUtils.java:67)
+	at org.apache.velocity.util.ExceptionUtils.createRuntimeException(ExceptionUtils.java:45)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:133)
+	at org.apache.velocity.runtime.log.Log4JLogChute.init(Log4JLogChute.java:85)
+	at org.apache.velocity.runtime.log.LogManager.createLogChute(LogManager.java:157)
+	... 30 more
+Caused by: java.io.FileNotFoundException: velocity.log (æ‹æ¯∑√Œ °£)
+	at java.io.FileOutputStream.open0(Native Method)
+	at java.io.FileOutputStream.open(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.log4j.FileAppender.setFile(FileAppender.java:294)
+	at org.apache.log4j.RollingFileAppender.setFile(RollingFileAppender.java:207)
+	at org.apache.log4j.FileAppender.<init>(FileAppender.java:110)
+	at org.apache.log4j.RollingFileAppender.<init>(RollingFileAppender.java:79)
+	at org.apache.velocity.runtime.log.Log4JLogChute.initAppender(Log4JLogChute.java:118)
+	... 32 more
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-01-18 11:19:45] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-01-18 11:19:46] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-01-18 11:19:46] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-01-18 11:19:47] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-01-18 11:19:49] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-01-18 11:19:49] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-01-18 11:19:49] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-01-18 11:19:49] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-01-18 11:19:49] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-01-18 11:19:49] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3c6cfbb
+[2018-01-18 11:19:50] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-01-18 11:19:51] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-01-18 11:19:51] [INFO] [org.quartz.core.QuartzScheduler:461] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-01-18 11:21:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:444] ================================ø™ º ±º‰:2018-01-18 11:21:19==============================
+[2018-01-18 11:21:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:449] ================================Ω· ¯ ±º‰:2018-01-18 11:21:19==============================
+[2018-01-18 11:21:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:450] ================================∫ƒ ±:219ms==============================
+[2018-01-18 11:21:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login ◊ ‘¥¬∑æ∂returnURL£∫null
+[2018-01-18 11:36:21] [INFO] [org.quartz.core.QuartzScheduler:496] Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+[2018-01-18 11:36:21] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:766] Shutting down Quartz Scheduler
+[2018-01-18 11:36:21] [INFO] [org.quartz.core.QuartzScheduler:570] Scheduler schedulerFactory_$_NON_CLUSTERED shutting down.
+[2018-01-18 11:36:21] [INFO] [org.quartz.core.QuartzScheduler:496] Scheduler schedulerFactory_$_NON_CLUSTERED paused.
+[2018-01-18 11:36:21] [INFO] [org.quartz.core.QuartzScheduler:621] Scheduler schedulerFactory_$_NON_CLUSTERED shutdown complete.
+[2018-01-18 11:36:21] [INFO] [com.alibaba.druid.pool.DruidDataSource:982] {dataSource-1} closed

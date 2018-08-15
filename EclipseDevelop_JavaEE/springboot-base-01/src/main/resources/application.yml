@@ -1,0 +1,6 @@
+#==========================springboot内置配置====================================
+server:
+  port: 8989 #自定义web应用端口配置
+  servlet:
+    context-path: /hello #web应用访问上下文
+  

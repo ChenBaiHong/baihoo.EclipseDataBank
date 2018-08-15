@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Comparator"/>
+<fullyQualifiedTypeName name="java.util.Arrays"/>
+<fullyQualifiedTypeName name="com.google.common.collect.ImmutableList"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Lists"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Collections2"/>
+<fullyQualifiedTypeName name="com.google.common.base.Predicate"/>
+<fullyQualifiedTypeName name="com.google.common.base.Functions"/>
+<fullyQualifiedTypeName name="java.util.Collections"/>
+<fullyQualifiedTypeName name="com.google.common.base.Function"/>
+<fullyQualifiedTypeName name="com.google.common.base.Predicates"/>
+<fullyQualifiedTypeName name="com.google.common.base.Preconditions"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Constraints"/>
+<fullyQualifiedTypeName name="com.google.common.collect.Sets"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="org.apache.commons.collections4.Predicate"/>
+<fullyQualifiedTypeName name="com.baiHoo.model.Level"/>
+<fullyQualifiedTypeName name="java.io.OutputStream"/>
+<fullyQualifiedTypeName name="java.io.UnsupportedEncodingException"/>
+<fullyQualifiedTypeName name="java.io.InputStream"/>
+<fullyQualifiedTypeName name="java.io.DataOutputStream"/>
+<fullyQualifiedTypeName name="java.io.DataInputStream"/>
+<fullyQualifiedTypeName name="com.baiHoo.io.utils.FileUtil"/>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="com.baiHoo.tcp.chatGUI.demo02.ChatManager"/>
+<fullyQualifiedTypeName name="com.baiHoo.httpserver.Response"/>
+<fullyQualifiedTypeName name="com.baiHoo.httpserver.Request"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,34 @@
+1529635986336	Delete element
+1529636284844	Rename type 'ReadPrintFile'
+1529637439204	Rename package 'com.baiHoo.io'
+1529637453098	Delete element
+1529637469964	Rename package 'com.baiHoo.io'
+1529637480459	Copy packages
+1529637496817	Delete element
+1529637549466	Rename resource 'io'
+1529637563665	Delete element
+1529637570227	Delete element
+1529637575110	Delete element
+1529637954814	Rename package 'com.baiHoo.charIo.ReadPlainText'
+1529638838000	Rename package 'com.baiHoo.convertIo'
+1529638846446	Rename package 'com.baiHoo.EncodeConvertIo'
+1529638929262	Rename type 'CharacterEncodingPrint'
+1529639440911	Rename resource 'SystemIn.java'
+1529639475136	Delete element
+1529639751945	Rename package 'com.baiHoo.byteArrayIo.byteArrayRead'
+1529639771736	Delete element
+1529639782839	Rename type 'ByteArrayRead'
+1529639943945	Move compilation unit
+1529639953320	Rename compilation unit 'ByteArrayRw2.java'
+1529641155931	Move compilation unit
+1529641164644	Rename package 'com.baiHoo.objectIo.serializeObj'
+1529641244668	Rename package 'com.baiHoo.objectIo.obj'
+1529641281715	Rename type 'SerializeObj'
+1529641375872	Rename package 'com.baiHoo.objectIo.serialize'
+1529641380666	Delete element
+1529641393459	Rename package 'com.baiHoo.objectIo.outSerialize'
+1529642178321	Move compilation unit
+1529642309907	Move compilation unit
+1529642766184	Rename type 'SystemInDemo'
+1529643532745	Copy file
+1529643976500	Copy compilation unit

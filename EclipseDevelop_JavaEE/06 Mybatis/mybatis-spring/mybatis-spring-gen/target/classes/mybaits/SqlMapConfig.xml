@@ -1,0 +1,49 @@
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+	<!-- 
+	属性定义
+	加载一个properties文件
+	在 properties标签 中配置属性值
+	 -->
+	<properties resource="db.properties">
+		<!-- 
+		<property name="" value=""/> 
+		-->
+	</properties>
+	<!-- 全局参数配置 -->
+	<settings>
+		<!-- 延迟加载总开关 -->
+		<setting name="lazyLoadingEnabled" value="true"/>
+		<!-- 设置按需加载 -->
+		<setting name="aggressiveLazyLoading" value="false"/>
+		<!-- 开启二级缓存配置全局参数 -->
+		<setting name="cacheEnabled" value="true"/>
+	</settings>
+	
+	<!-- 定义 别名 -->
+	<typeAliases>
+		<!-- 
+		批量别名定义
+		指定包路径，自动扫描包下边的pojo，定义别名，别名默认为类名（首字母小写或大写）
+		 -->
+		<package name="com.baihoo.mybatis.pojo"/>
+		<package name="com.baihoo.mybatis.pojoDto"/>
+	</typeAliases>
+	<!--
+	加载mapper映射
+	如果将和spring整合后，可以使用整合包中提供的mapper扫描器，此处的mappers不用配置了。
+	 -->
+	<mappers>
+		<!-- 
+		批量mapper配置 
+		通过package进行自动扫描包下边的mapper接口，
+		要求：需要mapper.xml和mapper.java同名并且在一个目录中
+		-->
+		<package name="com.baihoo.mybatis.mapper"/>
+	</mappers>
+	
+	
+</configuration>

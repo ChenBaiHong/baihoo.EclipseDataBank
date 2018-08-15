@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+		
+
+		<interceptors>
+
+			<interceptor name="my" class="com.baihoo.intercept.MyInterceptor">
+			</interceptor>
+
+			<interceptor name="bookInterceptor" class="com.baihoo.intercept.BookInterceptor">
+				<param name="includeMethods">add,update,delete</param>
+			</interceptor>
+
+			<interceptor-stack name="myStack">
+				<interceptor-ref name="bookInterceptor"></interceptor-ref>
+				<interceptor-ref name="defaultStack" />
+			</interceptor-stack>
+		</interceptors>
+		
+		<global-results>
+			<result name="login">/login.jsp</result>
+		</global-results>
+
+		<action name="demo1" class="com.baihoo.action.Demo1Action">
+			<result name="login">/login.jsp</result>
+			<!-- <interceptor-ref name="my" /> <interceptor-ref name="defaultStack"/> -->
+			<interceptor-ref name="myStack" />
+		</action>
+
+
+		<action name="login" class="com.baihoo.action.LoginAction">
+			<result name="input">/login.jsp</result>
+
+			<result>/book.jsp</result>
+		</action>
+
+		<action name="book_*" class="com.baihoo.action.BookAction"
+			method="{1}">
+			<interceptor-ref name="myStack" />
+
+		</action>
+	</package>
+</struts>

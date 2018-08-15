@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="Estore-console-web"/>
+<aop-project name="OnlineEdu-Common"/>
+<aop-project name="Estore-core"/>
+<aop-project name="Estore-console"/>
+<aop-project name="OnlineEdu-Portal"/>
+<aop-project name="Estore-jeecg"/>
+</aop-reference-model>

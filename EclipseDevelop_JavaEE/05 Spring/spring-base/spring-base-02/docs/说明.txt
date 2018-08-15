@@ -1,0 +1,63 @@
+
+Spring 注解开发
+<!-- ====================================================================== -->
+
+1、 Spring的注解装配Bean
+		提示：以下的注解是spring提供等效注解，以便醒目的分层
+			@Component  描述Spring框架中Bean 
+			Spring的框架中提供了与@Component注解等效的三个注解:
+				@Repository 用于对DAO实现类进行标注
+				@Service 用于对Service实现类进行标注
+				@Controller 用于对Controller实现类进行标注
+
+<!-- ====================================================================== -->
+				
+2、Bean的属性注入:
+	普通属性;
+		@Value(value="baihoo")
+		private String info;
+
+	对象属性:
+		@Autowired:自动装配默认使用类型注入.
+			@Autowired
+	    	@Qualifier("userDao")		--- 按名称进行注入.
+
+			@Autowired
+	    	@Qualifier("userDao")		
+			private UserDao userDao;
+			等价于
+			@Resource(name="userDao")
+			private UserDao userDao;
+			
+<!-- ====================================================================== -->
+
+3、Bean其他的属性的配置:	
+		配置Bean初始化方法和销毁方法:
+		* init-method 和 destroy-method.
+			@PostConstruct 初始化
+			@PreDestroy  销毁
+		
+		配置Bean的作用范围:
+		@Scope
+			* singleton		:单例的.(默认的值.)
+			* prototype		:多例的.
+			* request		:web开发中.创建了一个对象,将这个对象存入request范围,request.setAttribute();
+			* session		:web开发中.创建了一个对象,将这个对象存入session范围,session.setAttribute();
+			* globalSession	:一般用于Porlet应用环境.指的是分布式开发.不是porlet环境,globalSession等同于session;
+			
+		实际开发中主要使用singleton,prototype
+
+<!-- ====================================================================== -->			
+4、使用Java类定义Bean信息的方法
+		@Configuration 指定POJO类为Spring提供Bean定义信息【com.baihoo.spring4.demo2.BeanConfig】
+		@Bean 提供一个Bean定义信息
+
+<!-- ====================================================================== -->	
+
+5、注解方式和xml配置方式两种结合使用：
+		一般使用XML注册Bean,使用注解进行属性的注入.
+		<context:annotation-config/>必须引入该标签
+
+
+
+

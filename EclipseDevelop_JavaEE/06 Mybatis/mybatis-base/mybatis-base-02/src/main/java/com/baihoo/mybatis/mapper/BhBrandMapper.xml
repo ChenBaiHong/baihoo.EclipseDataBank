@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 
+	namespace 命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao层的方式，使用namespace有特殊的作用
+	mapper 代理开发时将namespace指定为mapper接口的全限定名
+	 -->
+<mapper namespace="com.baihoo.mybatis.mapper.BhBrandMapper">
+	<!-- ======================================动态SQL与SQL片段的定义======================================== -->
+	
+	<!-- //======================================动态SQL与SQL片段的定义======================================== -->
+
+	<!-- ========================================resultMa定义)============================================== -->
+
+	<resultMap type="BhBrand" id="BhBrandResultMap">
+		<id column="id" property="id" />
+		<result column="name" property="name" />
+		<result column="description" property="description" />
+		<result column="create_time" property="createTime" />
+		<result column="update_time" property="updateTime" />
+	</resultMap>
+	<!-- //========================================resultMa定义)============================================== -->
+
+	<!-- ========================================对象包装器查询============================================== -->
+	
+	<!-- //========================================对象包装器查询============================================== -->
+
+	 <!-- =========================================SQL语句查询============================================= -->
+	 
+	 <!-- //=========================================SQL语句查询============================================= -->
+	 
+	 <!-- =========================================SQL语句插入============================================= -->
+	 <insert id="insertBhBrand" parameterType="BhBrand">
+	 	<!-- mySQL返回主键id -->
+	 	<selectKey keyProperty="id" order="AFTER" resultType="String">
+	 		SELECT LAST_INSERT_ID()
+	 	</selectKey>
+	 	INSERT INTO bh_brand (
+			id,
+			name,
+			description
+		)
+		VALUES
+			(
+				#{id}, #{name}, #{description} 
+			)
+	 </insert>
+	 <!-- //=========================================SQL语句插入============================================= -->
+	 
+	 <!-- =========================================SQL语句更新============================================= -->
+	 <!-- 
+	 动态更新的sql语句
+	 这里，SET元素将动态地设置SET关键字，但无法动态去除后缀逗号。
+	 因此我们可用trim标签，进行前后缀动态修剪
+	  -->
+	<update id="updateBhBrand" parameterType="BhBrand">
+		UPDATE bh_brand
+		<!-- 
+		suffixoverride：去掉最后一个逗号
+　　	suffix：后缀
+		如若name和description不为null，那么打印的SQL为：
+			UPDATE bh_brand SET name='xx' , description='xx'   where id='x'
+		 -->
+		<trim prefix="SET" suffixOverrides="," suffix=" where id = #{id} ">
+			<if test="name != null and name !='' ">
+				name=#{name},
+			</if>
+			<if test="description != null and description !='' ">
+				description=#{description},
+			</if>
+		</trim>
+	</update>
+	 <!-- //=========================================SQL语句更新============================================= -->
+	 
+	 <!-- =========================================SQL语句删除============================================= -->
+	<delete id="deleteBhBrand" parameterType="BhBrand">
+		DELETE FROM bh_brand
+		<!-- 
+		prefix：前缀　
+　　	prefixoverride：去掉第一个AND或者是OR
+		如若name和description不为null，那么打印的SQL为：
+			DELETE FROM bh_brand WHERE name='xx' AND description='xx' 
+		 -->
+		<trim prefix="WHERE" prefixOverrides="AND | OR">
+			<if test="id != null and id !='' ">
+				AND id=#{id}
+			</if>
+			<if test="name != null and name !='' ">
+				AND name=#{name}
+			</if>
+			<if test="description != null and description !='' ">
+				AND description=#{description}
+			</if>
+		</trim>
+	</delete>
+	 <!-- //=========================================SQL语句删除============================================= -->	 
+
+</mapper>

@@ -1,0 +1,8 @@
+<-=======================================================================================->
+
+1、freemarker判斷標簽的使用
+	具體參考：/springboot-base-04-transaction/src/main/resources/templates/transferAccount.ftl
+	1.1、freemarker 中if..else 的使用
+	
+	1.2、reemarker 中if_exists標簽 去空判斷
+	

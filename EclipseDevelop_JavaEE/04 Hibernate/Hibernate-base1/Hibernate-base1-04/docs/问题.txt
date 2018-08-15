@@ -1,0 +1,8 @@
+碰到的问题hibernate4中hibernate.cfg.xml 配置文件的配置参数有改变，主要是类jar包的缺失和转移
+
+	hibernate-ehcache .jar 
+		<property name="hibernate.cache.region.factory_class">org.hibernate.cache.ehcache.EhCacheRegionFactory</property>
+		<!-- hibernate 4 配置二级缓存的提供商 -->
+		<!-- 
+		<property name="hibernate.cache.provider_class">org.hibernate.cache.EhCacheProvider </property>
+		 -->

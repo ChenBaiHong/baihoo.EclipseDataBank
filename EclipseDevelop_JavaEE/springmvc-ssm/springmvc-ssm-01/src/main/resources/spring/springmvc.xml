@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	
+	<!-- 
+		注解的handler單個配置 
+			這種方式不需要配置id或name,但還是是一種繁瑣重複的代碼工作，因此可以采用注解掃描器
+	-->
+	<!-- <bean class="com.baihoo.ssm.controller.BhProductController"></bean> -->
+	
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	使用spring組件掃描包路徑；
+	若多個包采用英文逗號（","）隔開
+	 -->
+	<context:component-scan base-package="com.baihoo.ssm.controller" />
+	
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	1、注解配置处理映射器和注解处理器适配器是成對的
+	在springmvc.xml中配置：
+		RequestMappingHandlerMapping：匹配spring容器使用@controller标识Bean,使用Bean中方法或類使用@requestMapping指定Handler方法所对应的url
+		找到对应的bean（程序编写的Handler）
+	 -->
+	 <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
+	 
+	<!--  
+	2、注解处理器适配器
+		所有的适配器都是实现了HandlerAdapter接口
+			不需要實現什麽接口之類的，需要在Handler 中使用@controller标识此类是一个控制器，使用@requestMapping指定Handler方法所对应的url
+	 -->		
+	 <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+	 		<property name="webBindingInitializer" ref="webBindingInitializer"></property>
+	 </bean>		
+	 
+	<!-- 
+	3、配置视图解析器
+		配置视图解析，能够解析jsp视图	
+	 -->	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	定义特殊参数类型转换器方式步骤如下:
+	 -->
+	 <!-- 
+	 第一步：
+			通过格式化转换器工厂，在内部加入自定义的转换器
+	 -->	
+	 <bean  id = "conversionServiceFactory" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+	 		<property name="converters">
+	 			<set>
+	 				<!-- 自定义日期转换器 -->
+	 				<bean class="com.baihoo.ssm.controller.converters.CustomDateConverter"></bean>
+	 				<!-- 自定义字符串去空转换器 -->
+	 				<bean class="com.baihoo.ssm.controller.converters.CustomTrimString"></bean>
+	 			</set>
+	 		</property>
+	 </bean>
+	 <!-- 
+	 第二步：
+			使用WebBindingInitializer装载格式化转换器工厂
+	 -->
+	 <bean id = "webBindingInitializer" class="org.springframework.web.bind.support.ConfigurableWebBindingInitializer">
+	 		<property name="conversionService" ref="conversionServiceFactory" />
+	 </bean>
+	 <!-- 
+	 第三步：
+			将WebBindingInitializer注入到【 “注解处理器”】中
+	 -->
+</beans>

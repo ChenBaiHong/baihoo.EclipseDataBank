@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans 
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+	http://www.springframework.org/schema/context
+	http://www.springframework.org/schema/context/spring-context.xsd
+	http://www.springframework.org/schema/aop
+	http://www.springframework.org/schema/aop/spring-aop.xsd
+	http://www.springframework.org/schema/tx 
+	http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 
+	使用聲明式事務配置，可以有效規範代碼
+	 -->
+	 <!-- 
+	 配置事務管理器 
+	  -->
+	  <bean id="dataSourceTransactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+		<!-- 注入连接池的对象,通过连接池对象创建模板. -->
+		<property name="dataSource" ref="dataSource"></property>
+	  </bean>
+	  <!-- 
+	  聲明式配置事務通知
+	   -->
+	  <tx:advice id="txAdvice" transaction-manager="dataSourceTransactionManager">
+	  		<!-- 增强(事务)的属性的配置 -->
+	  		<tx:attributes>
+	  			<!-- 注意：方法名称来自类匹配的到方法 
+			 	【save*, “*”表示匹配任意個字符】
+			 -->
+		 		<tx:method name="save*" propagation="REQUIRED"/>
+		 		<tx:method name="add*" propagation="REQUIRED"/>
+		 		<tx:method name="insert*" propagation="REQUIRED"/>
+		 		<tx:method name="update*" propagation="REQUIRED"/>
+		 		<tx:method name="delete*" propagation="REQUIRED"/>
+		 		<tx:method name="find*" propagation="SUPPORTS" read-only="true"/>
+		 		<tx:method name="select*" propagation="SUPPORTS" read-only="true"/>
+		 		<tx:method name="get*" propagation="SUPPORTS" read-only="true"/>
+	  		</tx:attributes>
+	  </tx:advice>
+	  <!-- aop配置定义切面和切点的信息 -->
+	  <aop:config>
+	  		<aop:advisor advice-ref="txAdvice" pointcut="execution(* com.baihoo.ssm.service.impl.*.*(..))"/>
+	  </aop:config>
+</beans>

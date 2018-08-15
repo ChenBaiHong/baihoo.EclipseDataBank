@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;init.sql&apos; to &apos;doc&apos;&#x0D;&#x0A;- Original project: &apos;baiHoo.invoice-master&apos;&#x0D;&#x0A;- Destination element: &apos;doc&apos;&#x0D;&#x0A;- Original element: &apos;init.sql&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move file" element1="init.sql" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1520604593046" target="doc" units="0" version="1.0"/>
+</session>

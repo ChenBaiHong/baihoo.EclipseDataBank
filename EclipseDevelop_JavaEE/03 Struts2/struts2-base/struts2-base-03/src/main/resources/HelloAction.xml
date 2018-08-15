@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+
+
+	<package name="hello" namespace="/" extends="struts-default">
+		<!-- 处理其它的action处理不了的请求路径 -->
+		<!-- <default-action-ref name="default" /> --> 
+		<!-- 用于设置action默认处理类 -->
+		<default-class-ref class="com.baihoo.struts2.DefaultAction" />
+
+		<action name="good">
+			<result>/index.jsp</result>
+		</action>
+		<action name="hello" class="com.baihoo.struts2.HelloAction">
+			<result>/HelloAction.jsp</result>
+		</action>
+
+		<action name="default" class="com.baihoo.struts2.DefaultAction">
+			<result>/DefaultAction.jsp</result>
+		</action>
+	</package>
+</struts>

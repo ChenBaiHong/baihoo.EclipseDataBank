@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<syncparticipants>
+<participant displayName="SVN (/jeecg-p3-biz-cms, /jeecg-p3-biz-demo, /jeecg-p3-biz-qywx, /jeecg-p3-project-generator, /jeecg-p3-web)" id="org.tigris.subversion.subclipse.participant" secondary_id="1520783254547">
+<data root="false">
+<org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS org.eclipse.team.ui.SCOPE_TYPE="ResourceScope">
+<org.eclipse.team.ui.TEAMSUBSRCIBER_REFRESHSCHEDULE org.eclipse.team.ui.CTX_REFRESHSCHEDULE_ENABLED="false" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_INTERVAL="3600" org.eclipse.team.ui.CTX_REFRESHSCHEDULE_RUNONCE="false"/>
+<resource_scope_roots resource_scope_root_resource="/jeecg-p3-biz-cms"/>
+<resource_scope_roots resource_scope_root_resource="/jeecg-p3-biz-demo"/>
+<resource_scope_roots resource_scope_root_resource="/jeecg-p3-biz-qywx"/>
+<resource_scope_roots resource_scope_root_resource="/jeecg-p3-project-generator"/>
+<resource_scope_roots resource_scope_root_resource="/jeecg-p3-web"/>
+</org.eclipse.team.ui.TEAMSUBSRCIBERSETTINGS>
+</data>
+</participant>
+</syncparticipants>

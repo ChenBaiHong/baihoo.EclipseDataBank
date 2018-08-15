@@ -1,0 +1,169 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.baiHoo.websocket</groupId>
+  <artifactId>websocket-chat</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+	<!-- 包类型是POM才能创建子模块（Maven Model 选项） -->
+	<packaging>pom</packaging>
+	<!-- //包类型是POM才能创建子模块（Maven Model 选项） -->
+	<name>websocket-chat</name>
+	<url>http://maven.apache.org</url>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.8.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-collections/commons-collections -->
+		<dependency>
+			<groupId>commons-collections</groupId>
+			<artifactId>commons-collections</artifactId>
+			<version>3.2.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-lang/commons-lang -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-logging/commons-logging -->
+		<dependency>
+			<groupId>commons-logging</groupId>
+			<artifactId>commons-logging</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.ezmorph/ezmorph -->
+		<dependency>
+			<groupId>net.sf.ezmorph</groupId>
+			<artifactId>ezmorph</artifactId>
+			<version>1.0.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib dependency 
+			中的 classifier属性 classifier元素用来帮助定义构件输出的一些附属构件。附属构件与主构件对应，比如主构件是 kimi-app-2.0.0.jar 
+			该项目可能还会通过使用一些插件生成 如 kimi-app-2.0.0-javadoc.jar 、 kimi-app-2.0.0-sources.jar 
+			这样两个附属构件。这时候，javadoc,sources就是这两个附属构件的classifier,这样附属构件也就拥有了自己唯一的坐标。 -->
+		<dependency>
+			<groupId>net.sf.json-lib</groupId>
+			<artifactId>json-lib</artifactId>
+			<version>2.4</version>
+			<classifier>jdk15</classifier>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<plugins>
+			<!-- 父类maven工程中配置ava编译版本 -->
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
+				<version>3.5</version> <configuration> <source>1.8</source> <target>1.8</target> 
+				</configuration> </plugin> -->
+			<!-- 该Eclipse ，需要自己配置Java编译环境 -->
+			<!-- 该Eclipse ，需要自己配置Java编译环境 -->
+			<!-- 该Eclipse ，需要自己配置Java编译环境 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5</version>
+				<configuration>
+					<verbose>true</verbose>
+					<fork>true</fork>
+					<executable>${JAVA8_HOME}/bin/javac</executable>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<!--// 该Eclipse ，需要自己配置Java编译环境 -->
+			<!--//该Eclipse ，需要自己配置Java编译环境 -->
+			<!--// 该Eclipse ，需要自己配置Java编译环境 -->
+		</plugins>
+	</build>
+	<!-- 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!-- 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!-- 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<repositories>
+		<repository>
+			<id>nexus-aliyun</id>
+			<name>aliyun Repository</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jeecg</id>
+			<name>jeecg Repository</name>
+			<url>http://maven.jeecg.org/nexus/content/repositories/jeecg</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jeecg-snapshots</id>
+			<name>jeecg-snapshots Repository</name>
+			<url>http://maven.jeecg.org/nexus/content/repositories/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>apache-repo</id>
+			<name>apache Repository</name>
+			<url>https://repository.apache.org/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>springsource-repo</id>
+			<name>SpringSource Repository</name>
+			<url>http://repo.springsource.org/release/</url>
+		</repository>
+		<repository>
+			<id>jboss-repo-releases</id>
+			<name>Jboss Repository</name>
+			<url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+		</repository>
+		<repository>
+			<id>central</id>
+			<name>Maven Repository Switchboard</name>
+			<layout>default</layout>
+			<url>http://repo.maven.apache.org/maven2</url>
+		</repository>
+		<repository>
+			<id>maven-repo1</id>
+			<name>maven-repo1</name>
+			<layout>default</layout>
+			<url>http://repo1.maven.org/maven2/</url>
+		</repository>
+	</repositories>
+	<!--// 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!--// 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!--// 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+
+	<!-- 常用插件仓库地址 -->
+	<!-- 常用插件仓库地址 -->
+	<!-- 常用插件仓库地址 -->
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven2-repo</id>
+			<name>maven2 Repository</name>
+			<url>http://repo1.maven.org/maven2/</url>
+		</pluginRepository>
+	</pluginRepositories>
+	<!--// 常用插件仓库地址 -->
+	<!--// 常用插件仓库地址 -->
+	<!--// 常用插件仓库地址 -->
+	<modules>
+		<module>websocket-chat-jar</module>
+		<module>websocket-chat-war</module>
+	</modules>
+</project>

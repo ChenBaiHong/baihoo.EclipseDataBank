@@ -1,0 +1,19 @@
+
+<===============================================================================================================>
+
+1、注解映射器和适配器
+
+	1.1、注解映射器
+		spring3.1之前默认加载映射器是
+			org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping，3.1之后要使用：
+			org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+			在springmvc.xml中配置RequestMappingHandlerMapping：
+			
+			使用RequestMappingHandlerMapping需要在Handler 中使用@controller标识此类是一个控制器，使用@requestMapping指定Handler方法所对应的url。
+	
+	1.2	注解适配器
+		spring3.1之前默认加载映射器是
+		org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter，3.1之后要使用：
+		org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter
+		
+		RequestMappingHandlerAdapter，不要求Handler实现任何接口，它需要和RequestMappingHandlerMapping注解映射器配对使用，主要解析Handler方法中的形参

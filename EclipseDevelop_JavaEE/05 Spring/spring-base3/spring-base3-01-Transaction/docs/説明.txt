@@ -1,0 +1,81 @@
+<!-- ====================================================================== -->	
+1、spring的事务管理
+	事务:是逻辑上一组操作，要么全都成功，要么全都失败.
+	事务特性:
+		ACID:
+				原子性:事务不可分割
+				一致性:事务执行的前后，数据完整性保持一致.
+				隔离性:一个事务执行的时候，不应该受到其他事务的打扰
+				持久性:一旦结束，数据就永久的保存到数据库.
+
+	如果不考虑隔离性:
+		脏读:一个事务读到另一个事务未提交数据
+		不可重复读:一个事务读到另一个事务已经提交数据（update）导致一个事务多次查询结果不一致
+		虚读:一个事务读到另一个事务已经提交数据（insert）导致一个事务多次查询结果不一致
+
+	事务的隔离级别:
+		未提交读:以上情况都有可能发生。
+		已提交读:避免脏读，但不可重复读，虚读是有可能发生。
+		可重复读:避免脏读，不可重复读，但是虚读有可能发生。
+		串行化:避免以上所有情况.
+<!-- ====================================================================== -->		
+2、分层开发：事务处在Service层.
+	PlatformTransactionManager:平台事务管理器.
+		API详解:
+			PlatformTransactionManager:接口.
+				Spring为不同的持久化框架提供了不同PlatformTransactionManager接口实现
+					org.springframework.jdbc.datasource.DataSourceTransactionManager	:	使用Spring JDBC或iBatis 进行持久化数据时使用
+					org.springframework.orm.hibernate4.HibernateTransactionManager		: 	使用Hibernate4.0版本进行持久化数据时使用
+					org.springframework.orm.jpa.JpaTransactionManager	使用JPA进行持久化时使用
+					org.springframework.jdo.JdoTransactionManager	当持久化机制是Jdo时使用
+					org.springframework.transaction.jta.JtaTransactionManager	使用一个JTA实现来管理事务，在一个事务跨越多个资源时必须使用
+					
+			平台事务管理器接口提供的接口方法
+				commit(TransactionStatus status) ;
+				rollback(TransactionStatus status) ;
+					TransactionStatus:事务状态
+						是否有保存点
+						是否一个新的事务
+						事务是否已经提交
+				getTransaction(TransactionDefinition definition) ;
+					TransactionDefinition:事务定义 (MySql 默认级别  repeatable_read	，	Oracle默认级别  read_commited)
+						ISOLation_XXX:事务隔离级别.
+							ISOLATION_READ_UNCOMMITTED ------ 未提交读
+							ISOLATION_READ_COMMITTED ------ 已提交读
+							ISOLATION_REPEATABLE_READ ------ 可重复读
+							ISOLATION_SERIALIZABLE  ----- 串行化
+					---------------------------------------------------------------------------------------------------------------------------------------------		
+						PROPAGATION_XXX:事务的传播行为.(不是JDBC中有的，为了解决实际开发问题.)传播行为：解决业务层之间的调用的事务的关系.
+							PROPAGATION_REQUIRED		:支持当前事务，如果不存在 就新建一个
+								* A,B	如果A有事务，B使用A的事务，如果A没有事务，B就开启一个新的事务.(A,B是在一个事务中。)
+							PROPAGATION_SUPPORTS		:支持当前事务，如果不存在，就不使用事务
+								* A,B	如果A有事务，B使用A的事务，如果A没有事务，B就不使用事务.
+							PROPAGATION_MANDATORY	:支持当前事务，如果不存在，抛出异常
+								* A,B	如果A有事务，B使用A的事务，如果A没有事务，抛出异常.
+							PROPAGATION_REQUIRES_NEW	如果有事务存在，挂起当前事务，创建一个新的事务
+								* A,B	如果A有事务，B将A的事务挂起，重新创建一个新的事务.(A,B不在一个事务中.事务互不影响.)
+							PROPAGATION_NOT_SUPPORTED	以非事务方式运行，如果有事务存在，挂起当前事务
+								* A,B	非事务的方式运行，A有事务，就会挂起当前的事务.
+							PROPAGATION_NEVER 	以非事务方式运行，如果有事务存在，抛出异常
+							PROPAGATION_NESTED	如果当前事务存在，则嵌套事务执行
+								* 基于SavePoint技术.
+									* A,B	A有事务，A执行之后，将A事务执行之后的内容保存到 SavePoint。B事务有异常的话，用户需要自己设置事务提交还是回滚.
+					
+							* 常用:(重点)
+							PROPAGATION_REQUIRED	
+							PROPAGATION_REQUIRES_NEW
+							PROPAGATION_NESTED
+					---------------------------------------------------------------------------------------------------------------------------------------------	
+						过期时间 DEADLINE
+<!-- ====================================================================== -->	
+3、Spring的事务管理:				
+	Spring的事务管理分成两类:
+		* 编程式事务管理:
+			* 手动编写代码完成事务管理。
+			   参考：com.baihoo.spring4.demo1
+		* 声明式事务管理:
+			* 不需要手动编写代码,配置.
+				声明式事务管理:(原始方式)
+					参考：com.baihoo.spring4.demo2
+				声明式事务管理:(自动代理.基于切面 ******)
+					参考：com.baihoo.spring4.demo3

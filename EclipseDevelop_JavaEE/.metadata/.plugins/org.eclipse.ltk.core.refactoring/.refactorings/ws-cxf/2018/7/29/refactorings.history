@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ws-cxf/docs/docs&apos; to &apos;説明.txt&apos;" description="Rename resource &apos;docs&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="docs/docs" name="説明.txt" stamp="1531847180668" updateReferences="true"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Request&amp;Response编程.ppt&apos; to &apos;docs&apos;&#x0D;&#x0A;- Original project: &apos;webServlet04-Request&apos;&#x0D;&#x0A;- Destination element: &apos;docs&apos;&#x0D;&#x0A;- Original element: &apos;Request&amp;Response编程.ppt&apos;" description="Copy file" element1="docs/Request&amp;Response编程.ppt" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1530663893671" target="/webServlet05-Response/docs" units="0" version="1.0"/>
+</session>

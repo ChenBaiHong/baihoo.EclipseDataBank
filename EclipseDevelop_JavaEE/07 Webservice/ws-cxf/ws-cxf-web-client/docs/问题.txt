@@ -1,0 +1,4 @@
+1、警告: Interceptor for {http://server.cxf.web.baihoo.com/}UserServiceService has thrown exception, unwinding now
+			org.apache.cxf.interceptor.Fault: HTTP verb was not GET or POST
+			
+		目前/ws-cxf-web-client/html/ws/cxf/client/UserServiceWSClient.html jQuery ajax 操作有问题！尚待解决！！！

@@ -1,0 +1,46 @@
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-01-30 09:12:24] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-01-30 09:12:25] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-01-30 09:12:25] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-01-30 09:12:27] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-01-30 09:12:28] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-01-30 09:12:28] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-01-30 09:12:28] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-01-30 09:12:28] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-01-30 09:12:28] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-01-30 09:12:28] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3c6cfbb
+[2018-01-30 09:12:29] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-01-30 09:12:30] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-01-30 09:12:30] [INFO] [org.quartz.core.QuartzScheduler:461] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-01-30 09:14:17] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:444] ================================开始时间:2018-01-30 09:14:17==============================
+[2018-01-30 09:14:17] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:444] ================================开始时间:2018-01-30 09:14:17==============================
+[2018-01-30 09:14:17] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:449] ================================结束时间:2018-01-30 09:14:17==============================
+[2018-01-30 09:14:17] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:450] ================================耗时:362ms==============================
+[2018-01-30 09:14:17] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-01-30 09:14:18] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:449] ================================结束时间:2018-01-30 09:14:18==============================
+[2018-01-30 09:14:18] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:450] ================================耗时:285ms==============================
+[2018-01-30 09:14:18] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-01-30 09:15:28] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:239] ----左右布局 demo转入页面-----
+[2018-01-30 09:15:30] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:247] ----上下特殊布局 demo转入页面-----

@@ -1,0 +1,32 @@
+
+<!-- ========================================================================================= -->
+
+1、resultMap(入门)
+	resultType ：指定输出结果的类型（pojo、简单类型、hashmap..），将sql查询结果映射为java对象 。
+		使用resultType注意：sql查询的列名要和resultType指定pojo的属性名相同，指定相同 属性方可映射成功，如果sql查询的列名要和resultType指定pojo的属性名全部不相同，list中无法创建pojo对象的。
+
+	resultMap：将sql查询结果映射为java对象。
+		如果sql查询列名和最终要映射的pojo的属性名不一致，使用resultMap将列名和pojo的属性名做一个对应关系 （列名和属性名映射配置）
+		
+<!-- ========================================================================================= -->		
+2、动态sql(重点)以下具体参考：/mybatis-base-01/src/main/java/com/baihoo/mybatis/demo6/mapper/sellerInfoMapper.xml
+		mybatis重点是对sql的灵活解析和处理。
+		2.1、需求
+			将自定义查询条件查询用户列表和查询用户列表总记录数改为动态sql
+			if 和 where 标签的使用
+			
+		2.2、sql片段
+			通过sql片段可以将通用的sql语句抽取出来，单独定义，在其它的statement中可以引用sql片段。
+			通用的sql语句，常用：where条件、查询列
+			
+			sql片段的定义
+			
+			引用sql片段
+			
+		2.3、foreach
+			在statement通过foreach遍历parameterType中的集合类型。
+			需求：
+			根据多个用户id查询用户信息。
+			
+		
+

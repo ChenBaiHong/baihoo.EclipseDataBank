@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 
+	namespace 命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao层的方式，使用namespace有特殊的作用
+	mapper 代理开发时将namespace指定为mapper接口的全限定名
+	 -->
+<mapper namespace="com.baihoo.shiro.mapper.BhProductMapperCustom">
+	<!-- ======================================动态SQL与SQL片段的定义======================================== -->
+	<!-- 映射表別名 -->
+	<sql id="Base_Table_Alias">
+			bh_product AS p
+	</sql>
+	<!-- 映射表字段別名 -->
+	<sql id="Base_Column_Alias_List">
+			p.id  AS p_id,
+			p. NAME AS p_name,
+			p.price AS p_price,
+			p.description AS p_description,
+			p.shelf_time AS p_shelf_time,
+			p.create_time AS p_create_time,
+			p.update_time AS p_update_time,
+			p.pic_path p_pic_path
+	</sql>
+	<sql id="Query_ProductQto_Where">
+		<if test="bhProductCustom !=null">
+			<if test="bhProductCustom.name !=null and bhProductCustom.name !=''">
+			AND p.name = #{bhProductCustom.name}
+			</if>
+			<if test="bhProductCustom.bId !=null and bhProductCustom.bId !=''">
+			AND p.b_id = ${bhProductCustom.bId}
+			</if>
+			<if test="bhProductCustom.cId !=null and bhProductCustom.cId !=''">
+			AND p.c_id = ${bhProductCustom.cId}
+			</if>
+		</if>
+	</sql>
+	<!-- //======================================动态SQL与SQL片段的定义======================================== -->
+
+	<!-- ========================================resultMa定义)============================================== -->
+	<resultMap id="BhProductCustomResultMap" type="com.baihoo.shiro.pojoCustom.BhProductCustom"
+		extends="com.baihoo.shiro.mapper.BhProductMapper.BaseResultMap">
+		<!-- 關聯產品配牌 -->
+		<association property="bhBrandCustom" javaType="com.baihoo.shiro.pojoCustom.BhBrandCustom">
+			<id column="b_id" jdbcType="INTEGER" property="id" />
+			<result column="b_name" jdbcType="VARCHAR" property="name" />
+			<result column="b_description" jdbcType="VARCHAR" property="description" />
+			<result column="b_create_time" jdbcType="TIMESTAMP" property="createTime" />
+			<result column="b_update_time" jdbcType="TIMESTAMP" property="updateTime" />
+		</association>
+		<!-- 關聯的產品類別 -->
+		<association property="bhCateCustom" javaType="com.baihoo.shiro.pojoCustom.BhCateCustom">
+			<id column="c_id" jdbcType="INTEGER" property="id" />
+			<result column="c_name" jdbcType="VARCHAR" property="name" />
+			<result column="c_layer" jdbcType="INTEGER" property="layer" />
+			<result column="c_update_time" jdbcType="TIMESTAMP" property="updateTime" />
+			<result column="c_create_time" jdbcType="TIMESTAMP" property="createTime" />
+		</association>
+		
+	</resultMap>
+	<!-- //========================================resultMa定义)============================================== -->
+
+	<!-- ========================================对象包装器查询============================================== -->
+	
+	<!-- //========================================对象包装器查询============================================== -->
+
+	 <!-- =========================================SQL语句查询============================================= -->
+	 
+	 <!-- //=========================================SQL语句查询============================================= -->
+	<!--  查詢商品詳細信息 -->
+	<select id="findProductDetailList" parameterType="com.baihoo.shiro.pojoQto.BhProductQto" resultMap="BhProductCustomResultMap">
+		SELECT
+			p.id,
+			p. NAME AS 'name',
+			p.price,
+			p.description,
+			p.shelf_time,
+			p.create_time,
+			p.update_time,
+			p.pic_path,
+			<include refid="com.baihoo.shiro.mapper.BhBrandMapperCustom.Base_Column_Alias_List"/>
+			，
+			<include refid="com.baihoo.shiro.mapper.BhCateMapperCustom.Base_Column_Alias_List"/>
+		FROM
+			bh_product p
+			,
+			<include refid="com.baihoo.shiro.mapper.BhBrandMapperCustom.Base_Table_Alias"/>
+			,
+			<include refid="com.baihoo.shiro.mapper.BhCateMapperCustom.Base_Table_Alias"/>
+		WHERE
+			p.b_id = b.id
+		AND p.c_id = c.id
+		<include refid="Query_ProductQto_Where"></include>
+	</select>	 
+	<!-- 查詢商品列表 -->
+	<select id="findProductList" parameterType="com.baihoo.shiro.pojoQto.BhProductQto" resultMap="BhProductCustomResultMap">
+		SELECT
+			p.id,
+			p. NAME AS 'name',
+			p.price,
+			p.description,
+			p.shelf_time,
+			p.create_time,
+			p.update_time,
+			p.pic_path
+		FROM
+			bh_product p
+		<where>
+			<include refid="Query_ProductQto_Where"></include>
+		</where>
+	</select>	 
+	<!-- 查詢单个商品-->
+	<select id="findProductById" parameterType="Integer" resultMap="BhProductCustomResultMap">
+		SELECT
+			p.id,
+			p.name AS 'name',
+			p.price,
+			p.description as 'description', 
+			p.shelf_time as 'shelf_time',
+			p.create_time,
+			p.update_time,
+			p.pic_path,
+			<include refid="com.baihoo.shiro.mapper.BhBrandMapperCustom.Base_Column_Alias_List"/>
+			,
+			<include refid="com.baihoo.shiro.mapper.BhCateMapperCustom.Base_Column_Alias_List"/>
+		FROM
+			bh_product p
+			,
+			<include refid="com.baihoo.shiro.mapper.BhBrandMapperCustom.Base_Table_Alias"/>
+			,
+			<include refid="com.baihoo.shiro.mapper.BhCateMapperCustom.Base_Table_Alias"/>
+		WHERE
+			p.b_id = b.id
+		AND p.c_id = c.id
+		AND p.id = #{id}
+	</select>	 
+	 <!-- =========================================SQL语句插入============================================= -->
+
+	 <!-- //=========================================SQL语句插入============================================= -->
+	 
+	 <!-- =========================================SQL语句更新============================================= -->
+
+	 <!-- //=========================================SQL语句更新============================================= -->
+	 
+	 <!-- =========================================SQL语句删除============================================= -->
+
+	 <!-- //=========================================SQL语句删除============================================= -->	 
+</mapper>

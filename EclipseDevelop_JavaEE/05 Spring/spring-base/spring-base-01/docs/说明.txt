@@ -1,0 +1,37 @@
+Spring XML配置开发
+<!-- ====================================================================== -->
+1、Bean的其他配置:
+		<bean name="bean1" class="com.baihoo.spring4.demo2.Bean1"></bean>
+		id和name的区别:
+		id遵守XML约束的id的约束.id约束保证这个属性的值是唯一的,而且必须以字母开始，可以使用字母、数字、连字符、下划线、句话、冒号
+		name没有这些要求
+		
+<!-- ====================================================================== -->		
+2、Bean的作用范围，scope属性 :
+		* singleton		:单例的.(默认的值.)
+		* prototype		:多例的.
+		* request		:web开发中.创建了一个对象,将这个对象存入request范围,request.setAttribute();
+		* session		:web开发中.创建了一个对象,将这个对象存入session范围,session.setAttribute();
+		* globalSession	:一般用于Porlet应用环境.指的是分布式开发.不是porlet环境,globalSession等同于session;
+		
+		实际开发中主要使用singleton,prototype
+<!-- ====================================================================== -->	
+ 3、 Bean的生命周期: 【 详情：com.baihoo.spring4.demo4;】
+  		Bean的生命周期的11个步骤:
+ 				1.instantiate bean对象实例化
+ 				2.populate properties 封装属性
+ 				3.如果Bean实现BeanNameAware 执行 setBeanName
+ 				4.如果Bean实现BeanFactoryAware 或者 ApplicationContextAware 设置工厂 setBeanFactory 或者上下文对象 setApplicationContext
+ 
+ 				5.如果存在类实现 BeanPostProcessor（后处理Bean） ，执行postProcessBeforeInitialization
+ 
+ 				6.如果Bean实现InitializingBean 执行 afterPropertiesSet 
+ 				7.调用<bean init-method="init"> 指定初始化方法 init
+ 
+ 				8.如果存在类实现 BeanPostProcessor（处理Bean） ，执行postProcessAfterInitialization
+ 
+ 				9.执行业务处理
+ 				10.如果Bean实现 DisposableBean 执行 destroy
+ 				11.调用<bean destroy-method="customerDestroy"> 指定销毁方法 customerDestroy
+ 				
+ 				在CustomerService类的add方法之前进行权限校验?

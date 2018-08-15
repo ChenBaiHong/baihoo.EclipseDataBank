@@ -1,0 +1,26 @@
+<!DOCTYPE configuration
+PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<!-- 全局参数配置 -->
+	<!-- 
+	<settings>
+		延迟加载总开关
+		<setting name="lazyLoadingEnabled" value="true"/>
+		设置按需加载
+		<setting name="aggressiveLazyLoading" value="false"/>
+		开启二级缓存配置全局参数
+		<setting name="cacheEnabled" value="true"/>
+	</settings>
+	 -->
+	<!-- 定义 别名 -->
+	<typeAliases>
+		<!-- 
+		批量别名定义
+		指定包路径，自动扫描包下边的pojo，定义别名，别名默认为类名（首字母小写或大写）
+		 -->
+		<package name="com.baihoo.ssm.pojo"/>
+		<package name="com.baihoo.ssm.pojoCustom"/>
+		<package name="com.baihoo.ssm.pojoQto"/>
+	</typeAliases>
+</configuration>

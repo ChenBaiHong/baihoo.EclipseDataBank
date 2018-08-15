@@ -1,0 +1,10 @@
+<-- ================================================================ -->
+1.	实现cxf第一个示例
+	1.	创建maven项目
+	2.	引入所有依赖包
+	3.	创建服务类
+	用两个不同的类发布应用： 
+		ServerFactoryBean(不需要使用@webservice)   生成的文档不规范，不建议使用
+		JaxWsServerFactoryBean(建议使用此类，需要使用@webservice) 生成的文档不规范，可以发布SOAP1.1，SOAP1.2的协议，当cxf的服务类中没有方法时也可以发布成功，不报错。如果使用SOAP1.2需要用@bindType注解指定
+		当使用SOAP1.2时wsimport命令失效，需要使用cxf的wsdl2java
+		建议：发布服务的时候使用SOAP1.2，客户端调用的时候使用SOAP1.1

@@ -1,0 +1,6 @@
+Eclipse 运行工程，Tomcat8+jdk1.6以上
+
+登陆的URL地址：
+
+默认登陆用户：baiHoo
+默认登陆密码：123456

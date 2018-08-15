@@ -1,0 +1,74 @@
+package com.baihoo.controller;
+
+import java.util.List;
+
+import org.apache.struts2.convention.annotation.Action;
+import org.apache.struts2.convention.annotation.Namespace;
+import org.apache.struts2.convention.annotation.ParentPackage;
+import org.apache.struts2.convention.annotation.Result;
+import org.apache.struts2.convention.annotation.Results;
+import org.hibernate.criterion.DetachedCriteria;
+import org.hibernate.criterion.Restrictions;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Controller;
+
+import com.baihoo.dtobj.Member;
+import com.baihoo.service.MemberService;
+import com.opensymphony.xwork2.ActionSupport;
+import com.opensymphony.xwork2.ModelDriven;
+
+@Namespace("/")
+@Results({ @Result(name = "SUCCESS", type = "dispatcher", location = "/index.jsp"),
+					@Result(name = "MYSUCCESS", type = "dispatcher", location = "/index.jsp") })
+@ParentPackage("struts-default") // <package namespace="/" extends="strtus-default">
+@Controller(value="memberAction")
+@Scope("prototype")
+public class MemberAction_bc extends ActionSupport implements ModelDriven<Member>{
+	private static final String MYSUCCESS = "MYSUCCESS";
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	@Autowired
+	@Qualifier("memberService")
+	private MemberService memberService;
+	// 模型驱动类
+	Member member= new Member();
+	@Override
+	public Member getModel() {
+		return member;
+	}
+	
+//	@Action(value = "addMember", results = {
+//			@Result(name = "MYSUCCESS", type = "dispatcher", location = "/index.jsp") })
+	@Action(value="addMember")
+	public String add() {
+		System.out.println("web层的添加执行了...");
+		memberService.add(member);
+		return MYSUCCESS;
+	}
+	@Action(value="findMember")
+	public String findMember() {
+		List<Member> members = memberService.findByName("baiHoo");
+		members.forEach(e -> System.out.println(e));
+		return SUCCESS;
+	}
+	@Action(value="findByIdLazy")
+	public String findByIdLazy() {
+		Member member = memberService.findByIdLazy(2);
+		System.out.println(member);
+		return SUCCESS;
+	}
+	@Action(value="findByCriteria")
+	public String findByCriteria() {
+		DetachedCriteria criteria = DetachedCriteria.forClass(Member.class);
+		criteria.add(Restrictions.like("meMame", "baihoo"));
+		criteria.add(Restrictions.and(Restrictions.or(Restrictions.le("meAge", 12), Restrictions.gt("meAge", 34))));
+		List<Member> members = memberService.findByCriteria(criteria);
+		
+		members.forEach(e -> System.out.println(e));
+		return MYSUCCESS;
+	}
+}

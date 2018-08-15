@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+F:\Eclipse DataBank\EclipseDevelop_JavaEE4\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+213232775.index
+2671154031.index
+3161034998.index
+3677100190.index
+3069710102.index
+712303947.index

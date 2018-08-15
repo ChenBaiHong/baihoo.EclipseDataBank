@@ -1,0 +1,15 @@
+
+7月 09, 2018 02:30:08.94 NEW SESSION
+7月 09, 2018 02:30:08.94 [16656:12332:0709/023008.941:ERROR:ssl_client_socket_impl.cc(1091)] handshake failed; returned -1, SSL error code 1, net_error -107
+7月 09, 2018 02:30:29.69 [16656:12332:0709/023029.698:ERROR:ssl_client_socket_impl.cc(1091)] handshake failed; returned -1, SSL error code 1, net_error -107
+7月 09, 2018 02:33:17.80 [16656:12332:0709/023317.801:ERROR:ssl_client_socket_impl.cc(1091)] handshake failed; returned -1, SSL error code 1, net_error -100
+
+7月 10, 2018 24:36:57.64 NEW SESSION
+7月 10, 2018 24:36:57.65 [12528:14384:0710/003657.446:ERROR:ssl_client_socket_impl.cc(1091)] handshake failed; returned -1, SSL error code 1, net_error -100
+
+7月 26, 2018 09:06:39.79 NEW SESSION
+7月 26, 2018 09:06:39.79 [6984:8948:0726/090639.781:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -118
+7月 26, 2018 09:10:23.11 [9900:13140:0726/091023.112:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -118
+7月 26, 2018 09:11:09.21 [9900:13140:0726/091109.212:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -118
+7月 26, 2018 09:12:11.39 [9900:13140:0726/091211.398:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -118
+7月 26, 2018 09:13:58.96 [9900:13140:0726/091358.964:ERROR:connection_factory_impl.cc(386)] Failed to connect to MCS endpoint with error -118

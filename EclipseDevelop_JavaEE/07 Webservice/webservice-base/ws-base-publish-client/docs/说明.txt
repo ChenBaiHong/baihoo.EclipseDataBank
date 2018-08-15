@@ -1,0 +1,1 @@
+调用自己写的webservice ，在ws-publish-server 工程下发布的

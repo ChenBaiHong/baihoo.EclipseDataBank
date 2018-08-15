@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1529199888908_0" label="estore" name="estore">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-custom-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-custom" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-jeecg-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-bs-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-bs-bean" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-common" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-web" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-core" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-product" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-config" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/estore-product-web" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1529826739824_1" label="Window Working Set" name="Aggregate for window 1529826739823"/>
+</workingSetManager>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<!DOCTYPE mapper
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+	<!-- 
+	namespace 命名空间，为了对sql语句进行隔离，方便管理，mapper开发dao层的方式，使用namespace有特殊的作用
+	mapper 代理开发时将namespace指定为mapper接口的全限定名
+	 -->
+<mapper namespace="com.baihoo.mybatis.demo6.mapper.SellerInfoMapper">
+	<!-- ======================================动态SQL与SQL片段的使用======================================== -->
+	 <!-- 
+	 将卖家用户查询条件定义为sql片段
+ 		建议对单表的查询条件单独抽取sql片段，提高公用性
+ 		注意：不要将where标签放在sql片段
+ 	  -->
+	 <sql id="query_sellerInfo_where">
+	 		<if test="sellerInfoCustom !=null">
+	 			<if test="sellerInfoCustom.username !=null and sellerInfoCustom.username !='' ">
+	 				and username like '%${sellerInfoCustom.username}%'
+	 			</if>
+	 			<if test="sellerInfoCustom.id !=null and sellerInfoCustom.id !='' ">
+	 				and id = #{sellerInfoCustom.id}
+	 			</if>
+	 			<if test="sellerInfoCustom.password !=null and sellerInfoCustom.password !='' ">
+	 				and password = #{sellerInfoCustom.password}
+	 			</if>
+	 			<if test="sellerInfoCustom.openid !=null and sellerInfoCsutom.openid !='' ">
+	 				and openid = #{sellerInfoCustom.openid}
+	 			</if>
+	 		</if>
+ 			<!-- 根据id集合查询用户信息 -->
+			<!-- 最终拼接的效果：
+			SELECT id ,username ,PASSWORD ,openid,create_time ,update_time FROM seller_info WHERE 1=1 And  id IN (2,3,4)
+			collection：集合的属性
+			open：开始循环拼接的串
+			close：结束循环拼接的串
+			item：每次循环取到的对象
+			separator：每两次循环中间拼接的串
+			
+			ids 来自于哪儿？？
+				要知道OGNL对象导航  === com.baihoo.mybatis.pojo.SellerInfoQueryVo.ids
+			 -->
+			 <foreach collection="ids" open="And  id IN (" close=")" item="id" separator=",">
+			 	#{id}
+			 </foreach>
+			 <!-- 
+			 还有很的查询条件,例如：
+			 SELECT id ,username ,PASSWORD ,openid,create_time ,update_time FROM seller_info WHERE 1=1 And (id = 2 Or id = 3 Or id=4)
+			  -->
+			  <!-- 
+			  <foreach collection="ids" open="And (" close=")" item="id" separator="Or" >
+			 		id = #{id}
+			 </foreach>
+			  -->
+	 </sql>
+	<!-- ==================================resultMap(入门)======================================= -->
+	<!-- 
+	将sql查询结果映射为java对象
+		如果sql查询列名和最终要映射的pojo的属性名不一致，使用resultMap将列名和pojo的属性名做一个对应关系 （列名和属性名映射配置）
+	 -->
+	 <!-- 
+	 定义resultMap , 数据库列名和java属性名映射配置
+	 id: mapper.xml中的唯一标识
+	 type: 最终要映射的pojo类型
+	  -->
+	 <resultMap type="SellerInfo" id="sellerInfoListResultMap">
+	 		<!-- 
+	 		数据库查询列名
+	 			_id,_username,_password, _opendid, create_time,update_time
+	 		id: 要映射结果集的唯一表示，称为主键
+	 			column: 结果集的列名
+	 			property: type指定的那个属性
+	 		 -->	
+	 		 <id column="_id" property="id"/>
+	 		 <!-- 
+	 		 result就是非主键的普通列的映射配置
+	 		  -->
+	 		  <result column="_username" property="username"/>
+	 		  <result column="_password" property="password"/>
+	 		  <result column="_opendid" property="openid"/>
+	 		  <result column="create_time" property="createTime"/>
+	 		  <result column="update_time" property="updateTime"/>
+	 </resultMap>
+	 <!-- 
+	 使用resultMap做结果集映射
+	 resultMap：结果引用resultMap的位置和resultMap的定义在同一个mapper.xml中，直接使用resultMap的Id，
+	 				如果不在同一个mapper.xml中那么要在resultMapd的id前面加上namespace
+	  -->
+	 <select id="findSellerInfoListResultMap" parameterType="SellerInfoQueryVo" resultMap="sellerInfoListResultMap">
+		SELECT
+			id _id,
+			username _username,
+			PASSWORD _password,
+			openid _opendid,
+			create_time create_time,
+			update_time update_time
+		FROM
+			seller_info
+		<where>
+			<include refid="query_sellerInfo_where" />
+		</where>
+	 </select>
+	<!-- ======================================包装器查询对象======================================== -->
+	<select id="findSellerInfoList" parameterType="SellerInfoQueryVo" resultType="SellerInfo">
+		 SELECT * FROM seller_info  
+		<where>
+			<include refid="query_sellerInfo_where" />
+		</where> 
+	</select>
+	<select id="findSellerInfoCount" parameterType="SellerInfoQueryVo" resultType="int">
+		SELECT COUNT(*) FROM seller_info 
+		<where>
+			<include refid="query_sellerInfo_where" />
+		</where>
+	</select>
+	 <!-- ======================================mybatis入门使用======================================== -->
+	 <select id="findById" parameterType="Integer" resultType="SellerInfo">
+	 	SELECT * FROM seller_info WHERE ID  =  #{id}
+	 </select>
+	 <select id="findByUsername" parameterType="String" resultType="SellerInfo">
+	 	SELECT * FROM seller_info WHERE username like '%${value}%'
+	 </select>
+	 <insert id="insertSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+	 	<selectKey keyProperty="id" order="AFTER" resultType="int">
+			select LAST_INSERT_ID()
+		</selectKey>
+	 	INSERT INTO seller_info(id , username , password , openid)VALUES (#{id},#{username},#{password}, #{openid})
+	 </insert>
+	<delete id="deleteSellerInfo" parameterType="Integer">
+		DELETE FROM seller_info WHERE ID = #{id}
+	</delete>
+	<update id="updateSellerInfo" parameterType="com.baihoo.mybatis.pojo.SellerInfo">
+		UPDATE seller_info SET username = #{username} , password = #{password} , openid=#{openid} WHERE id = #{id}
+	</update>
+</mapper>

@@ -1,0 +1,20 @@
+异常剖析
+1、mybatis异常:
+		invalid comparison: java.util.Date and java.lang.String
+		解决方案：
+			原工程中配置的是mybatis-3.2.8, 而我测试工程中用的是mybatis-3.3.0.后来在网上找了一下才知道, 原来这是mybatis 3.3.0中对于时间参数进行比较时的一个bug. 
+		如果拿传入的时间类型参数与空字符串''进行对比判断则会引发异常. 所以在上面的代码中去该该判断, 只保留非空判断就正常了
+		**Mapper.xml 中
+			<if test="createTime != null and createTime !='' " >
+			  date(create_time) = date(#{createTime,jdbcType=TIMESTAMP})
+			</if>
+			修改改如下
+			<if test="createTime != null">
+			  date(create_time) = date(#{createTime,jdbcType=TIMESTAMP})
+			</if>
+2、mybatis异常：
+		org.apache.ibatis.executor.ExecutorException: Statement returned more than one row, where no more than one was expected.
+		解决方案：
+			注意<association ... javaType="pojo"> 和 <collection ...  ofType="pojo" > 定义结果类型的使用属性的区别
+				association 定义结果类型的属性名称 javaType == 一对一查询方式
+				collection 	定义结果类型的属性名称 ofType  === 一对多查询 ， 多对多查询方式

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+	<constant name="struts.custom.i18n.resources" value="message"></constant>
+	<constant name="struts.multipart.maxSize" value="20971520"></constant>
+	<package name="default" namespace="/" extends="struts-default">
+
+
+		<action name="upload" class="com.baihoo.action.UploadAction">
+			<result name="input">/upload.jsp</result>
+			<interceptor-ref name="defaultStack">
+				<param name="maximumSize">2097152</param>
+				<param name="fileUpload.allowedExtensions">txt,mp3,doc</param>
+			</interceptor-ref>
+		</action>
+
+		<action name="download" class="com.baihoo.action.DownloadAction">
+			<result type="stream">
+				<param name="contentType">${contentType}</param> <!-- 调用当前action中的getContentType()方法 -->
+				<param name="contentDisposition">attachment;filename=${downloadFileName}</param>
+				<param name="inputStream">${inputStream}</param><!-- 调用当前action中的getInputStream()方法 -->
+			</result>
+		</action>
+	</package>
+</struts>

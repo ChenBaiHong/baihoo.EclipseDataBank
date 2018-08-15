@@ -1,0 +1,2 @@
+1. 前言
+	AppsSolarsysPattern 是基于GUI编程（AWT , Swing等），可视化图像界面的应用小程序

@@ -1,0 +1,23 @@
+#==========================springboot自定义配置====================================
+mysql:
+  driver: com.mysql.jdbc.Driver
+  url: jdbc:mysql://192.168.1.15:3306/SpringmvcStudying
+  username: root
+  password: root
+#在yml文件中，‘---’表示分隔符，表示多个yml
+--- 
+person:
+  nikeName: baihoo
+  age: 24
+  boss: false
+  #日期配置，不支持自定义格式，yyyy/MM/dd 是默认支持并会被转换为date的格式日期
+  birth: 2018/9/22
+  #map方式配置信息
+  maps: {key1: val1 , key2: 17}
+  #list方法配置信息
+  lists:
+    - list
+    - zhao liu
+  dog:
+    name: keji
+    age: 2

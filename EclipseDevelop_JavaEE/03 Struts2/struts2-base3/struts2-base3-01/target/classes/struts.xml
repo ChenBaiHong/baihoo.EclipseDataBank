@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+	<!-- 声明一个全局的国际化文件 -->
+	<constant name="struts.custom.i18n.resources" value="com.baihoo.i18n.resource.message"></constant>
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="i18ndemo1" class="com.baihoo.action.I18nDemo1Action"></action>
+		<action name="i18ndemo2" class="com.baihoo.action.I18nDemo2Action">
+			<result name="input">/input.jsp</result>
+		</action>
+
+	</package>
+</struts>

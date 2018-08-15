@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+
+
+	<package name="servletDemo" namespace="/" extends="struts-default">
+		<!-- 全局结果页面 -->
+		<global-results>
+			<result>/ServletDemoAction_success.jsp</result>
+		</global-results>
+		<!-- 全局允許的方法匹配規則 -->
+		<global-allowed-methods>regex:.*</global-allowed-methods>  
+		<action name="demo1" class="com.baihoo.struts2.ServletDemo1Action">
+			<!-- 局部结果页面 -->
+		</action>
+
+		<action name="demo2" class="com.baihoo.struts2.ServletDemo2Action">
+			<!-- <result>/demo1_success.jsp</result> -->
+		</action>
+
+		<action name="demo3" class="com.baihoo.struts2.ServletDemo3Action">
+			<!-- <result type="redirect">/demo1_success.jsp</result> -->
+		</action>
+
+	</package>
+</struts>

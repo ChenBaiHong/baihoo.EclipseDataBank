@@ -1,0 +1,44 @@
+《-- ================================================================================== --》
+1、整合开发原始dao接口
+
+		第一种方式：
+		配置BhUserMapperImpl.java由spring管理反转控制
+		此方法缺点：
+			使用此方法对于每个mapper都需要配置，比较繁琐。
+		
+		 <bean id="userMapper" class="com.baihoo.mybatis.mapper.impl.BhUserMapperImpl">
+		 		<property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+		 </bean>
+
+《-- ================================================================================== --》
+		 
+2、整合开发mapper代理方法
+
+		2.1、使用MapperFactoryBean
+			第二种方式：
+			配置mapper
+				MapperFactoryBean：用于生成mapper代理对象
+			此方法缺点：
+				使用此方法对于每个mapper都需要配置，比较繁琐。
+				
+			 <bean id="userMapper" class="org.mybatis.spring.mapper.MapperFactoryBean">
+			 		<property name="sqlSessionFactory" ref="sqlSessionFactory"></property>
+			 		<property name="mapperInterface" value="com.baihoo.mybatis.mapper.BhUserMapper"></property>
+			 </bean>
+			 
+《-- ================================================================================== --》			 
+
+3、使用MapperScannerConfigurer（扫描mapper）
+
+		 第三种方式：
+		 		MapperScannerConfigurer：mapper的扫描器，将包下边的mapper接口自动创建代理对象，
+														自动创建到spring容器中，bean的id是mapper的类名（首字母小写）
+		 综合以上两种方式：
+		 	该方式更有优势，开发简便，不会重复繁琐配置管理对象
+		 	
+		 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
+		 		<property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"></property>
+		 		<property name="basePackage" value="com.baihoo.mybatis.mapper"></property>
+		 </bean>		
+		 
+		 

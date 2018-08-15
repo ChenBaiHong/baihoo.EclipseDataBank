@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:p="http://www.springframework.org/schema/p" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+	http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- demo5Bean的属性注入==================================== -->
+
+	<!-- 构造方法的注入 ========================================== -->
+	<!-- 两种方式构造方法注入参数 第一种按参数名称注入 第二种按构造函数对应参数的位置下标注入 -->
+	<bean id="car_1" class="com.baihoo.spring4.demo5.Car">
+		<constructor-arg name="name" value="BMW" />
+		<constructor-arg name="price" value="1200.09" />
+	</bean>
+
+	<bean id="car_2" class="com.baihoo.spring4.demo5.Car">
+		<constructor-arg index="0" type="java.lang.String"
+			value="奔驰" />
+		<constructor-arg index="1" type="java.lang.Double"
+			value="22000" />
+	</bean>
+
+	<!-- 属性的注入 ============================================ -->
+	<bean id="car2_1" class="com.baihoo.spring4.demo5.Car2">
+		<!-- 标签中name就是属性名称,value是普通属性的值,ref:引用其他的对象 -->
+		<property name="name" value="奥迪" />
+		<property name="price" value="22000" />
+	</bean>
+	<bean id="person" class="com.baihoo.spring4.demo5.Person">
+		<property name="name" value="baihoo.god" />
+		<property name="car2" ref="car2_1" />
+	</bean>
+
+	<!-- 名称空间p:注入属性====================================== -->
+	<bean id="car2_2" class="com.baihoo.spring4.demo5.Car2" p:name="玛莎拉蒂"
+		p:price="5555.55" />
+	<bean id="person_2" class="com.baihoo.spring4.demo5.Person"
+		p:name="baihoo.good" p:car2-ref="car2_2" />
+
+	<!-- SpEL:属性的注入===================================== -->
+	<bean id="car2_3" class="com.baihoo.spring4.demo5.Car2">
+		<property name="name" value="#{'布加迪威龙'}"></property>
+		<property name="price" value="#{'120000.23'}"></property>
+	</bean>
+	<bean id="personInfo" class="com.baihoo.spring4.demo5.PersonInfo">
+		<property name="name" value="hareclase" />
+	</bean>
+	<bean id="person_3" class="com.baihoo.spring4.demo5.Person">
+		<property name="name" value="#{personInfo.showName()}" />
+		<property name="car2" value="#{car2_3}" />
+	</bean>
+	<!-- demo5Bean的属性注入==================================== end -->
+</beans>

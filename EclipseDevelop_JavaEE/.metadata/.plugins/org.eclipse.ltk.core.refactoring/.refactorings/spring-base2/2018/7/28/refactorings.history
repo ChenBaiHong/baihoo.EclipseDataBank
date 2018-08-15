@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;spring-base2/docs/readme.doc&apos; to &apos;spring-base2.doc&apos;" description="Rename resource &apos;readme.doc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="docs/readme.doc" name="spring-base2.doc" stamp="1531489645231" updateReferences="true"/>
+</session>

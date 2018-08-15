@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+	<package name="default" namespace="/" extends="struts-default">
+
+		<action name="ognlDemo1" class="com.baihoo.action.OgnlDemo1Action"></action>
+
+		<action name="ognlDemo2" class="com.baihoo.action.OgnlDemo2Action">
+			<result>/ognl2.jsp</result>
+		</action>
+		
+		<action name="ognlDemo3" class="com.baihoo.action.OgnlDemo3Action">
+			<result>/ognl3.jsp</result>
+		</action>
+		
+		<action name="ognlDemo4" class="com.baihoo.action.OgnlDemo4Action">
+			<result>/ognl4.jsp</result>
+		</action>
+		
+		<action name="ognlDemo5" class="com.baihoo.action.OgnlDemo5Action">
+			<result>/ognl5.jsp</result>
+		</action>
+		
+		<action name="ognlDemo6" class="com.baihoo.action.OgnlDemo6Action">
+			<result>/ognl6.jsp</result>
+		</action>
+
+	</package>
+</struts>

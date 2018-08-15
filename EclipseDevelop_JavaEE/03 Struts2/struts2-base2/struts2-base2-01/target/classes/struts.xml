@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+	"http://struts.apache.org/dtds/struts-2.5.dtd">
+<!-- 	
+Struts2.5版本struts.xm和web.xml配置更改
+对于Struts2.5以上的版本就可以用url+!+方法访问Action某个方法
+ -->
+<struts>
+
+	<package name="default" namespace="/" extends="struts-default">
+		<default-class-ref class="com.baihoo.struts2.DefaultAction" />
+		<action name="login" class="com.baihoo.action.LoginAction">
+			<result name="failer">/login.jsp</result>
+			<result type="redirect">/success.jsp</result>
+		</action>
+
+		<action name="login1" class="com.baihoo.action.Login1Action">
+			<result name="failer">/login1.jsp</result>
+			<result type="redirect">/success.jsp</result>
+		</action>
+
+		<action name="login2" class="com.baihoo.action.Login2Action">
+			<result name="failer">/login2.jsp</result>
+			<result type="redirect">/success.jsp</result>
+		</action>
+		<action name="login3" class="com.baihoo.action.Login3Action">
+			<result name="failer">/login3.jsp</result>
+			<result type="redirect">/success.jsp</result>
+		</action>
+
+		<action name="list" class="com.baihoo.action.ListAction">
+		</action>
+		
+		<action name="map" class="com.baihoo.action.MapAction">
+		</action>
+	</package>
+</struts>

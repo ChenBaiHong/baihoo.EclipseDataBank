@@ -1,0 +1,25 @@
+《============================================================================》
+	spring boot 目录结构简单介绍
+		/springboot-base-01/src/main/resources/templates 存放的是模板文件，如静态文件，不可通过url访问
+		/springboot-base-01/src/main/webapp  存放的是前端html，js,css文件，可通过url访问
+		
+《============================================================================》
+	1、项目属性配置
+		自定义web项目的上下文，及端口配置
+		
+	2、自定义属性
+		自定义加载的配置信息，配置文件
+		/springboot-base-01/src/main/resources/customConfig.yml
+		/springboot-base-01/src/main/resources/db.properties
+		
+	3、ConfigurationProperties配置
+		自定义的properties文件的配置加载：
+			/springboot-base-01/src/main/java/com/baihoo/springboot/properties/MysqProperties.java
+		
+		自定义的yml文件的配置加载：
+			/springboot-base-01/src/main/java/com/baihoo/springboot/yml/MysqlYml.java
+			
+		自定义的yml文件复杂类型数据配置加载：
+			/springboot-base-01/src/main/java/com/baihoo/springboot/yml/PersonYml.java
+	
+《============================================================================》

@@ -1,0 +1,6 @@
+#Tomcat publish data
+#Sat Mar 10 21:50:24 CST 2018
+org.eclipse.jst.j2ee.server\:jeecg-p3-biz-demo=WEB-INF/lib/jeecg-p3-biz-demo-1.0.2.jar
+org.eclipse.jst.j2ee.server\:jeecg-p3-biz-cms=WEB-INF/lib/jeecg-p3-biz-cms-1.0.0.jar
+org.eclipse.jst.j2ee.server\:jeecg-p3-biz-qywx=WEB-INF/lib/jeecg-p3-biz-qywx-1.0.0.jar
+org.eclipse.jst.j2ee.server\:/binary\:D\:\\Program\ Files\\apache-maven-repository\\repository\\org\\springframework\\spring-web\\4.0.9.RELEASE\\spring-web-4.0.9.RELEASE.jar=WEB-INF/lib/spring-web-4.0.9.RELEASE.jar

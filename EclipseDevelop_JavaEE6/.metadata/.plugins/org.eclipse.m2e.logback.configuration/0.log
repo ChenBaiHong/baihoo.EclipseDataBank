@@ -1,0 +1,618 @@
+2018-06-17 09:40:39,142 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-06-17 09:43:51,738 [Worker-25] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: edu.baiHoo.estore:estore:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\pom.xml.
+2018-06-17 09:43:51,972 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:43:52,692 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/release/org/jeecgframework/minidao-pe/1.6-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:52,769 [DefaultMetadataResolver-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/jeecgframework/minidao-pe/1.6-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:53,367 [DefaultMetadataResolver-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/jeecgframework/minidao-pe/1.6-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:54,510 [DefaultMetadataResolver-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.jboss.org/nexus/content/repositories/releases/org/jeecgframework/minidao-pe/1.6-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:54,926 [DefaultMetadataResolver-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/org/jeecgframework/minidao-pe/1.6-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:56,842 [DefaultMetadataResolver-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading http://repo1.maven.org/maven2/commons-logging/commons-logging/maven-metadata.xml
+2018-06-17 09:43:56,889 [DefaultMetadataResolver-1-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/release/commons-logging/commons-logging/maven-metadata.xml
+2018-06-17 09:43:57,078 [DefaultMetadataResolver-1-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/commons-logging/commons-logging/maven-metadata.xml
+2018-06-17 09:43:57,588 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repository.apache.org/content/groups/public/commons-logging/commons-logging/maven-metadata.xml
+2018-06-17 09:43:57,817 [DefaultMetadataResolver-1-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.jboss.org/nexus/content/repositories/releases/commons-logging/commons-logging/maven-metadata.xml
+2018-06-17 09:43:58,746 [DefaultMetadataResolver-1-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/commons-logging/commons-logging/maven-metadata.xml
+2018-06-17 09:43:59,275 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jeecg.org/nexus/content/repositories/snapshots/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:59,291 [DefaultMetadataResolver-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/release/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:59,505 [DefaultMetadataResolver-2-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:59,697 [DefaultMetadataResolver-2-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:43:59,986 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repository.apache.org/content/groups/public/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:00,246 [DefaultMetadataResolver-2-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.jboss.org/nexus/content/repositories/releases/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:01,147 [DefaultMetadataResolver-2-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:01,278 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jeecg.org/nexus/content/repositories/snapshots/commons-logging/commons-logging/1.2.1-SNAPSHOT/commons-logging-1.2.1-20180515.194054-23.pom
+2018-06-17 09:44:02,456 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repository.apache.org/content/groups/public/commons-logging/commons-logging/1.2.1-SNAPSHOT/commons-logging-1.2.1-20180515.194054-23.pom
+2018-06-17 09:44:04,203 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/commons-logging/commons-logging/1.2.1-SNAPSHOT/commons-logging-1.2.1-20180515.194054-23.pom
+2018-06-17 09:44:04,475 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jeecg.org/nexus/content/repositories/jeecg/com/oracle/ojdbc5/11.2.0.1.0/ojdbc5-11.2.0.1.0.pom
+2018-06-17 09:44:04,598 [Worker-25] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.jeecg.org/nexus/content/repositories/snapshots/com/oracle/ojdbc5/11.2.0.1.0/ojdbc5-11.2.0.1.0.pom
+2018-06-17 09:44:04,599 [Worker-25] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:44:07,411 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/release/org/p3framework/jeecg-p3-pom/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:07,522 [DefaultMetadataResolver-3-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/p3framework/jeecg-p3-pom/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:07,839 [DefaultMetadataResolver-3-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/p3framework/jeecg-p3-pom/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:08,090 [DefaultMetadataResolver-3-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/org/p3framework/jeecg-p3-pom/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:08,359 [DefaultMetadataResolver-3-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.jboss.org/nexus/content/repositories/releases/org/p3framework/jeecg-p3-pom/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:09,019 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/release/org/p3framework/jeecg-p3-bizcore/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:09,047 [DefaultMetadataResolver-4-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/p3framework/jeecg-p3-bizcore/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:09,436 [DefaultMetadataResolver-4-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/p3framework/jeecg-p3-bizcore/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:09,723 [DefaultMetadataResolver-4-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/org/p3framework/jeecg-p3-bizcore/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:09,971 [DefaultMetadataResolver-4-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.jboss.org/nexus/content/repositories/releases/org/p3framework/jeecg-p3-bizcore/1.0-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:10,461 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.springsource.org/release/org/p3framework/jeecg-p3-generate/1.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:10,484 [DefaultMetadataResolver-5-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo.maven.apache.org/maven2/org/p3framework/jeecg-p3-generate/1.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:10,876 [DefaultMetadataResolver-5-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/p3framework/jeecg-p3-generate/1.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:11,156 [DefaultMetadataResolver-5-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.apache.org/content/groups/public/org/p3framework/jeecg-p3-generate/1.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:17,518 [DefaultMetadataResolver-5-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repository.jboss.org/nexus/content/repositories/releases/org/p3framework/jeecg-p3-generate/1.1-SNAPSHOT/maven-metadata.xml
+2018-06-17 09:44:49,766 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: edu.baiHoo.estore:estore:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\pom.xml.
+2018-06-17 09:44:49,771 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:44:49,916 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:44:55,279 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-common:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\pom.xml.
+2018-06-17 09:44:55,417 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-core:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\pom.xml.
+2018-06-17 09:44:55,486 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-config:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\pom.xml.
+2018-06-17 09:44:55,551 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-bs-bean:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\pom.xml.
+2018-06-17 09:44:55,649 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-custom:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\pom.xml.
+2018-06-17 09:44:55,712 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-product:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\pom.xml.
+2018-06-17 09:44:56,445 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-product-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product-web\pom.xml.
+2018-06-17 09:44:56,537 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-custom-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom-web\pom.xml.
+2018-06-17 09:44:56,591 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-web\pom.xml.
+2018-06-17 09:44:56,691 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-bs-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-web\pom.xml.
+2018-06-17 09:44:56,735 [Worker-24] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-jeecg-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-jeecg-web\pom.xml.
+2018-06-17 09:44:57,500 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/apache/tomcat/maven/tomcat8-maven-plugin/2.2/tomcat8-maven-plugin-2.2.pom
+2018-06-17 09:44:58,924 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat8-maven-plugin/2.2/tomcat8-maven-plugin-2.2.pom
+2018-06-17 09:44:58,925 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:44:59,413 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/apache/tomcat/maven/tomcat8-maven-plugin/2.2/tomcat8-maven-plugin-2.2.jar
+2018-06-17 09:45:00,297 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/tomcat/maven/tomcat8-maven-plugin/2.2/tomcat8-maven-plugin-2.2.jar
+2018-06-17 09:45:00,297 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Could not find artifact org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in maven2-repo (http://repo1.maven.org/maven2/)
+2018-06-17 09:45:00,750 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-maven-plugin/9.4.9.v20180320/jetty-maven-plugin-9.4.9.v20180320.pom
+2018-06-17 09:45:01,928 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-maven-plugin/9.4.9.v20180320/jetty-maven-plugin-9.4.9.v20180320.pom
+2018-06-17 09:45:01,929 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:02,507 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://repo1.maven.org/maven2/org/mortbay/jetty/jetty-maven-plugin/9.4.9.v20180320/jetty-maven-plugin-9.4.9.v20180320.jar
+2018-06-17 09:45:03,602 [Worker-24] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/mortbay/jetty/jetty-maven-plugin/9.4.9.v20180320/jetty-maven-plugin-9.4.9.v20180320.jar
+2018-06-17 09:45:03,603 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Could not find artifact org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in maven2-repo (http://repo1.maven.org/maven2/)
+2018-06-17 09:45:03,718 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:03,719 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:03,720 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:03,721 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:03,727 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:03,813 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:04,643 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:04,728 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:04,976 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:05,085 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:05,346 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:05,414 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:05,673 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:05,674 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:05,676 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:05,677 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:05,678 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:05,679 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:05,680 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:05,681 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:05,686 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:05,771 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:08,107 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom/src/main/java
+2018-06-17 09:45:08,107 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom/src/test/java
+2018-06-17 09:45:08,236 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product/src/main/java
+2018-06-17 09:45:08,237 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product/src/test/java
+2018-06-17 09:45:08,359 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-web/src/main/java
+2018-06-17 09:45:08,359 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-bs-web/src/main/resources
+2018-06-17 09:45:08,360 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-web/src/test/java
+2018-06-17 09:45:09,586 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:09,687 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:10,091 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-bean/src/main/java
+2018-06-17 09:45:10,091 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-bean/src/test/java
+2018-06-17 09:45:10,222 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-core/src/main/java
+2018-06-17 09:45:10,222 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-core/src/test/java
+2018-06-17 09:45:10,856 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-common/src/main/java
+2018-06-17 09:45:10,857 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-common/src/test/java
+2018-06-17 09:45:11,036 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom-web/src/main/java
+2018-06-17 09:45:11,036 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-custom-web/src/main/java overlaps with sources folder /estore-custom-web/src/main/java
+2018-06-17 09:45:11,037 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-custom-web/src/main/resources
+2018-06-17 09:45:11,037 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom-web/src/test/java
+2018-06-17 09:45:11,037 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-custom-web/src/test/java overlaps with sources folder /estore-custom-web/src/test/java
+2018-06-17 09:45:11,917 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:11,918 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:11,919 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:11,920 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:11,921 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:11,921 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:11,922 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:11,923 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:11,928 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:12,014 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:12,304 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-jeecg-web/src/main/java
+2018-06-17 09:45:12,305 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-jeecg-web/src/main/resources
+2018-06-17 09:45:12,308 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-jeecg-web/src/test/java
+2018-06-17 09:45:13,483 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:13,562 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:15,521 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-config/src/main/java
+2018-06-17 09:45:15,521 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-config/src/test/java
+2018-06-17 09:45:15,767 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product-web/src/main/java
+2018-06-17 09:45:15,768 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-product-web/src/main/java overlaps with sources folder /estore-product-web/src/main/java
+2018-06-17 09:45:15,768 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-product-web/src/main/resources
+2018-06-17 09:45:15,768 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product-web/src/test/java
+2018-06-17 09:45:15,768 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-product-web/src/test/java overlaps with sources folder /estore-product-web/src/test/java
+2018-06-17 09:45:16,719 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:16,720 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:16,721 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:16,722 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:16,722 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:45:16,723 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:16,724 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:45:16,724 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:45:16,728 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:16,799 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:17,344 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-web/src/main/java
+2018-06-17 09:45:17,344 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-web/src/main/resources
+2018-06-17 09:45:17,345 [Worker-24] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-web/src/test/java
+2018-06-17 09:45:18,545 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:18,616 [Worker-24] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:18,820 [Worker-24] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 12 project(s) in 29 sec
+2018-06-17 09:45:19,961 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:20,032 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:20,457 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:20,529 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:20,787 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:20,788 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-06-17 09:45:20,789 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:20,789 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources
+2018-06-17 09:45:21,158 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:21,242 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:21,454 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:21,455 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:21,456 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:21,456 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-web\src\test\resources
+2018-06-17 09:45:21,697 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:21,781 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:22,008 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:22,008 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:45:22,008 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:22,009 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 09:45:22,071 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:22,155 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:22,424 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:22,424 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\main\resources
+2018-06-17 09:45:22,425 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:22,425 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\test\resources
+2018-06-17 09:45:22,991 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:23,054 [Worker-0] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:23,262 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:23,262 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\main\resources
+2018-06-17 09:45:23,263 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:23,263 [Worker-0] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\test\resources
+2018-06-17 09:45:23,511 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:23,574 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:23,753 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:23,753 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\main\resources
+2018-06-17 09:45:23,754 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:23,754 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\test\resources
+2018-06-17 09:45:23,795 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:23,872 [Worker-29] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:24,053 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:24,054 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:24,054 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:24,055 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:24,055 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:24,055 [Worker-29] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom-web\src\test\resources
+2018-06-17 09:45:26,993 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:27,068 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:27,254 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:27,254 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:27,256 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:27,256 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-jeecg-web\src\test\resources
+2018-06-17 09:45:27,310 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:27,377 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:27,559 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:27,560 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\main\resources
+2018-06-17 09:45:27,560 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:27,560 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\test\resources
+2018-06-17 09:45:27,595 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:27,663 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:27,842 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:27,843 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:27,843 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:27,843 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:27,843 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:27,844 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product-web\src\test\resources
+2018-06-17 09:45:27,884 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:45:27,945 [Worker-26] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:45:28,126 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:28,127 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:45:28,127 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:45:28,127 [Worker-26] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-web\src\test\resources
+2018-06-17 09:52:17,620 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-06-17 09:52:18,145 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using NULL lifecycle mapping for MavenProject: edu.baiHoo.estore:estore:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\pom.xml.
+2018-06-17 09:52:18,149 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:18,232 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:18,520 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-bs-bean:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\pom.xml.
+2018-06-17 09:52:18,573 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-bs-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-web\pom.xml.
+2018-06-17 09:52:18,608 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-common:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\pom.xml.
+2018-06-17 09:52:18,644 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-config:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\pom.xml.
+2018-06-17 09:52:18,681 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-core:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\pom.xml.
+2018-06-17 09:52:18,750 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-custom:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\pom.xml.
+2018-06-17 09:52:18,821 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-custom-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom-web\pom.xml.
+2018-06-17 09:52:18,855 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-jeecg-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-jeecg-web\pom.xml.
+2018-06-17 09:52:18,889 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-product:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\pom.xml.
+2018-06-17 09:52:18,923 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-product-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product-web\pom.xml.
+2018-06-17 09:52:18,957 [Worker-31] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: edu.baiHoo.estore:estore-web:0.0.1-SNAPSHOT @ F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-web\pom.xml.
+2018-06-17 09:52:19,035 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:19,036 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:19,037 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:19,038 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:19,038 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:19,039 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:19,040 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:19,040 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:19,043 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:19,106 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:19,518 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:19,578 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:19,803 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:19,862 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:20,088 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:20,165 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:20,407 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:20,408 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:20,409 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:20,409 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:20,410 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:20,410 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:20,411 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:20,412 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:20,414 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:20,471 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:21,647 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-bean/src/main/java
+2018-06-17 09:52:21,647 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-bean/src/test/java
+2018-06-17 09:52:21,763 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-web/src/main/java
+2018-06-17 09:52:21,764 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-bs-web/src/main/resources
+2018-06-17 09:52:21,764 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-bs-web/src/test/java
+2018-06-17 09:52:22,557 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:22,628 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:22,966 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-common/src/main/java
+2018-06-17 09:52:22,967 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-common/src/test/java
+2018-06-17 09:52:23,105 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-config/src/main/java
+2018-06-17 09:52:23,105 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-config/src/test/java
+2018-06-17 09:52:23,228 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-core/src/main/java
+2018-06-17 09:52:23,228 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-core/src/test/java
+2018-06-17 09:52:23,337 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom/src/main/java
+2018-06-17 09:52:23,337 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom/src/test/java
+2018-06-17 09:52:23,446 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom-web/src/main/java
+2018-06-17 09:52:23,446 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-custom-web/src/main/java overlaps with sources folder /estore-custom-web/src/main/java
+2018-06-17 09:52:23,446 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-custom-web/src/main/resources
+2018-06-17 09:52:23,446 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-custom-web/src/test/java
+2018-06-17 09:52:23,446 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-custom-web/src/test/java overlaps with sources folder /estore-custom-web/src/test/java
+2018-06-17 09:52:24,221 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:24,222 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:24,223 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:24,223 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:24,224 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:24,224 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:24,225 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:24,226 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:24,229 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:24,296 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:24,464 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-jeecg-web/src/main/java
+2018-06-17 09:52:24,464 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-jeecg-web/src/main/resources
+2018-06-17 09:52:24,464 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-jeecg-web/src/test/java
+2018-06-17 09:52:25,257 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:25,315 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:25,471 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product/src/main/java
+2018-06-17 09:52:25,472 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product/src/test/java
+2018-06-17 09:52:26,002 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product-web/src/main/java
+2018-06-17 09:52:26,002 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-product-web/src/main/java overlaps with sources folder /estore-product-web/src/main/java
+2018-06-17 09:52:26,002 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-product-web/src/main/resources
+2018-06-17 09:52:26,002 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-product-web/src/test/java
+2018-06-17 09:52:26,002 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Resources folder /estore-product-web/src/test/java overlaps with sources folder /estore-product-web/src/test/java
+2018-06-17 09:52:26,855 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:26,856 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:26,857 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:26,858 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:26,858 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:26,859 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Failure to find org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:26,860 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:26,860 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Failure to find org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 in http://repo1.maven.org/maven2/ was cached in the local repository, resolution will not be reattempted until the update interval of maven2-repo has elapsed or updates are forced
+2018-06-17 09:52:26,863 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:26,923 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:27,079 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-web/src/main/java
+2018-06-17 09:52:27,079 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /estore-web/src/main/resources
+2018-06-17 09:52:27,079 [Worker-31] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /estore-web/src/test/java
+2018-06-17 09:52:27,814 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:27,873 [Worker-31] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:28,655 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for estore-bs-web
+2018-06-17 09:52:28,728 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for estore-custom-web
+2018-06-17 09:52:28,908 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for estore-jeecg-web
+2018-06-17 09:52:28,944 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for estore-product-web
+2018-06-17 09:52:28,956 [Worker-31] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for estore-web
+2018-06-17 09:52:28,960 [Worker-31] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 11 sec
+2018-06-17 09:52:29,195 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:29,255 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:29,492 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:29,579 [Worker-36] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:29,796 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:29,797 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-06-17 09:52:29,797 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:29,798 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources
+2018-06-17 09:52:30,040 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:30,131 [Worker-38] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:30,356 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:30,357 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:30,357 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:30,357 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-web\src\test\resources
+2018-06-17 09:52:30,358 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of estore-bs-web
+2018-06-17 09:52:30,358 [Worker-38] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for estore-bs-web
+2018-06-17 09:52:30,361 [Worker-38] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:30,631 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:30,702 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:30,880 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:30,880 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:52:30,881 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:30,881 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 09:52:30,925 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:30,982 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:31,185 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:31,185 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\main\resources
+2018-06-17 09:52:31,185 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:31,186 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\test\resources
+2018-06-17 09:52:31,387 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:31,447 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:31,628 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:31,628 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\main\resources
+2018-06-17 09:52:31,629 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:31,629 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\test\resources
+2018-06-17 09:52:31,673 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:31,735 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:31,941 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:31,941 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\main\resources
+2018-06-17 09:52:31,941 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:31,941 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\test\resources
+2018-06-17 09:52:31,972 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:32,040 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:32,210 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:32,211 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:32,211 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:32,211 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:32,211 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:32,211 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom-web\src\test\resources
+2018-06-17 09:52:32,212 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of estore-custom-web
+2018-06-17 09:52:32,212 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for estore-custom-web
+2018-06-17 09:52:32,213 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:32,213 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 has not been downloaded from it before.
+2018-06-17 09:52:32,214 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:32,214 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 has not been downloaded from it before.
+2018-06-17 09:52:32,214 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:32,215 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 has not been downloaded from it before.
+2018-06-17 09:52:32,215 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:32,215 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 has not been downloaded from it before.
+2018-06-17 09:52:32,217 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:34,270 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:34,342 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:34,526 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:34,527 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:34,527 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:34,527 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-jeecg-web\src\test\resources
+2018-06-17 09:52:34,527 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of estore-jeecg-web
+2018-06-17 09:52:34,527 [Worker-33] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for estore-jeecg-web
+2018-06-17 09:52:34,529 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:34,578 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:34,649 [Worker-33] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:34,822 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:34,822 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\main\resources
+2018-06-17 09:52:34,823 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:34,823 [Worker-33] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\test\resources
+2018-06-17 09:52:34,982 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:35,049 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:35,226 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:35,226 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:35,226 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:35,227 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:35,227 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:35,227 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product-web\src\test\resources
+2018-06-17 09:52:35,227 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of estore-product-web
+2018-06-17 09:52:35,227 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for estore-product-web
+2018-06-17 09:52:35,228 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:35,229 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 has not been downloaded from it before.
+2018-06-17 09:52:35,229 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:35,230 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 has not been downloaded from it before.
+2018-06-17 09:52:35,230 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 is missing, no dependency information available
+2018-06-17 09:52:35,230 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.apache.tomcat.maven:tomcat8-maven-plugin:2.2: Plugin org.apache.tomcat.maven:tomcat8-maven-plugin:2.2 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.apache.tomcat.maven:tomcat8-maven-plugin:jar:2.2 has not been downloaded from it before.
+2018-06-17 09:52:35,231 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 is missing, no dependency information available
+2018-06-17 09:52:35,231 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - Failed to retrieve plugin descriptor for org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320: Plugin org.mortbay.jetty:jetty-maven-plugin:9.4.9.v20180320 or one of its dependencies could not be resolved: Cannot access maven2-repo (http://repo1.maven.org/maven2/) in offline mode and the artifact org.mortbay.jetty:jetty-maven-plugin:jar:9.4.9.v20180320 has not been downloaded from it before.
+2018-06-17 09:52:35,232 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:35,269 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:52:35,325 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:52:35,530 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:35,531 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:52:35,531 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:52:35,531 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-web\src\test\resources
+2018-06-17 09:52:35,531 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of estore-web
+2018-06-17 09:52:35,531 [Worker-37] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for estore-web
+2018-06-17 09:52:35,534 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:54:49,041 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:54:49,112 [Worker-41] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:54:49,309 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:54:49,309 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:54:49,310 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:54:49,310 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 09:55:36,593 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:36,697 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:36,901 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:36,901 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-06-17 09:55:36,901 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:36,902 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources
+2018-06-17 09:55:36,913 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:36,975 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:37,160 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,161 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:37,161 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,162 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-web\src\test\resources
+2018-06-17 09:55:37,168 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,168 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:55:37,168 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,168 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 09:55:37,177 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:37,240 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:37,420 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,420 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\main\resources
+2018-06-17 09:55:37,421 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,421 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\test\resources
+2018-06-17 09:55:37,430 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:37,492 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:37,673 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,673 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\main\resources
+2018-06-17 09:55:37,674 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,674 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\test\resources
+2018-06-17 09:55:37,683 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:37,765 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:37,939 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,939 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\main\resources
+2018-06-17 09:55:37,940 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:37,940 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\test\resources
+2018-06-17 09:55:37,954 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:38,023 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:38,259 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:38,259 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:38,259 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:38,260 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:38,260 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:38,260 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom-web\src\test\resources
+2018-06-17 09:55:38,274 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:38,360 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:38,611 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:38,611 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:38,612 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:38,612 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-jeecg-web\src\test\resources
+2018-06-17 09:55:38,623 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:38,701 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:38,909 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:38,909 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\main\resources
+2018-06-17 09:55:38,910 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:38,910 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\test\resources
+2018-06-17 09:55:38,921 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:38,979 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:39,158 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:39,158 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:39,158 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:39,159 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:39,159 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:39,159 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product-web\src\test\resources
+2018-06-17 09:55:39,169 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:55:39,229 [Worker-37] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:55:39,423 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:39,423 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-06-17 09:55:39,423 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:55:39,423 [Worker-37] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-web\src\test\resources
+2018-06-17 09:57:15,851 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:57:15,927 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:57:16,295 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 09:57:16,363 [Worker-40] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 09:57:16,567 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:57:16,567 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:57:16,567 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:57:16,567 [Worker-40] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 09:57:54,977 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:57:54,977 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:57:54,977 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:57:54,978 [Worker-42] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 09:58:45,472 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:58:45,472 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-06-17 09:58:45,473 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 09:58:45,473 [Worker-41] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-06-17 18:04:09,140 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-17 18:04:09,217 [Worker-55] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-17 18:04:09,434 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 18:04:09,434 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-06-17 18:04:09,434 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-17 18:04:09,434 [Worker-55] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources
+2018-06-24 15:52:18,549 [Worker-4] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-06-24 15:52:30,507 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-24 15:52:32,032 [Worker-19] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-06-24 15:52:36,097 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-24 15:52:36,097 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-06-24 15:52:36,099 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-06-24 15:52:36,099 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources
+2018-06-24 15:52:37,718 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-06-24 15:52:37,855 [Worker-2] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:24:44,804 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-07-28 09:24:56,056 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:24:56,861 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/jeecgframework/minidao-pe/1.6-SNAPSHOT/maven-metadata.xml
+2018-07-28 09:25:00,104 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/commons-logging/commons-logging/1.2.1-SNAPSHOT/maven-metadata.xml
+2018-07-28 09:25:00,283 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:11,903 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/p3framework/jeecg-p3-pom/1.0-SNAPSHOT/maven-metadata.xml
+2018-07-28 09:25:12,075 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/p3framework/jeecg-p3-bizcore/1.0-SNAPSHOT/maven-metadata.xml
+2018-07-28 09:25:12,229 [Worker-10] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded http://maven.aliyun.com/nexus/content/groups/public/org/p3framework/jeecg-p3-generate/1.1-SNAPSHOT/maven-metadata.xml
+2018-07-28 09:25:13,383 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:13,522 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:15,664 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:15,664 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-07-28 09:25:15,666 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:15,667 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources
+2018-07-28 09:25:16,043 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:16,225 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:16,682 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:16,687 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:16,689 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:16,689 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-web\src\test\resources
+2018-07-28 09:25:18,178 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:18,341 [Worker-10] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:18,755 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:18,755 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\main\resources
+2018-07-28 09:25:18,756 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:18,756 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-common\src\test\resources
+2018-07-28 09:25:19,174 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:19,282 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:19,590 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:19,590 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\main\resources
+2018-07-28 09:25:19,592 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:19,592 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-config\src\test\resources
+2018-07-28 09:25:19,771 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:19,866 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:20,227 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:20,228 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\main\resources
+2018-07-28 09:25:20,229 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:20,229 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-core\src\test\resources
+2018-07-28 09:25:20,342 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:20,488 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:20,902 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:20,902 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\main\resources
+2018-07-28 09:25:20,903 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:20,903 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom\src\test\resources
+2018-07-28 09:25:20,983 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:21,128 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:22,189 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:22,190 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:22,190 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:22,191 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:22,192 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:22,192 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-custom-web\src\test\resources
+2018-07-28 09:25:28,647 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:28,888 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:29,424 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:29,424 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:29,456 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:29,457 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-jeecg-web\src\test\resources
+2018-07-28 09:25:29,752 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:29,849 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:30,289 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:30,289 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\main\resources
+2018-07-28 09:25:30,290 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:30,290 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product\src\test\resources
+2018-07-28 09:25:30,350 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:30,474 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:30,849 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:30,849 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:30,850 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:30,851 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:30,851 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:30,851 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-product-web\src\test\resources
+2018-07-28 09:25:30,908 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:31,005 [Worker-20] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:25:31,248 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:31,248 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-07-28 09:25:31,249 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:25:31,249 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-web\src\test\resources
+2018-07-28 09:25:32,390 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:25:32,475 [Worker-11] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:26:41,496 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.jeecgframework:codegenerate:jar:3.6.2 is invalid, transitive dependencies (if any) will not be available, enable debug logging for more details
+2018-07-28 09:26:41,622 [Worker-9] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for com.oracle:ojdbc5:jar:11.2.0.1.0 is missing, no dependency information available
+2018-07-28 09:26:42,014 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:26:42,014 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\main\resources
+2018-07-28 09:26:42,015 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-07-28 09:26:42,016 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory F:\Eclipse DataBank\EclipseDevelop_JavaEE6\estore\estore-bs-bean\src\test\resources

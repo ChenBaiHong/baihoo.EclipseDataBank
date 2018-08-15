@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<struts>
+	<action name="hello" class="com.baihoo.struts2.action.HelloAction"
+		method="say">
+		<result name="good">/hello.jsp</result>
+	</action>
+</struts>

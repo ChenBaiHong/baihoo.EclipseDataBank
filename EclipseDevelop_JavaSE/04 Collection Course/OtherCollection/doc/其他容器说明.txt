@@ -1,0 +1,19 @@
+1, WeakHashMap 
+	引用分类：
+		— 强引用：StrongReference：引用指向对象，gc（Garbage collection）运行时不回收
+		— 软引用：SoftReference gc 运行时可能回收（jvm内存不够）
+		— 弱引用：WeakReference	gc 运行时立即回收
+		— 虚引用：PhantomReference  类似于无引用，主要跟踪对象被回收的状态，不能单独使用，必须与引用队列（ReferenceQueue）联合使用
+		
+	目的：避免对象长期驻留在内存中，解决垃圾回收机制，回收时机问题
+	
+	WeakHashMap:
+	 键为弱引用，回收键后自动删除key—value对象 
+	 
+2, IdentityHashMap 
+	健只以地址去重，而不是比较hashCode与equals
+	注意：健是常量池的字符串
+	
+3，EnumMap:
+	健必须是枚举值。
+	构造器：public EnumMap (指定枚举Class对象)	

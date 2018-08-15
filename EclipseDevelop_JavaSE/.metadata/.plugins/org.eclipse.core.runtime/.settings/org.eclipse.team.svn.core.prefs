@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/70fe8cf2a82e001818aef1b2c70033f3=70fe8cf2a82e001818aef1b2c70033f3;https\://192.168.1.7\:8443/svn/DevProSVN/EclipseCollaDev/EclipseDevelop_JavaSE;https\://192.168.1.7\:8443/svn/DevProSVN/EclipseCollaDev/EclipseDevelop_JavaSE;branches;tags;trunk;true;;;;false;;;0

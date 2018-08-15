@@ -1,0 +1,30 @@
+1、 异常剖析
+	Caused by: java.lang.NoSuchMethodError: javax.persistence.Table.indexes()
+	解决方法：
+		hibernate-jpa-2.0-api-1.0.1.Final 与 hibernate-jpa-2.0-api-1.0.0.Final 两个同存在导致jar 冲突，删除前者！
+		
+		
+	Caused by: java.lang.AbstractMethodError: Method com/mchange/v2/c3p0/impl/NewProxyPreparedStatement.setCharacterStream(ILjava/io/Reader;J)V is abstract		
+	解决方法：
+		pom.xml 文件hibernate配置
+		So you need to update the C3p0 library to 0.9.5:
+		<dependency>
+		    <groupId>com.mchange</groupId>
+		    <artifactId>c3p0</artifactId>
+		    <version>0.9.5</version>
+		</dependency>
+		You might also exclude the C3P0 dependency from Hibernate, to make sure Maven uses the one you configured explicitly:
+		
+		<dependency>
+		    <groupId>org.hibernate</groupId>
+		    <artifactId>hibernate-c3p0</artifactId>
+		    <version>4.2.0.Final</version>
+		    <exclusions>
+		        <exclusion>
+		            <artifactId>c3p0</artifactId>
+		            <groupId>c3p0</groupId>
+		        </exclusion>
+		    </exclusions>
+		</dependency>
+			
+该web程序存在问题，action url 无法访问！！

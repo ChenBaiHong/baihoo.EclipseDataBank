@@ -1,0 +1,27 @@
+1532053860951	Rename package 'com.baihoo.db'
+1532053865960	Delete element
+1532054197056	Rename type 'MySQLGeneratorUtils'
+1532058241652	Rename local variable 'resultSetColumn'
+1532058883834	Delete element
+1532058892009	Delete element
+1532058904759	Move compilation units
+1532058908569	Delete element
+1532064988085	Rename resource 'sellerInfoMapper.xml'
+1532071006789	Delete element
+1532071063941	Move compilation unit
+1532071074356	Rename type 'BhOrderItem'
+1532071080921	Move compilation unit
+1532071176334	Move compilation unit
+1532071189307	Rename type 'BhOrders'
+1532071203435	Move compilation unit
+1532071212760	Rename type 'BhProduct'
+1532071244418	Move compilation unit
+1532071259147	Move compilation unit
+1532071512123	Delete element
+1532082454591	Delete element
+1532082462677	Copy compilation unit
+1532082475282	Rename type 'BhBrand'
+1532082525487	Copy compilation unit
+1532082551626	Rename type 'BhUser'
+1532091190634	Delete element
+1532133841119	Delete element

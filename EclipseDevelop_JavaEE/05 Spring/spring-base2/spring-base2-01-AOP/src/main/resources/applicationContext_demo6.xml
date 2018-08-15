@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 对象自动代理与带有切点的切面==============================================start -->
+	<!-- 定义目标对象 -->
+	<bean id="groupDao" class="com.baihoo.spring4.demo6.dao.impl.GroupDaoImpl"></bean>
+	<bean id="memberDao" class="com.baihoo.spring4.demo6.dao.impl.MemberDaoImpl"></bean>
+	<!-- 定义增强 -->
+	<bean id="beforeAdvice" class="com.baihoo.spring4.demo6.aop.BeforeAdvice"></bean>
+	<bean id="afterAdvice" class="com.baihoo.spring4.demo6.aop.AfterAdvice"></bean>
+	<!-- 定义切点切面 -->
+		<!-- 增强前置通知 -->
+		<bean id="beforePointcutAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+			<property name="patterns" value=".*add.*,.*find.*"></property>
+			<property name="advice" ref="beforeAdvice"></property>
+		</bean>
+		<!-- 增强后置通知 -->
+		<bean id="afterPointcutAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+			<property name="patterns" value=".*add.*,.*find.*"></property>
+			<property name="advice" ref="afterAdvice"></property>
+		</bean>
+	<!-- 自动代理:按名称的代理 基于后处理Bean,后处理Bean不需要配置ID-->
+	<bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<!-- “*” 通配符匹配 -->
+		<property name="beanNames" value="*Dao"></property>
+		<property name="interceptorNames" value="beforePointcutAdvisor,afterPointcutAdvisor"></property>
+	</bean>
+	<!-- 对象自动代理与带有切点的切面==============================================end -->
+
+</beans>

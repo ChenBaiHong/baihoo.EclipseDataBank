@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Integration-S2SH/docs/图二 Spring的三大框架整合的开发步骤.bmp&apos; to &apos;Spring的三大框架整合的开发步骤.bmp&apos;" description="Rename resource &apos;图二 Spring的三大框架整合的开发步骤.bmp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="docs/图二 Spring的三大框架整合的开发步骤.bmp" name="Spring的三大框架整合的开发步骤.bmp" stamp="1531636861986" updateReferences="true"/>
+</session>

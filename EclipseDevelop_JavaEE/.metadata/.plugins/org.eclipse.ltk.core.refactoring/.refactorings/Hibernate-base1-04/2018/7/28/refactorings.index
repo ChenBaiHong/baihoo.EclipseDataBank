@@ -1,0 +1,17 @@
+1531306376691	Delete element
+1531306382012	Delete element
+1531306777729	Move files
+1531307048745	Rename package 'cn.itcast.hibernate3'
+1531307463473	Rename type 'Customer'
+1531307472102	Rename type 'Order'
+1531307479432	Rename resource 'Customer.hbm.xml'
+1531307485967	Rename resource 'Order.hbm.xml'
+1531307550533	Rename field 'cid'
+1531307560105	Rename field 'cname'
+1531307576485	Rename field 'ver'
+1531307641705	Rename field 'oid'
+1531311957358	Delete element
+1531311966653	Delete elements
+1531312766226	Rename package 'cn.itcast'
+1531322465392	Infer generic type arguments
+1531329028618	Rename type 'HibernateTest4'

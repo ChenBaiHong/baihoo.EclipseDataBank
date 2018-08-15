@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=springmvc-ssm-01/src\/main\/java&lt;com.baihoo.ssm.service{BhProductService.java[BhProductService" modifiers="513" timestamp="1532426987815"/>
+<typeInfo handle="=springmvc-ssm-01/D:\/Program Files\/apache-maven-repository\/repository\/org\/springframework\/spring-core\/4.3.14.RELEASE\/spring-core-4.3.14.RELEASE.jar&lt;org.springframework.core.convert.converter(Converter.class[Converter" modifiers="1537" timestamp="1531361737562"/>
+<typeInfo handle="=springmvc-ssm-01/D:\/Program Files\/apache-maven-repository\/repository\/org\/springframework\/spring-core\/4.3.14.RELEASE\/spring-core-4.3.14.RELEASE.jar&lt;org.springframework.cglib.core(Converter.class[Converter" modifiers="1537" timestamp="1531361737562"/>
+<typeInfo handle="=springmvc-ssm-01/D:\/Program Files\/apache-maven-repository\/repository\/cglib\/cglib\/3.2.2\/cglib-3.2.2.jar&lt;net.sf.cglib.core(Converter.class[Converter" modifiers="1537" timestamp="1531891252969"/>
+<typeInfo handle="=springmvc-ssm-02/D:\/Program Files\/apache-maven-repository\/repository\/org\/springframework\/spring-webmvc\/4.3.18.RELEASE\/spring-webmvc-4.3.18.RELEASE.jar&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1532164537893"/>
+<typeInfo handle="=springboot-base-03-crud/D:\/Program Files\/apache-maven-repository\/repository\/org\/springframework\/data\/spring-data-jpa\/2.0.8.RELEASE\/spring-data-jpa-2.0.8.RELEASE.jar&lt;org.springframework.data.jpa.repository.cdi(JpaRepositoryBean.class[JpaRepositoryBean" modifiers="32" timestamp="1529997252051"/>
+<typeInfo handle="=springboot-base-03-crud/src\/main\/java&lt;com.baihoo.springboot.service{BhBookService.java[BhBookService" modifiers="513" timestamp="1532704209975"/>
+<typeInfo handle="=springboot-base-04-transaction/src\/main\/java&lt;com.baihoo.springboot.pojo{BhAccount.java[BhAccount" modifiers="1" timestamp="1532955930159"/>
+<typeInfo handle="=springboot-base-04-transaction/src\/main\/java&lt;com.baihoo.springboot.service{BhAccountService.java[BhAccountService" modifiers="513" timestamp="1532955918020"/>
+</typeInfoHistroy>

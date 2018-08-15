@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;EnumMapDemo.java&apos; to &apos;OtherCollection/src/com.baiHoo.colle.enumMapdemo&apos;&#x0D;&#x0A;- Original project: &apos;OtherCollection&apos;&#x0D;&#x0A;- Destination element: &apos;OtherCollection/src/com.baiHoo.colle.enumMapdemo&apos;&#x0D;&#x0A;- Original element: &apos;com.baiHoo.colle.EnumMapDemo.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;com.baiHoo.colle.enumMapdemo" element1="/src&lt;com.baiHoo.colle{EnumMapDemo.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1529546085248" units="1" version="1.0"/>
+</session>

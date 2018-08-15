@@ -1,0 +1,37 @@
+<!-- ====================================================================== -->		
+1、AspectJ表达式:
+		* 语法:execution(表达式)
+		execution(<访问修饰符>?<返回类型><方法名>(<参数>)<异常>)
+
+			* execution(“* cn.itcast.spring3.demo1.dao.*(..)”)		---只检索当前包
+			* execution(“* cn.itcast.spring3.demo1.dao..*(..)”)		---检索包及当前包的子包.
+			* execution(“* cn.itcast.dao.GenericDAO+.*(..)”)			---检索GenericDAO及子类
+<!-- ====================================================================== -->		
+2、AspectJ增强:
+		@Before 前置通知，相当于BeforeAdvice
+		@AfterReturning 后置通知，相当于AfterReturningAdvice
+		@Around 环绕通知，相当于MethodInterceptor
+		@AfterThrowing抛出通知，相当于ThrowAdvice
+		@After 最终final通知，不管是否异常，该通知都会执行
+		@DeclareParents 引介通知，相当于IntroductionInterceptor (不要求掌握)
+<!-- ====================================================================== -->		
+3、AspectJ的通知类型:
+		@Before 前置通知，相当于
+				------	BeforeAdvice
+				* 就在方法之前执行.没有办法阻止目标方法执行的.
+		@AfterReturning 后置通知，相当于
+				------	AfterReturningAdvice
+				* 后置通知,获得方法返回值.
+		@Around 环绕通知，相当于
+				------	MethodInterceptor
+				* 在可以方法之前和之后来执行的,而且可以阻止目标方法的执行.
+		@AfterThrowing抛出通知，相当于
+				------	ThrowAdvice
+		@After 最终final通知，不管是否异常，该通知都会执行
+		@DeclareParents 引介通知，相当于
+				------	IntroductionInterceptor (不要求掌握)
+<!-- ====================================================================== -->		
+4、面试:
+		* Advisor和Aspect的区别?
+				* Advisor:Spring传统意义上的切面:支持一个切点和一个通知的组合.
+				* Aspect:可以支持多个切点和多个通知的组合.

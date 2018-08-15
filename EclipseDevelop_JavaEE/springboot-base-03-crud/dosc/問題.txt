@@ -1,0 +1,18 @@
+《============================================================================》
+		Spring boot 表单提交失败
+			Validation failed for object='bhBook'. Error count: 1
+		解決方案
+			參考如下：
+				@PostMapping(value = "/addedBookSubmit")
+				public String addedBookSubmit(@Valid BhBook bhBook , BindingResult bindingResult);
+《============================================================================》				
+		HTTP Status 400 - Required Integer parameter 'id' is not present
+		解決方案
+			參考如下：
+				个人没有好好分析，愚蠢
+《============================================================================》		
+		freemarker標記問題：
+		説明1				
+			${book.author}，这里book可能为null，author也可能为null。这时候 就要使用方法一了，${(book.author)!} 或 ${(book.author)?if_exists}
+		説明2
+			${book.author}，这里author可能为null。这时候 就要使用方法一了，${(book.author)!''} 

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop" xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd">
+        
+    <!-- 設置靜態資源解析  
+    
+		访问/html/**的url从工程下/html/下解析
+	 -->
+    <mvc:resources location="/html/" mapping="/html/**"></mvc:resources>
+	<!-- 
+		注解的handler單個配置 
+			這種方式不需要配置id或name,但還是是一種繁瑣重複的代碼工作，因此可以采用注解掃描器
+	-->
+	<!-- <bean class="com.baihoo.ssm.controller.BhProductController"></bean> -->
+	
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	使用spring組件掃描包路徑；
+	若多個包采用英文逗號（","）隔開
+	 -->
+	<context:component-scan base-package="com.baihoo.ssm.controller" />
+	
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	1、注解配置处理映射器
+	在springmvc.xml中配置：
+		RequestMappingHandlerMapping：匹配spring容器使用@controller标识Bean,使用Bean中方法或類使用@requestMapping指定Handler方法所对应的url
+		找到对应的bean（程序编写的Handler）
+	 -->
+	 <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"></bean>
+	 
+	<!--  
+	2、注解处理器适配器
+		所有的适配器都是实现了HandlerAdapter接口
+			不需要實現什麽接口之類的，需要在Handler 中使用@controller标识此类是一个控制器，使用@requestMapping指定Handler方法所对应的url
+	 -->		
+	 <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+	 		<property name="webBindingInitializer" ref="webBindingInitializer"></property>
+			<!-- 
+			springmvc解析json加入json解析包
+			在处理器适配器中注入MappingJacksonHttpMessageConverter
+			 -->
+			 <!-- 
+			 第一步：
+					配置MappingJacksonHttpMessageConverter 或者 MappingJackson2HttpMessageConverter轉換器
+			 -->	
+	 		<property name="messageConverters">
+				 <!-- 
+				 第二步：
+						在注解適配器中加入json數據的消息轉換器，看上
+				 -->	
+	 			<list>
+	 				<bean id="messageConvertor" class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter"></bean>
+	 			</list>
+	 		</property>
+	 </bean>		
+	 
+	<!-- 
+	3、配置视图解析器
+		配置视图解析，能够解析jsp视图	
+	 -->	
+	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+		<property name="prefix" value="/WEB-INF/jsp/"></property>
+		<property name="suffix" value=".jsp"></property>
+	</bean>
+	
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	参数类型转换器:
+	 -->
+	 <!-- 
+	 第一步：
+			通过格式化转换器工厂，在内部加入自定义的转换器
+	 -->	
+	 <bean  id = "conversionServiceFactory" class="org.springframework.format.support.FormattingConversionServiceFactoryBean">
+	 		<property name="converters">
+	 			<set>
+	 				<!-- 自定义日期转换器 -->
+	 				<bean class="com.baihoo.ssm.converters.CustomDateConverter"></bean>
+	 				<!-- 自定义字符串去空转换器 -->
+	 				<bean class="com.baihoo.ssm.converters.CustomTrimString"></bean>
+	 			</set>
+	 		</property>
+	 </bean>
+	 <!-- 
+	 第二步：
+			使用WebBindingInitializer装载格式化转换器工厂
+	 -->
+	 <bean id = "webBindingInitializer" class="org.springframework.web.bind.support.ConfigurableWebBindingInitializer">
+	 		<property name="conversionService" ref="conversionServiceFactory" />
+	 		<!-- 注入validator校驗器，來自下方 -->
+	 		<property name="validator" ref="validatorFactoryBean"></property>
+	 </bean>
+	 <!-- 
+	 第三步：
+			将WebBindingInitializer注入到【 “注解处理器”】中，同看上
+	 -->
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	
+	<!-- 
+	图片上传解析器：
+	 -->
+	 <!-- 
+	 第一步：
+			配置 CommonsMultipartResolver 图片上传解析器
+	 -->	
+	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
+		<!-- 设置上传文件最大尺寸为5MB -->
+		<property name="maxUploadSize">
+			<value>5242880</value>
+		</property>
+	</bean>
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	<!-- 
+	校验器：
+	 -->
+	 <!-- 
+	 第一步：
+			檢驗錯誤信息配置資源文件
+	 -->
+	 <bean id="messageSource" class="org.springframework.context.support.ReloadableResourceBundleMessageSource">
+	 		<!-- 資源文件名 -->
+	 		<property name="basenames">
+	 			<array>
+	 				<!-- 這裏不需要.properties的後綴名 -->
+	 				<value>classpath:validator/CustomValidationMessage</value>
+	 			</array>
+	 		</property>
+	 		<!-- 資源文件編碼格式 -->
+	 		<property name="fileEncodings" value="utf-8"></property>
+	 		<!-- 對資源文件緩存時間，單位秒 -->
+	 		<property name="cacheSeconds" value="120"></property>
+	 </bean>
+	 <!-- 
+	 第二步：
+			配置校驗spring提供的校驗器工廠bean
+	 -->
+	 <bean id="validatorFactoryBean" class="org.springframework.validation.beanvalidation.LocalValidatorFactoryBean">
+	 	<!-- 配置由hibernate提供的校驗器功能類 -->
+	 	<property name="providerClass" value="org.hibernate.validator.HibernateValidator"></property>
+	 	<!-- 指定校驗使用的資源文件，如果不指定默認使用classpath下ValidationMessages.properties -->
+	 	<property name="validationMessageSource" ref="messageSource"></property>
+	 </bean>
+	 <!-- 
+	 第三步：
+			使用WebBindingInitializer装载配置的校驗器工廠bean, 同看上
+	 -->
+	 
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	<!-- 
+		统一异常处理器：
+	 -->
+	 <!-- 
+	 第一步：
+			定義自定義的統一異常處理類
+	 -->
+	 <bean class="com.baihoo.ssm.exception.CustomExceptionResolver"></bean>
+	<!-- ========================================================================================================================= -->
+	<!-- ========================================================================================================================= -->
+	<!-- 
+		拦截器：
+	 -->
+	 <mvc:interceptors>
+	 	<!-- 多个拦截器顺序执行 -->
+	 	<!-- 
+	 	<mvc:interceptor>
+	 		<mvc:mapping path="/**"/>
+	 		<bean class="com.baihoo.ssm.interceptor.HandlerInterceptor1"></bean>
+	 	</mvc:interceptor>
+	 	<mvc:interceptor>
+	 		<mvc:mapping path="/**"/>
+	 		<bean class="com.baihoo.ssm.interceptor.HandlerInterceptor2"></bean>
+	 	</mvc:interceptor>
+	 	<mvc:interceptor>
+	 		<mvc:mapping path="/**"/>
+	 		<bean class="com.baihoo.ssm.interceptor.HandlerInterceptor3"></bean>
+	 	</mvc:interceptor>
+	 	 -->
+	 	 <mvc:interceptor>
+	 	 	<mvc:mapping path="/**"/>
+	 	 	<bean class="com.baihoo.ssm.interceptor.LoginInterceptor"></bean>
+	 	 </mvc:interceptor>
+	 </mvc:interceptors>
+</beans>

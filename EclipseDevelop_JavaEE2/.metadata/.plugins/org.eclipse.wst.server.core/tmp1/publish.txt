@@ -1,0 +1,8 @@
+#Tomcat publish data
+#Tue Jul 31 10:33:57 CST 2018
+org.eclipse.jst.jee.server\:/binary\:D\:\\Program\ Files\\apache-maven-repository\\repository\\org\\springframework\\spring-web\\4.3.14.RELEASE\\spring-web-4.3.14.RELEASE.jar=WEB-INF/lib/spring-web-4.3.14.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:F\:\\Eclipse\ DataBank\\EclipseDevelop_JavaEE2\\baiHoo.estore1.1\\WebRoot\\WEB-INF\\lib\\spring-web-4.3.0.RELEASE.jar=WEB-INF/lib/spring-web-4.3.0.RELEASE.jar
+org.eclipse.jst.j2ee.server\:Estore-core=WEB-INF/lib/Estore-core-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:Estore-console=WEB-INF/lib/Estore-console-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:Estore-console-config=WEB-INF/lib/Estore-console-config-0.0.1-SNAPSHOT.jar
+org.eclipse.jst.j2ee.server\:Estore-jeecg=WEB-INF/lib/Estore-jeecg-0.0.1-SNAPSHOT.jar

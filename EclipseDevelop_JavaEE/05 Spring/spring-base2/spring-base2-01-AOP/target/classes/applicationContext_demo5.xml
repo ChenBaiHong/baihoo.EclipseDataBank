@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	   xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- 对象自动代理与不带有切点的切面==============================================start -->
+	<!-- 定义目标对象 -->
+	<bean id="userDao" class="com.baihoo.spring4.demo5.dao.UserDao"></bean>
+	<bean id="orderDao" class="com.baihoo.spring4.demo5.dao.OrderDao"></bean>
+	<!-- 定义增强 -->
+	<bean id="beforeAdvice" class="com.baihoo.spring4.demo5.aop.advice.MyBeforeAdvice"></bean>
+	<bean id="afterAdvice" class="com.baihoo.spring4.demo5.aop.advice.MyAfterAdvice"></bean>
+	<!-- 自动代理:按名称的代理 基于后处理Bean,后处理Bean不需要配置ID-->
+	 <!-- BeanNameAutoProxyCreator :按名称生成代理 -->
+	 
+	 <bean class="org.springframework.aop.framework.autoproxy.BeanNameAutoProxyCreator">
+		<!-- “*” 通配符匹配 -->
+		<property name="beanNames" value="*Dao"></property>
+		<property name="interceptorNames" value="beforeAdvice,afterAdvice"></property>
+	</bean>
+	
+	<!-- DefaultAdvisorAutoProxyCreator :根据切面中定义的信息生成代理 -->
+	<!-- <bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"></bean> -->
+	<!-- 对象自动代理与不带有切点的切面==============================================end -->
+
+</beans>

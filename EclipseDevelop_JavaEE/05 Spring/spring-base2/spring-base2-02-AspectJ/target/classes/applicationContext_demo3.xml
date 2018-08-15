@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xmlns:tx="http://www.springframework.org/schema/tx"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+	<!-- 定义被增强的类 -->
+	<bean id="auctorDao" class="com.baihoo.spring4.demo3.dao.impl.AuctorDaoImpl"></bean>
+	<!-- 定义切面 -->
+	<bean id="aopAspectJXML" class="com.baihoo.spring4.demo3.aspectJ.AopAspectJXML"></bean>
+
+	<!-- 定义aop配置 -->
+	<aop:config>
+		<!-- 定义切点: -->
+		<aop:pointcut expression="execution(* *.add*(..))" id="pointcutWithAdd"/>
+		<aop:pointcut expression="execution(* *.update*(..))" id="pointcutWithUpdate"/>
+		<aop:pointcut expression="execution(* *.delete*(..))" id="pointcutWithDelete"/>
+		<aop:pointcut expression="execution(* *.find*(..))" id="pointcutWithFind"/>
+		<!-- 使用切面: -->
+		<aop:aspect ref="aopAspectJXML">
+			<!-- 前置通知 -->
+			<aop:before method="before" pointcut-ref="pointcutWithAdd"/>
+			<!-- 后置通知 -->
+			<aop:after-returning method="afterReturning" pointcut-ref="pointcutWithAdd" returning="returnResult"/>
+			<!-- 环绕通知 -->
+			<aop:around method="around" pointcut-ref="pointcutWithUpdate"/>
+			<!-- 异常通知 -->
+			<aop:after-throwing method="afterThrowing" pointcut-ref="pointcutWithDelete" throwing="e"/>
+			<!-- 最终通知 -->
+			<aop:after method="after" pointcut-ref="pointcutWithFind"/>
+		</aop:aspect>
+	</aop:config>
+</beans>

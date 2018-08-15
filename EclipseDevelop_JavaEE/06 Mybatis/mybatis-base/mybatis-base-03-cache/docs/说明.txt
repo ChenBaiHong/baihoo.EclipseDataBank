@@ -1,0 +1,74 @@
+
+该工程项同/mybatis-base-02是一致的，但该工程有配置二级缓存，其一级缓存是mybatis创建sqlSession默认含有的
+
+《-- ================================================================================== --》
+1、一级查询缓存
+	证明案例：com.baihoo.mybatis.mapper.BhUserMapperTest.testFindBhUserDtoDetailCache()
+	1.1、缓存的意义
+				将用户经常查询的数据放在缓存（内存）中，用户去查询数据就不用从磁盘上(关系型数据库数据文件)查询，从缓存中查询，从而提高查询效率，
+			解决了高并发系统的性能问题。
+			
+	1.2、mybatis持久层缓存
+				mybatis一级缓存是一个SqlSession级别，sqlsession只能访问自己的一级缓存的数据，二级缓存是跨sqlSession，是mapper级别的缓存，
+			对于mapper级别的缓存不同的sqlsession是可以共享的。
+			
+	1.3、一级缓存
+				第一次发出一个查询sql，sql查询结果写入sqlsession的一级缓存中，缓存使用的数据结构是一个map<key,value>key：hashcode+sql+sql的
+			输入参数+输出参数（sql的唯一标识），value：用户信息，同一个sqlsession再次发出相同的sql，就从缓存中取不走数据库。如果两次中间出现commit操作
+			（修改、添加、删除），本sqlsession中的一级缓存区域全部清空，下次再去缓存中查询不到所以要从数据库查询，从数据库查询到再写入缓存。
+	
+	1.4、一级缓存配置
+				mybatis默认支持一级缓存不需要配置。
+				注意：mybatis和spring整合后进行mapper代理开发，不支持一级缓存，mybatis和spring整合，spring按照mapper的模板去生成mapper代理对象，
+			模板中在最后统一关闭sqlsession。
+	
+《-- ================================================================================== --》		
+2、二级缓存
+	证明案例：com.baihoo.mybatis.mapper.BhUserMapperTest.testFindByIdCache()
+	2.1、缓存的意义
+				将用户经常查询的数据放在缓存（内存）中，用户去查询数据就不用从磁盘上(关系型数据库数据文件)查询，从缓存中查询，从而提高查询效率，
+			解决了高并发系统的性能问题。
+			
+	2.2、在核心配置文件SqlMapConfig.xml中加入
+		<setting name="cacheEnabled" value="true"/>
+		——————————————————————————————————————————————————————————
+		 |  设置项									| 描述																															| 允许值	 			|默认值		|
+		——————————————————————————————————————————————————————————
+	 	|  cacheEnabled						| 对在此配置文件下的所有cache 进行全局性开/关设置。														|	true /  false	|	true		|
+		——————————————————————————————————————————————————————————
+		
+		要在你的 **Mapper.xml 映射文件中添加一行：  <cache /> ，表示此mapper开启二级缓存。
+		
+	2.3、查询结果映射的pojo序列化		
+			mybatis二级缓存需要将查询结果映射的pojo实现 java.io.serializable接口，如果不实现则抛出异常：
+				org.apache.ibatis.cache.CacheException: Error serializing object.  Cause: java.io.NotSerializableException: cn.itcast.mybatis.po.User
+			
+			二级缓存可以将内存的数据写到磁盘，存在对象的序列化和反序列化，所以要实现java.io.serializable接口。如果结果映射的pojo中还包括了pojo，都要实现
+			java.io.serializable接口。
+			
+	2.4、二级缓存禁用
+			对于变化频率较高的sql，需要禁用二级缓存：
+			在statement中设置useCache=false可以禁用当前select语句的二级缓存，即每次查询都会发出sql去查询，默认情况是true，即该sql使用二级缓存。
+			<select id="findOrdersDetail" parameterType="BhOrdersDto" resultMap="BhOrdersDtoResultMap" useCache="false">
+
+	2.5、刷新缓存
+			如果sqlsession操作commit操作，( 例如：增删改 ) 对二级缓存进行刷新（全局清空）。
+			设置statement的flushCache是否刷新缓存，默认值是true。
+			
+	2.6、验证 MyBatis 的二级缓存不适用于映射文件中存在多表查询的情况。
+	
+	2.7、二级缓存的应用场景
+			对查询频率高，变化频率低的数据建议使用二级缓存。
+			对于访问多的查询请求且用户对查询结果实时性要求不高，此时可采用mybatis二级缓存技术降低数据库访问量，提高访问速度，业务场景比如：耗时较高的统计分析sql、电话账单查询sql等。
+			实现方法如下：通过设置刷新间隔时间，由mybatis每隔一段时间自动清空缓存，根据数据变化频率设置缓存刷新间隔flushInterval，比如设置为30分钟、60分钟、24小时等，根据需求而定。
+
+	2.8、mybatis局限性
+			mybatis二级缓存对细粒度的数据级别的缓存实现不好，比如如下需求：对商品信息进行缓存，由于商品信息查询访问量大，但是要求用户每次都能查询最新的商品信息，此时如果使用mybatis的
+		二级缓存就无法实现当一个商品变化时只刷新该商品的缓存信息而不刷新其它商品的信息，因为mybaits的二级缓存区域以mapper为单位划分，当一个商品信息变化会将所有商品信息的缓存数据全部
+		清空。解决此类问题需要在业务层根据需求对数据有针对性缓存。
+
+	
+	
+	
+	
+	

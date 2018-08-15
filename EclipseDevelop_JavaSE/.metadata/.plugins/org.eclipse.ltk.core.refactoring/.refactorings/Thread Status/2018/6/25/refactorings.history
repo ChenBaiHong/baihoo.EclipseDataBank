@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;多线程.nyf&apos; to &apos;docs&apos;&#x0D;&#x0A;- Original project: &apos;Thread Status&apos;&#x0D;&#x0A;- Destination element: &apos;docs&apos;&#x0D;&#x0A;- Original element: &apos;多线程.nyf&apos;" description="Copy file" element1="docs/多线程.nyf" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1529756011433" target="/Thread Synchronize/docs" units="0" version="1.0"/>
+</session>

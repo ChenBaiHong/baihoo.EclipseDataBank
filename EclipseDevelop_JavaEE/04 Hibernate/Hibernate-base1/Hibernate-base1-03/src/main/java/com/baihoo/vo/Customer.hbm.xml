@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+    
+<hibernate-mapping >
+	<!-- 配置客户实体与客户表对应关系 -->
+	<class name="com.baihoo.vo.Customer" batch-size="2" table="customer" lazy="true">
+		
+		<!-- 配置唯一标识OID -->
+		<id name="cid" column="cid">
+			<generator class="native"/>
+		</id>
+		<!-- 
+			什么是乐观锁，通过版本控制
+		 -->
+		<version name="version"/>
+		<!-- 普通属性 -->
+		<property name="cname" column="cname" length="30"/>
+		<property name="age" column="age" />
+		
+		<!-- 配置订单的集合 -->
+		<!-- 
+			set标签
+				* name:指的是在Customer对象中的订单集合的名称
+		 -->
+		<set name="orders" cascade="save-update" batch-size="2">
+			<!-- key:column.在多的一方创建的外键名称. -->
+			<key column="cno"/>
+			<!-- 配置一个一对多的标签 -->
+			<one-to-many class="com.baihoo.vo.Order"/>
+		</set>
+	</class>
+	<!-- 命名查询的方式 -->
+	<query name="findAll">
+		from Customer
+	</query>
+</hibernate-mapping>

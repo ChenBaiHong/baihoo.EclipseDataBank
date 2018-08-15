@@ -1,0 +1,149 @@
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-07-29 00:35:30] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-07-29 00:35:30] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-07-29 00:35:32] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-07-29 00:35:33] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-07-29 00:35:33] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-07-29 00:35:33] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-07-29 00:35:33] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-07-29 00:35:33] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-07-29 00:35:33] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@3460ebfc
+[2018-07-29 00:35:34] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-07-29 00:35:35] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-07-29 00:35:35] [INFO] [org.quartz.core.QuartzScheduler:461] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-07-29 00:36:17] [WARN] [net.sf.ehcache.distribution.RMICacheManagerPeerListener:120] Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+[2018-07-29 00:36:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:444] ================================开始时间:2018-07-29 00:36:19==============================
+[2018-07-29 00:36:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:449] ================================结束时间:2018-07-29 00:36:19==============================
+[2018-07-29 00:36:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:450] ================================耗时:151ms==============================
+[2018-07-29 00:36:19] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-07-29 00:36:20] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-07-29 00:36:25] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 00:36:25] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 00:36:42] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--30
+[2018-07-29 00:41:58] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:94] popupMultiValue
+[2018-07-29 00:42:11] [INFO] [org.jeecgframework.web.system.controller.core.CommonController:66] --通用页面跳转--listTurn-------system/document/filesList
+[2018-07-29 00:42:13] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:575] ----多选项卡demo转入页面-----
+[2018-07-29 00:42:13] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:580] ----选项卡demo转入页面-----
+[2018-07-29 00:42:13] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:580] ----选项卡demo转入页面-----
+[2018-07-29 00:42:26] [INFO] [org.jeecgframework.web.system.controller.core.CommonController:147] --附件预览---自定义实体类：com.jeecg.demo.entity.TSDocument--viewFile-----path--upload/files/201709140955378TbNRugP.xlsx
+[2018-07-29 00:46:41] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 00:46:41] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 00:47:20] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-07-29 00:47:21] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-07-29 00:47:21] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-07-29 00:47:21] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-07-29 00:47:24] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 00:47:24] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 00:47:27] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 00:47:47] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-07-29 00:47:47] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-07-29 00:47:48] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-07-29 00:48:01] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:88] ueditor
+[2018-07-29 00:51:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-07-29 00:51:43] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgdynamgraph.dao.core.CgDynamGraphDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormFieldDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.config.CgFormVersionDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgform.dao.upload.CgFormUploadDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.cgreport.dao.core.CgReportDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { org.jeecgframework.web.system.dao.JeecgDictDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.demo.dao.JeecgMinidaoDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.p3.demo.dao.JeecgP3demoDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ChatMessageHistoryDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.chat.dao.ImDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.actInvite.dao.WxActInviteDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.auth.dao.JwSystemAuthDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderCustomDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderMainDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.domo.order.dao.JpDemoOrderProductDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailAttachDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailJformInnerMailReceiverDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSBaseUserDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.mail.dao.P3MailTSUserDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.mutiLang.dao.P3MutiLangDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.dict.dao.TSTypeDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.tag.select.table.dao.CustomTableDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.minidao.aop.MiniDaoHandler:48] register minidao name is { com.jeecg.core.biz.dao.TSOperationDao }
+[2018-07-29 17:57:33] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:111] Spring's Quartz 1.x support is deprecated - please upgrade to Quartz 2.0+
+[2018-07-29 17:57:33] [INFO] [com.alibaba.druid.pool.DruidDataSource:450] {dataSource-1} inited
+[2018-07-29 17:57:35] [WARN] [org.hibernate.id.UUIDHexGenerator:59] HHH000409: Using org.hibernate.id.UUIDHexGenerator which does not generate IETF RFC 4122 compliant UUID values; consider using org.hibernate.id.UUIDGenerator instead
+[2018-07-29 17:57:37] [INFO] [org.quartz.core.SchedulerSignalerImpl:63] Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+[2018-07-29 17:57:37] [INFO] [org.quartz.core.QuartzScheduler:215] Quartz Scheduler v.1.6.2 created.
+[2018-07-29 17:57:37] [INFO] [org.quartz.simpl.RAMJobStore:141] RAMJobStore initialized.
+[2018-07-29 17:57:37] [INFO] [org.quartz.impl.StdSchedulerFactory:1224] Quartz scheduler 'schedulerFactory' initialized from an externally provided properties instance.
+[2018-07-29 17:57:37] [INFO] [org.quartz.impl.StdSchedulerFactory:1228] Quartz scheduler version: 1.6.2
+[2018-07-29 17:57:37] [INFO] [org.quartz.core.QuartzScheduler:2094] JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@2401de10
+[2018-07-29 17:57:38] [INFO] [org.jeecgframework.core.timer.DynamicTask:172]  register time task class num is [0] 
+[2018-07-29 17:57:39] [INFO] [org.jeecgframework.core.timer.DataBaseSchedulerFactoryBean:648] Starting Quartz Scheduler now
+[2018-07-29 17:57:39] [INFO] [org.quartz.core.QuartzScheduler:461] Scheduler schedulerFactory_$_NON_CLUSTERED started.
+[2018-07-29 18:29:54] [WARN] [net.sf.ehcache.distribution.RMICacheManagerPeerListener:120] Explicitly setting the listener hostname to 'localhost' is not recommended. It will only work if all CacheManager peers are on the same machine.
+[2018-07-29 19:55:53] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:444] ================================开始时间:2018-07-29 19:55:53==============================
+[2018-07-29 19:55:53] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:449] ================================结束时间:2018-07-29 19:55:53==============================
+[2018-07-29 19:55:53] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:450] ================================耗时:162ms==============================
+[2018-07-29 19:55:53] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-07-29 19:55:54] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-07-29 19:56:12] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 19:56:12] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 19:56:18] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 19:56:18] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 21:39:25] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-07-29 21:39:25] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-07-29 22:53:26] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:444] ================================开始时间:2018-07-29 22:53:26==============================
+[2018-07-29 22:53:26] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:449] ================================结束时间:2018-07-29 22:53:26==============================
+[2018-07-29 22:53:26] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:450] ================================耗时:104ms==============================
+[2018-07-29 22:53:26] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-07-29 22:53:27] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-07-29 22:53:33] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 22:53:33] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 22:53:42] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 22:53:42] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 22:55:31] [INFO] [org.jeecgframework.web.system.controller.core.LoginController:286] login 资源路径returnURL：null
+[2018-07-29 22:55:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0
+[2018-07-29 22:55:31] [INFO] [com.jeecg.chat.web.WebSocket:250] 有新连接加入！当前在线人数为1
+[2018-07-29 22:56:21] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:94] popupMultiValue
+[2018-07-29 22:56:29] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:239] ----左右布局 demo转入页面-----
+[2018-07-29 22:56:45] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:575] ----多选项卡demo转入页面-----
+[2018-07-29 22:56:46] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:580] ----选项卡demo转入页面-----
+[2018-07-29 22:56:46] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:580] ----选项卡demo转入页面-----
+[2018-07-29 22:56:50] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:580] ----选项卡demo转入页面-----
+[2018-07-29 22:56:53] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:247] ----上下特殊布局 demo转入页面-----
+[2018-07-29 22:57:05] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:88] ueditor
+[2018-07-29 22:57:11] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:79] demo-nature
+[2018-07-29 22:57:11] [INFO] [com.jeecg.demo.controller.JeecgFormDemoController:104] ----省市区联动-----
+[2018-07-29 22:57:34] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--13
+[2018-07-29 22:57:57] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--30
+[2018-07-29 22:58:10] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--16
+[2018-07-29 22:58:13] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--52
+[2018-07-29 22:58:13] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--11
+[2018-07-29 22:58:14] [INFO] [org.jeecgframework.web.cgform.service.impl.autolist.ConfigServiceImpl:72] -- columns -- size--18
+[2018-07-29 22:58:22] [INFO] [org.jeecgframework.web.graphreport.service.impl.core.GraphReportServiceImpl:72] -------------动态报表功能--------querySql--SELECT t.* FROM ( select a.userid, count(*) ct, sum(case when right(logcontent, 4) in ('登录成功', 'cess') then 1 else 0 end) login_count from t_s_log a where 1=1 group by a.userid ) t  order by ct desc
+[2018-07-29 22:58:58] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 22:58:58] [INFO] [com.jeecg.actInvite.web.WxActInviteController:59]  -- test -- 管理员
+[2018-07-29 22:59:12] [INFO] [org.jeecgframework.p3.core.web.BaseController:234] [0:0:0:0:0:0:0:1]  back list
+[2018-07-29 23:01:03] [INFO] [org.jeecgframework.web.system.controller.core.CommonController:66] --通用页面跳转--listTurn-------system/document/filesList
+[2018-07-29 23:01:15] [INFO] [com.jeecg.chat.web.WebSocket:250] 发生错误
+[2018-07-29 23:01:15] [INFO] [com.jeecg.chat.web.WebSocket:250] 当前在线用户：0

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	id="WebApp_ID" version="3.0">
+	<display-name>webServlet01</display-name>
+	<servlet>
+		<servlet-name>HelloServlet</servlet-name>
+		<servlet-class>com.baiHo.servlet.HelloServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>HelloServlet</servlet-name>
+		<url-pattern>/HelloServlet.servlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ServletDome01</servlet-name>
+		<servlet-class>com.baiHo.servlet2.ServletDome01</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletDome01</servlet-name>
+		<url-pattern>/ServletDome01.servlet</url-pattern>
+	</servlet-mapping>
+	<servlet>
+		<servlet-name>ServletDome03</servlet-name>
+		<servlet-class>com.baiHo.servlet2.ServletDome03</servlet-class>
+		<!-- 值必须是正整数,如果值越小，优先级越高。意思是调用初始化方法init() -->
+		<load-on-startup>3</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ServletDome03</servlet-name>
+		<url-pattern>/ServletDome03.servlet</url-pattern>
+	</servlet-mapping>
+</web-app>

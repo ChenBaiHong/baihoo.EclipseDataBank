@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;doc&apos;&#x0D;&#x0A;- Original project: &apos;baiHoo.triage-master&apos;&#x0D;&#x0A;- Destination element: &apos;doc&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     triageTable.sql&#x0D;&#x0A;     triageData.sql&#x0D;&#x0A;- Update references to refactored element" description="Move files" element1="src/main/resources/triageTable.sql" element2="src/main/resources/triageData.sql" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1520604613483" target="doc" units="0" version="1.0"/>
+</session>

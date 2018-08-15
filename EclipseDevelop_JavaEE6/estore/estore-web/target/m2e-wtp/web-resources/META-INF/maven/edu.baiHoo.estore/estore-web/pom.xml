@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>edu.baiHoo.estore</groupId>
+		<artifactId>estore</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+	</parent>
+	<artifactId>estore-web</artifactId>
+	<packaging>war</packaging>
+	<name>estore-web Maven Webapp</name>
+	<url>http://maven.apache.org</url>
+	<dependencies>
+		<!-- maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		<!-- maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		<!-- maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		<dependency>
+			<groupId>edu.baiHoo.estore</groupId>
+			<artifactId>estore-product-web</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<!-- 必须声明类型，是web工程war包 -->
+			<!-- 必须声明类型，是web工程war包 -->
+			<type>war</type>
+		</dependency>
+		<dependency>
+			<groupId>edu.baiHoo.estore</groupId>
+			<artifactId>estore-product-web</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<!-- 必须声明类型，是web工程war包 -->
+			<!-- 必须声明类型，是web工程war包 -->
+			<type>war</type>
+		</dependency>
+		<!--// maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		<!--// maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		<!--// maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
+	<build>
+		<finalName>estore-web</finalName>
+		<plugins>
+			<!-- maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+			<!-- maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+			<!-- maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5</version>
+				<configuration>
+					<overlays>
+						<overlay>
+							<groupId>edu.baiHoo.estore</groupId>
+							<artifactId>estore-custom-web</artifactId>
+						</overlay>
+						<overlay>
+							<groupId>edu.baiHoo.estore</groupId>
+							<artifactId>estore-product-web</artifactId>
+						</overlay>
+					</overlays>
+				</configuration>
+			</plugin>
+			<!--// maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+			<!--// maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+			<!--// maven web工程引入其他maven web工程，在同一个web工程中操作 -->
+		</plugins>
+	</build>
+</project>

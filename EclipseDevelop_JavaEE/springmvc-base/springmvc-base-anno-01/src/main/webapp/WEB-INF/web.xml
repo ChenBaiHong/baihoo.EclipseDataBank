@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    id="WebApp_ID"
+    version="2.5">
+    
+  <display-name>Archetype Created Web Application</display-name>
+  <!-- 配置springmvc前端控制器 -->
+  <servlet>
+  	<servlet-name>springmvc</servlet-name>
+  	<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+  	<!-- 加載springmvc配置文件信息 -->
+  	<init-param>
+  		<!-- 
+  		配置文件的地址
+  		如果不配置contextConfigLocation，
+  		默認查找的配置文件名稱classpath下的：servlet名稱+"-servlet.xml"即：springmvc-servlet.xml
+  		 -->
+  		<param-name>contextConfigLocation</param-name>
+  		<param-value>classpath:spring/springmvc.xml</param-value>
+  	</init-param>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>springmvc</servlet-name>
+  	<!-- 
+  	可以配置/  ， 此工程所有全部由springmvc解析，此種方式可以RESTful方式，需要特殊處理對靜態文件的解析不能有springmvc
+  	可以配置*.do 或 *.cation , 所有請求的url擴展名為.do或.action有springmvc解析，此種方式常用
+  	不可以配置/* ， 如果配置/*,返回jsp也會由springmvc解析，這是不對的。
+  	 -->
+  	<url-pattern>*.do</url-pattern>
+  </servlet-mapping>
+  
+</web-app>

@@ -1,0 +1,10 @@
+
+========================================================================
+	1. 如果文件路径带有空格抛出异常---org.dom4j.DocumentException: 系统找不到指定的路径
+		解决方法：因此得转码，转成UTF-8编码格式
+			String strutsXML = Thread.currentThread().getContextClassLoader().getResource("/struts.xml").getPath();
+			strutsXML = URLDecoder.decode(strutsXML,"UTF-8");
+			
+	2. java.lang.ClassNotFoundException: org.jaxen.NamespaceContext 該异常关联上面 1 提出的异常
+		解决方法：
+			引入 jaxen 的 jar依赖

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+向webservice 服務端發送添加信息的請求内容
+	<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+		<soap:Body>
+			<ns2:setUser xmlns:ns2="http://server.cxf.web.baihoo.com/">
+				<arg0>
+					<address>China</address>
+					<email>baihoo@gmail.com</email>
+					<id>1</id>
+					<name>baiHoo.good</name>
+				</arg0>
+			</ns2:setUser>
+		</soap:Body>
+	</soap:Envelope>
+
+
+==========================================================================================
+
+向webservice 服務端發送添加信息的請求内容
+	<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+		<soap:Body>
+			<ns2:findByAll xmlns:ns2="http://server.cxf.web.baihoo.com/" />
+		</soap:Body>
+	</soap:Envelope>
+
+webservice 服務端响应的内容
+	<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+		<soap:Body>
+			<ns2:findByAllResponse xmlns:ns2="http://server.cxf.web.baihoo.com/">
+				<return>
+					<address>china . chengdu</address>
+					<email>baHoo@gmail.com</email>
+					<id>5e81cbc038484bbeaf29136e271eb8af</id>
+					<name>baHoo</name>
+				</return>
+				<return>
+					<address>China</address>
+					<email>baihoo@gmail.com</email>
+					<id>1</id>
+					<name>baiHoo.good</name>
+				</return>
+				<return>
+					<address>china . chengdu</address>
+					<email>baHoo@gmail.com</email>
+					<id>07e0e69e62464abdac16f4a9384c4c2c</id>
+					<name>baHoo</name>
+				</return>
+				<return>
+					<address>China</address>
+					<email>baihoo@gmail.com</email>
+					<id>1</id>
+					<name>baiHoo.good</name>
+				</return>
+				<return>
+					<address>china . chengdu</address>
+					<email>baHoo@gmail.com</email>
+					<id>1d1ef05e8c5248bc95a7e7140b9c776a</id>
+					<name>baHoo</name>
+				</return>
+				<return>
+					<address>China</address>
+					<email>baihoo@gmail.com</email>
+					<id>1</id>
+					<name>baiHoo.good</name>
+				</return>
+				<return>
+					<address>china . chengdu</address>
+					<email>baHoo@gmail.com</email>
+					<id>ed2822e6d40b4206893680a7f7533d28</id>
+					<name>baHoo</name>
+				</return>
+				<return>
+					<address>China</address>
+					<email>baihoo@gmail.com</email>
+					<id>1</id>
+					<name>baiHoo.good</name>
+				</return>
+			</ns2:findByAllResponse>
+		</soap:Body>
+	</soap:Envelope>
+
+Headers: {Accept=[*/*], accept-encoding=[gzip, deflate, br],
+accept-language=[zh-CN,zh;q=0.9],
+access-control-request-headers=[content-type],
+access-control-request-method=[POST], connection=[keep-alive],
+Content-Type=[null], host=[localhost:8080], origin=[null],
+user-agent=[Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36
+(KHTML, like Gecko) Chrome/62.0.3202.94 Safari/537.36]}

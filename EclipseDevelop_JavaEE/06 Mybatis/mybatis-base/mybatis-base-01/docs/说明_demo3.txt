@@ -1,0 +1,18 @@
+实例参考：org.mybatis.mapper ， com.baihoo.mybatis.demo3.mapper
+<!-- ========================================================================================= -->
+1、mapper代理的方式 
+		什么是mapper代理？？
+			程序员只需要写dao接口，dao接口实现对象由mybatis自动生成代理对象。本身dao在三层架构中就是一个通用的接口
+		
+		mapper开发规范	
+		要想让mybatis自动创建dao接口实现类的代理对象，必须遵循一些规则：
+			1.1、mapper.xml中namespace指定为mapper接口的全限定名
+				此步骤目的：通过mapper.xml和mapper.java进行关联。
+				
+			1.2、mapper.xml中statement的id就是mapper.java中方法名
+			
+			1.3、mapper.xml中statement的parameterType和mapper.java中方法输入参数类型一致
+			
+			1.4、mapper.xml中statement的resultType和mapper.java中方法返回值类型一致.
+			
+			

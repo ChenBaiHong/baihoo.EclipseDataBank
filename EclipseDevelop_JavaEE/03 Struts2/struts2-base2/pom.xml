@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.baihoo.struts2</groupId>
+	<artifactId>struts2-base2</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>1.8</java.version>
+	</properties>
+
+
+	<dependencies>
+		<!-- struts2核心依赖包 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<version>2.5</version>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-core</artifactId>
+			<version>2.5.2</version>
+		</dependency>
+		<!-- 使用插件 struts2-config-browser-plugin 提供在浏览器中查看 struts2 配置加载情况 访问 http://localhost/struts2_day01/config-browser/index.action 
+			查看 struts2配置加载情况 -->
+		<dependency>
+			<groupId>org.apache.struts</groupId>
+			<artifactId>struts2-config-browser-plugin</artifactId>
+			<version>2.5.2</version>
+		</dependency>
+		<!-- //struts2核心依赖包 -->
+		<!-- 引入jstl 标签库，和jstl有关联关系的库 -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>jstl</artifactId>
+			<version>1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<!-- //引入jstl 标签库，和jstl有关联关系的库 -->
+		<!-- dom4j 解析文件需要的jar文件 -->
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId>
+			<version>1.1.6</version>
+		</dependency>
+		<!--// dom4j 解析文件需要的jar文件 -->
+		<!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+		<dependency>
+			<groupId>commons-beanutils</groupId>
+			<artifactId>commons-beanutils</artifactId>
+			<version>1.9.3</version>
+		</dependency>
+		<!-- junit测试单元 -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>3.8.1</version>
+			<scope>test</scope>
+		</dependency>
+		<!-- //junit测试单元 -->
+	</dependencies>
+
+	<build>
+		<finalName>struts2-base-01</finalName>
+		<plugins>
+			<!-- 父类maven工程中配置ava编译版本 -->
+			<!-- <plugin> <groupId>org.apache.maven.plugins</groupId> <artifactId>maven-compiler-plugin</artifactId> 
+				<version>3.5</version> <configuration> <source>1.8</source> <target>1.8</target> 
+				</configuration> </plugin> -->
+			<!-- 该Eclipse ，需要自己配置Java编译环境 -->
+			<!-- 该Eclipse ，需要自己配置Java编译环境 -->
+			<!-- 该Eclipse ，需要自己配置Java编译环境 -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.5</version>
+				<configuration>
+					<verbose>true</verbose>
+					<fork>true</fork>
+					<executable>${JAVA8_HOME}/bin/javac</executable>
+					<source>1.8</source>
+					<target>1.8</target>
+					<encoding>UTF-8</encoding>
+				</configuration>
+			</plugin>
+			<!--// 该Eclipse ，需要自己配置Java编译环境 -->
+			<!--//该Eclipse ，需要自己配置Java编译环境 -->
+			<!--// 该Eclipse ，需要自己配置Java编译环境 -->
+		</plugins>
+	</build>
+	<!-- 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!-- 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!-- 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<repositories>
+		<repository>
+			<id>nexus-aliyun</id>
+			<name>aliyun Repository</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jeecg</id>
+			<name>jeecg Repository</name>
+			<url>http://maven.jeecg.org/nexus/content/repositories/jeecg</url>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>jeecg-snapshots</id>
+			<name>jeecg-snapshots Repository</name>
+			<url>http://maven.jeecg.org/nexus/content/repositories/snapshots</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>apache-repo</id>
+			<name>apache Repository</name>
+			<url>https://repository.apache.org/content/groups/public/</url>
+		</repository>
+		<repository>
+			<id>springsource-repo</id>
+			<name>SpringSource Repository</name>
+			<url>http://repo.springsource.org/release/</url>
+		</repository>
+		<repository>
+			<id>jboss-repo-releases</id>
+			<name>Jboss Repository</name>
+			<url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+		</repository>
+		<repository>
+			<id>central</id>
+			<name>Maven Repository Switchboard</name>
+			<layout>default</layout>
+			<url>http://repo.maven.apache.org/maven2</url>
+		</repository>
+		<repository>
+			<id>maven-repo1</id>
+			<name>maven-repo1</name>
+			<layout>default</layout>
+			<url>http://repo1.maven.org/maven2/</url>
+		</repository>
+	</repositories>
+	<!--// 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!--// 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+	<!--// 常用仓库地址，设定主仓库，按设定顺序进行查找 -->
+
+	<!-- 常用插件仓库地址 -->
+	<!-- 常用插件仓库地址 -->
+	<!-- 常用插件仓库地址 -->
+	<pluginRepositories>
+		<pluginRepository>
+			<id>maven2-repo</id>
+			<name>maven2 Repository</name>
+			<url>http://repo1.maven.org/maven2/</url>
+		</pluginRepository>
+	</pluginRepositories>
+	<!--// 常用插件仓库地址 -->
+	<!--// 常用插件仓库地址 -->
+	<!--// 常用插件仓库地址 -->
+	<modules>
+		<module>struts2-base2-01</module>
+    <module>struts2-base2-02</module>
+    <module>struts2-base2-03</module>
+  </modules>
+</project>

@@ -1,0 +1,10 @@
+1、简单自定发布webservice
+		com.baihoo.ws.publish.server.ServerPublish
+				发布的webservice类注意以下几点：
+					 * 1. 需要方法權限是public
+					 * 2. 不能是final類型
+					 * 3. 方法不能是靜態的
+					 * 4. 服务类至少有一个方法
+		访问自己的：http://127.0.0.1:8080/hello?wsdl
+
+		

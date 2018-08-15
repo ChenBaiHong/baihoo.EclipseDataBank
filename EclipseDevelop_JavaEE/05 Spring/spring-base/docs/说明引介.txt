@@ -1,0 +1,18 @@
+<!-- ====================================================================== -->
+1、spring-base-01 内容说明
+		com.baihoo.spring4.demo1 ------  demo1快速入门，通过一个<bean>标签设置类的信息
+		com.baihoo.spring4.demo2 ------ demo2Bean的实例化方式，默认情况下使用的就是无参数的构造方法；第二种使用静态工厂实例化；第三种使用实例工厂实例化
+		com.baihoo.spring4.demo3 ------ 实例化Bean的作用范围	，xml配置，作用 Bean方法初始与销毁的生命周期 [ <bean ... init-method=".." destroy-method=".."> ]													
+	    com.baihoo.spring4.demo4 ------ Bean的生命周期加上 xml配置后处理bean [ 实现 org.springframework.beans.factory.config.BeanPostProcessor 接口的方式] ,测试Bean的生命周期的11个步骤
+	    com.baihoo.spring4.demo5 ------ Bean的属性注入方式，构造方法的注入；属性的注入；名称空间p:注入属性；SpEL:属性的注入	
+	    com.baihoo.spring4.demo6 ------ Bean的集合属性注入，List集合注入；set集合注入；map集合注入；properties集合注入		
+	    
+<!-- ====================================================================== -->	    
+2、spring-base-02 内容说明
+		com.baihoo.spring4.demo1 ------ 注解的方式装配Bean，注解注入配置方法初始“@PostConstruct”与销毁“@PreDestroy”的生命周期	
+		com.baihoo.spring4.demo2 ------ “@Configuration”注解指定POJO类为Spring提供Bean定义信息，“@Bean” 提供一个Bean定义信息
+		com.baihoo.spring4.demo3 ------ 注解方式和xml配置方式两种结合使用	
+<!-- ====================================================================== -->		
+3、spring-base-03 内容说明	
+		com.baihoo.spring4 ------ Spring 整合 servlet 开展web开发
+											

@@ -1,0 +1,4 @@
+content-types/org.eclipse.jdt.core.javaClass/charset=utf-8
+content-types/org.eclipse.wst.html.core.htmlsource/file-names=freemarkerHelloWord.ftl,bookList.ftl,bookLis1t.ftl,transferAccount.ftl,transferAccount1.ftl,transfer2Account.ftl
+content-types/org.eclipse.wst.xml.core.xmlsource/file-names=\u8BF7\u6C42\u4E0E\u76F8\u5E94\u5185\u5BB9\u5206\u6790.xml_
+eclipse.preferences.version=1

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="springboot-base-03-crud"/>
+<aop-project name="springboot-base-01"/>
+<aop-project name="springboot-base-02"/>
+<aop-project name="shiro-base-01"/>
+<aop-project name="springboot-base-04-transaction"/>
+</aop-reference-model>

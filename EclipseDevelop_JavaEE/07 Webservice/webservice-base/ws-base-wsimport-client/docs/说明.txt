@@ -1,0 +1,11 @@
+《-- =============================================================================== --》	
+
+1、com.baihoo.ws.stub , stub是表示mobileCode的webservice桩点服务
+	wsimport -s . -p com.baihoo.ws.stub http://ws.webxml.com.cn/WebServices/MobileCodeWS.asmx?wsdl
+	
+《-- =============================================================================== --》	
+
+2、G:\webserviceCode\com\baihoo\ws\trans 	中英翻译的webservice桩点服务
+	wsimport -s . -p com.baihoo.trans http://fy.webxml.com.cn/webservices/EnglishChinese.asmx?wsdl
+	现在错误，会提示行号！那么直接浏览器零右键另存在*.wsdl后缀的文件
+	wsimport -s . -p com.baihoo.ws.trans G:\webserviceCode\EnglishChinese.wsdl

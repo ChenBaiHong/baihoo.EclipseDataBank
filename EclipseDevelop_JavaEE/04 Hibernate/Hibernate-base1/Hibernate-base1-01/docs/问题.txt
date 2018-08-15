@@ -1,0 +1,7 @@
+
+hibernate 版本 4.3.6 final
+————————————————————————————————————————————————————————————————————
+异常1：
+	Error creating Session: org.hibernate.service.UnknownServiceException: Unknown service requested [org.hibernate.engine.jdbc.connections.spi.ConnectionProvider]
+	解决：
+		org.hibernate.service.jdbc.connections.internal.C3P0ConnectionProvider不在Hibernate  Core 4中，有个单独的模块叫hibernate-c3p0，可以再JBoss的仓库找到

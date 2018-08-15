@@ -1,0 +1,47 @@
+1.	com.baiHoo.file.operDir;
+	-- 識別 
+		-- 路径分隔符 ;
+		-- 名称分隔符 /
+		
+2.	package com.baiHoo.file.path;
+	-- 識別
+		-- 相对路径
+		-- 絕對路徑		
+		
+3.	com.baiHoo.file.operFile;
+	-- 識別
+		-- 常用方法及文件操作
+		
+4. com.baiHoo.file.operDir;		
+	-- 識別
+		-- 操作目录 
+		
+		
+5. 	com.baiHoo.file.operProgeny;
+	-- 識別
+		-- 输出 子孙( Progeny )级目录|文件的名称(绝对路径)
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		

@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+E:\EclipseDataBank\EclipseDevelop_JavaEE5\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3664946415.index

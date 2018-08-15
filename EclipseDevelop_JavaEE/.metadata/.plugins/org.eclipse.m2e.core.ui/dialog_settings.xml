@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+			<item value="com.baihoo.shiro"/>
+			<item value="com.baihoo.ssm"/>
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+			<item value="shiro-base"/>
+			<item value="springmvc-ssm-02"/>
+			<item value="springmvc-ssm"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+			<item value="github"/>
+		</list>
+		<list key="issueManagementUrl">
+			<item value="https://github.com/alibaba/dubbo/issues"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.wizards.MavenProjectSelectionDialog">
+		<item value="480" key="width"/>
+		<item value="1103" key="x"/>
+		<item value="387" key="y"/>
+		<item value="450" key="height"/>
+	</section>
+	<section name="MavenProjectImportWizardPage">
+		<list key="rootDirectory">
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\06 Mybatis"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\07 Webservice"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\05 Spring"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\04 Hibernate"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\03 Struts2"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\webservice-base"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\struts2-base"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\01 WebSocket\websocket-chat"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\websocket"/>
+			<item value="C:\Users\cbh12\Downloads\dubbo-master"/>
+			<item value="C:\Users\cbh12\Downloads\Compressed\dubbo-master"/>
+			<item value="C:\Users\cbh12\Downloads\alibaba-dubbo-7c7c58e"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenModuleWizardParentPage">
+		<list key="moduleName">
+			<item value="springmvc-ssm-02"/>
+			<item value="mybatis-base-04-gen"/>
+			<item value="springmvc-ssm-01"/>
+			<item value="springmvc-base-01"/>
+			<item value="mybatis-spring-gen"/>
+			<item value="mybatis-spring-01"/>
+			<item value="mybatis-base-03-cache"/>
+			<item value="mybatis-base-02"/>
+			<item value="mybatis-base-01"/>
+			<item value="ws-cxf-web-client2"/>
+			<item value="ws-cxf-web-client"/>
+			<item value="ws-cxf-web-server"/>
+			<item value="ws-cxf-client"/>
+			<item value="ws-cxf-server"/>
+			<item value="ws-publish-client"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\springmvc-base"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\mybatis-base"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\ws-cxf\ws-cxf-server\src\main\java\com\haihoo\ws\cxf\pub"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\ws-cxf"/>
+			<item value="F:\Eclipse DataBank\EclipseDevelop_JavaEE\websocket-chat"/>
+			<item value="E:\EclipseDataBank\EclipseDevelop_JavaEE\RemoteSystemsTempFiles"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+		</list>
+		<list key="groupId">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

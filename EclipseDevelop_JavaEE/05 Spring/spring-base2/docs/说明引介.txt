@@ -1,0 +1,19 @@
+<!-- ====================================================================== -->
+1、spring-base2-01-AOP
+			com.baihoo.spring4.demo1 ------ JDK 创建动态代理类，被代理必须是接口实现类
+			com.baihoo.spring4.demo2 ------ CGlib 实现动态代理,创建对象，被代理对象可不需要实现接口类，CGlib会为代理对象设置父类
+			com.baihoo.spring4.demo3 ------ 不带有切点的切面，通过spring配置生成动态代理（由spring支持），增强通知
+			com.baihoo.spring4.demo4 ------ 带有切点（注意：切点就是定义目标对象视为切点的方法加上增强通知后就是切面）的切面，通过spring配置生成动态代理（由spring支持），增强通知
+			com.baihoo.spring4.demo5 ------ 对象自动代理与不带有切点的切面，其自动代理按名称的代理基于后处理Bean,后处理Bean不需要配置ID【BeanNameAutoProxyCreator :按名称生成代理】
+			com.baihoo.spring4.demo6 ------ 对象自动代理与带有切点的切面，其自动代理按名称的代理基于后处理Bean,后处理Bean不需要配置ID【BeanNameAutoProxyCreator :按名称生成代理】
+			
+<!-- ====================================================================== -->
+2、spring-base2-02-AspectJ
+			com.baihoo.spring4.demo1 ------ AspectJ基于注解带有切点的切面开发，Advisor 和 Aspect的区别
+			com.baihoo.spring4.demo2 ------ AspectJ完全基于注解带有切点的切面开发，Advisor 和 Aspect的区别
+			com.baihoo.spring4.demo3 ------ AspectJ完全基于xml配置带有切点的切面开发，Advisor 和 Aspect的区别
+			
+<!-- ====================================================================== -->			
+3、spring-base2-03-JdbcTemplate
+		com.baihoo.spring4.demo1 ------ 手动代码编写数据源，配置 JdbcTemplate
+		com.baihoo.spring4.demo2 ------ xml 配置数据源，配置JdbcTemplate,  配置Spring默认的连接池；配置DBCP连接池；配置c3p0连接池；

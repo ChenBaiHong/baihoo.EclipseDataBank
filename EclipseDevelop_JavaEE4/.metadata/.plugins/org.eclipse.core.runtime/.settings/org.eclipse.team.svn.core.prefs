@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/b0192299cb2400181381c11b7d20a2e0=b0192299cb2400181381c11b7d20a2e0;https\://192.168.1.7\:8443/svn/DevProSVN/Eclipse Colla Dev;https\://192.168.1.7\:8443/svn/DevProSVN/Eclipse Colla Dev;branches;tags;trunk;true;;;;false;;;0
